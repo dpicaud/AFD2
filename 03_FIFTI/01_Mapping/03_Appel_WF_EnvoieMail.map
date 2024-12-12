@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_LFVLgLiVEe-VV-cv9aIe2w" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_rnkHoLiVEe-VV-cv9aIe2w" alias="POST" dataset="_vJ9QULiVEe-VV-cv9aIe2w" ref="resource.md#_i-IzsLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?" subExpression="[A]">
+    <field id="_rnpnMbiVEe-VV-cv9aIe2w" enable="true" expand="true" insert="true" name="POST" ref="resource.md#_i-IzsLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?" update="true" updateKey="true">
+      <expression id="_wFjV4LiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression>param_api_key.api_key</expression>
+      </expression>
+    </field>
+    <field id="_rnq1UriVEe-VV-cv9aIe2w" name="Set-Cookie" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-Izy7iVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=Set-Cookie?">
+      <expression id="_wFjV4biVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOSbiVEe-VV-cv9aIe2w" name="200" parent="_rnqOSLiVEe-VV-cv9aIe2w" ref="resource.md#_i-IzxbiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFjV4riVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnq1U7iVEe-VV-cv9aIe2w" name="Date" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-IzzLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=Date?">
+      <expression id="_wFjV47iVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOQriVEe-VV-cv9aIe2w" expand="true" name="JSON" parent="_rnqOQbiVEe-VV-cv9aIe2w" ref="resource.md#_i-IzuLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFjV5LiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOR7iVEe-VV-cv9aIe2w" enable="true" insert="true" name="priority" parent="_rnqOQ7iVEe-VV-cv9aIe2w" ref="resource.md#_i-IzwriVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=priority?" update="true">
+      <expression id="_wFj88LiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression>'LOW'</expression>
+      </expression>
+    </field>
+    <field id="_rnqORLiVEe-VV-cv9aIe2w" enable="true" insert="true" name="startupApplicationName" parent="_rnqOQ7iVEe-VV-cv9aIe2w" ref="resource.md#_i-IzvLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=startupApplicationName?" update="true">
+      <expression id="_wFj88biVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression>'RefTiers'</expression>
+      </expression>
+    </field>
+    <field id="_rnq1VriVEe-VV-cv9aIe2w" name="root" parent="_rnq1VbiVEe-VV-cv9aIe2w" ref="resource.md#_i-Iz07iVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=root?" updateKey="true">
+      <expression id="_wFj88riVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnpnMriVEe-VV-cv9aIe2w" expand="true" name="Parameters" parent="_rnpnMbiVEe-VV-cv9aIe2w" ref="resource.md#_i-IzsriVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFj887iVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOQLiVEe-VV-cv9aIe2w" enable="true" insert="true" name="API-Key" parent="_rnpnMriVEe-VV-cv9aIe2w" ref="resource.md#_i-Izs7iVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=API-Key?" update="true">
+      <expression id="_wFj89LiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression>param_api_key.api_key</expression>
+      </expression>
+    </field>
+    <field id="_rnq1WLiVEe-VV-cv9aIe2w" name="item" parent="_rnq1V7iVEe-VV-cv9aIe2w" ref="resource.md#_i-Iz1biVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=item?" updateKey="true">
+      <expression id="_wFj89biVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOQbiVEe-VV-cv9aIe2w" expand="true" name="Request Body" parent="_rnpnMbiVEe-VV-cv9aIe2w" ref="resource.md#_i-Izt7iVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFj89riVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOS7iVEe-VV-cv9aIe2w" name="_XSRF-TOKEN" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-IzzriVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=_XSRF-TOKEN?">
+      <expression id="_wFj897iVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOQ7iVEe-VV-cv9aIe2w" expand="true" name="root" parent="_rnqOQriVEe-VV-cv9aIe2w" ref="resource.md#_i-Izu7iVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=root?" updateKey="true">
+      <expression id="_wFj8-LiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOSLiVEe-VV-cv9aIe2w" expand="true" name="Responses" parent="_rnpnMbiVEe-VV-cv9aIe2w" ref="resource.md#_i-IzxLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFj8-biVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnq1VLiVEe-VV-cv9aIe2w" name="Content-Type" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-IzzbiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=Content-Type?">
+      <expression id="_wFj8-riVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOTLiVEe-VV-cv9aIe2w" name="Transfer-Encoding" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-IzyLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=Transfer-Encoding?">
+      <expression id="_wFkkALiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqORbiVEe-VV-cv9aIe2w" enable="true" insert="true" name="startEventName" parent="_rnqOQ7iVEe-VV-cv9aIe2w" ref="resource.md#_i-IzvriVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=startEventName?" update="true">
+      <expression id="_wFkkAbiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression>'AppelAPIEnvoieMail'</expression>
+      </expression>
+    </field>
+    <field id="_rnq1V7iVEe-VV-cv9aIe2w" name="workflowInstances" parent="_rnq1VriVEe-VV-cv9aIe2w" ref="resource.md#_i-Iz1LiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=workflowInstances?">
+      <expression id="_wFkkAriVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnq1ULiVEe-VV-cv9aIe2w" name="Keep-Alive" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-IzybiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=Keep-Alive?">
+      <expression id="_wFkkA7iVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnq1UbiVEe-VV-cv9aIe2w" name="Connection" parent="_rnqOSriVEe-VV-cv9aIe2w" ref="resource.md#_i-IzyriVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=Connection?">
+      <expression id="_wFkkBLiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnq1WbiVEe-VV-cv9aIe2w" name="workflowInstanceId" parent="_rnq1WLiVEe-VV-cv9aIe2w" ref="resource.md#_i-Iz1riVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=workflowInstanceId?">
+      <expression id="_wFkkBbiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqOSriVEe-VV-cv9aIe2w" name="Headers" parent="_rnqOSbiVEe-VV-cv9aIe2w" ref="resource.md#_i-Izx7iVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFkkBriVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_rnqORriVEe-VV-cv9aIe2w" enable="true" insert="true" name="selectionFilter" parent="_rnqOQ7iVEe-VV-cv9aIe2w" ref="resource.md#_i-IzwLiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md$name=selectionFilter?" update="true">
+      <expression id="_wFkkB7iVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression>'TiersID=${~/Tiers_ID}$'</expression>
+      </expression>
+    </field>
+    <field id="_rnq1VbiVEe-VV-cv9aIe2w" name="JSON" parent="_rnqOSbiVEe-VV-cv9aIe2w" ref="resource.md#_i-Iz0LiVEe-VV-cv9aIe2w?fileId=_NSI6ELcQEe-0Xc913hdzrA$type=md?">
+      <expression id="_wFkkCLiVEe-VV-cv9aIe2w" setDescriptorRef="_wFfEcLiVEe-VV-cv9aIe2w">
+        <expression></expression>
+      </expression>
+    </field>
+    <setDescriptor id="_wFfEcLiVEe-VV-cv9aIe2w" label="A"/>
+  </datastore>
+  <datastore id="c359f29a-cb61-4795-a2e3-968a1af2451d" alias="param_api_key" dataset="_vJ9QUbiVEe-VV-cv9aIe2w" ref="resource.md#_jaqTkLcUEe-0Xc913hdzrA?fileId=_g_TEYLcUEe-0Xc913hdzrA$type=md$name=param_api_key?">
+    <field id="c7492e11-c3b5-4a7c-8d7b-2b7db4e6b8b9" fullAlias="api_key" name="api_key" ref="resource.md#_jbG_gLcUEe-0Xc913hdzrA?fileId=_g_TEYLcUEe-0Xc913hdzrA$type=md$name=api_key?"/>
+    <field id="decef8b5-3a20-498b-9c2d-9b23f02506d9" fullAlias="project" name="project" ref="resource.md#_jbRXkbcUEe-0Xc913hdzrA?fileId=_g_TEYLcUEe-0Xc913hdzrA$type=md$name=project?"/>
+  </datastore>
+  <template id="_wFmZMLiVEe-VV-cv9aIe2w" name="I_POST" process="resource.proc#_4fRz0MvFEeiRAvOrIMI3zg?fileId=_4fRz0MvFEeiRAvOrIMI3zg$type=proc$name=INTEGRATION%20Rdbms%20to%20Http.tp?" targetId="_rnkHoLiVEe-VV-cv9aIe2w"/>
+  <dataSet id="_vJ9QULiVEe-VV-cv9aIe2w">
+    <container>_rnkHoLiVEe-VV-cv9aIe2w</container>
+  </dataSet>
+  <dataSet id="_vJ9QUbiVEe-VV-cv9aIe2w">
+    <container>c359f29a-cb61-4795-a2e3-968a1af2451d</container>
+  </dataSet>
+  <hint>
+    <usedField>#c7492e11-c3b5-4a7c-8d7b-2b7db4e6b8b9</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="_LFu0ILiVEe-VV-cv9aIe2w" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_rnwU4LiVEe-VV-cv9aIe2w" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rnwU4riVEe-VV-cv9aIe2w" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rnwU47iVEe-VV-cv9aIe2w" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rnwU5LiVEe-VV-cv9aIe2w" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rnwU5biVEe-VV-cv9aIe2w" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rnwU5riVEe-VV-cv9aIe2w" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rnwU57iVEe-VV-cv9aIe2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rnwU6LiVEe-VV-cv9aIe2w"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rnwU6biVEe-VV-cv9aIe2w" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_rnwU6riVEe-VV-cv9aIe2w"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rnwU67iVEe-VV-cv9aIe2w" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rnwU7LiVEe-VV-cv9aIe2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rnwU7biVEe-VV-cv9aIe2w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rn1NYLiVEe-VV-cv9aIe2w" type="7007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rn1NYbiVEe-VV-cv9aIe2w" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_rn1NYriVEe-VV-cv9aIe2w"/>
+    </children>
+    <element xmi:type="map:Datastore" href="resource.map#_rnkHoLiVEe-VV-cv9aIe2w?fileId=_LFVLgLiVEe-VV-cv9aIe2w$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rnwU4biVEe-VV-cv9aIe2w" x="143" y="297"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vJzfULiVEe-VV-cv9aIe2w" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vJzfUriVEe-VV-cv9aIe2w" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vJzfU7iVEe-VV-cv9aIe2w" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vJzfVLiVEe-VV-cv9aIe2w" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vJzfVbiVEe-VV-cv9aIe2w" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vJzfVriVEe-VV-cv9aIe2w" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vJzfV7iVEe-VV-cv9aIe2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vJzfWLiVEe-VV-cv9aIe2w"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vJzfWbiVEe-VV-cv9aIe2w" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_vJzfWriVEe-VV-cv9aIe2w"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vJzfW7iVEe-VV-cv9aIe2w" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vJzfXLiVEe-VV-cv9aIe2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vJzfXbiVEe-VV-cv9aIe2w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vJzfXriVEe-VV-cv9aIe2w" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#c359f29a-cb61-4795-a2e3-968a1af2451d?fileId=_LFVLgLiVEe-VV-cv9aIe2w$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vJzfUbiVEe-VV-cv9aIe2w" x="680" y="315"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_LFu0IbiVEe-VV-cv9aIe2w"/>
+  <element xmi:type="map:Map" href="resource.map#_LFVLgLiVEe-VV-cv9aIe2w?fileId=_LFVLgLiVEe-VV-cv9aIe2w$type=map$name=03_Appel_WF_EnvoieMail?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_wFtt8LiVEe-VV-cv9aIe2w" type="targetLink" source="_rnwU4LiVEe-VV-cv9aIe2w" target="_vJzfULiVEe-VV-cv9aIe2w">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wFtt8biVEe-VV-cv9aIe2w" points="[96, -10, -176, 18]$[203, -21, -69, 7]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_wFu8ELiVEe-VV-cv9aIe2w" type="targetDataSetLink" source="_rnwU4LiVEe-VV-cv9aIe2w" target="_rnwU4LiVEe-VV-cv9aIe2w">
+    <element xmi:type="map:DataSet" href="resource.map#_vJ9QUbiVEe-VV-cv9aIe2w?fileId=_LFVLgLiVEe-VV-cv9aIe2w$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wFu8EbiVEe-VV-cv9aIe2w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_wFu8EriVEe-VV-cv9aIe2w" type="targetSetLink" source="_rnwU4LiVEe-VV-cv9aIe2w" target="_rnwU4LiVEe-VV-cv9aIe2w">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_wFfEcLiVEe-VV-cv9aIe2w?fileId=_LFVLgLiVEe-VV-cv9aIe2w$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wFu8E7iVEe-VV-cv9aIe2w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>

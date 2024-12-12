@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_GUAVILfSEe-6BZFGswrzLA" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_KWesELfSEe-6BZFGswrzLA" alias="nature_de_relation_" dataset="_KWi9gLfSEe-6BZFGswrzLA" ref="resource.md#_L5qQkLbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=nature%20de%20relation$?">
+    <field id="_KWiWcLfSEe-6BZFGswrzLA" fullAlias="id_naturerelation" name="id_naturerelation" ref="resource.md#_L5q3prbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=id_naturerelation?"/>
+    <field id="_KWiWcbfSEe-6BZFGswrzLA" fullAlias="f_type_nature_relation" name="f_type_nature_relation" ref="resource.md#_L5q3rLbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_type_nature_relation?"/>
+    <field id="_KWhvYbfSEe-6BZFGswrzLA" fullAlias="ID_Tiers" name="ID_Tiers" ref="resource.md#_L5q3oLbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=ID_Tiers?"/>
+    <field id="_KWiWcrfSEe-6BZFGswrzLA" name="f_type_role_nature_relation" ref="resource.md#_L5q3srbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_type_role_nature_relation?"/>
+    <field id="_KWiWdbfSEe-6BZFGswrzLA" fullAlias="dat_finaffectionnature" name="dat_finaffectionnature" ref="resource.md#_L5q3xLbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=dat_finaffectionnature?"/>
+    <field id="_KWiWdLfSEe-6BZFGswrzLA" fullAlias="dat_affectionnature" name="dat_affectionnature" ref="resource.md#_L5q3vrbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=dat_affectionnature?"/>
+    <field id="_KWiWc7fSEe-6BZFGswrzLA" fullAlias="dat_creation" name="dat_creation" ref="resource.md#_L5q3uLbWEe-oWcSwM0X2ag?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=dat_creation?"/>
+  </datastore>
+  <datastore id="_YskA0LfSEe-6BZFGswrzLA" alias="sa_t_ti_naturerelation" dataset="_YsoSR7fSEe-6BZFGswrzLA" ref="resource.md#_kLZgsLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=sa_t_ti_naturerelation?" subExpression="[A]">
+    <field id="_YsnEJbfSEe-6BZFGswrzLA" name="b_deletepath" ref="resource.md#_kNGw4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletepath?">
+      <expression id="_ho3_EbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsmdEbfSEe-6BZFGswrzLA" enable="true" insert="true" name="id_naturerelation" ref="resource.md#_kL2MobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_naturerelation?" update="true" updateKey="true">
+      <expression id="_ho4mILfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>stage.id_naturerelation</expression>
+      </expression>
+    </field>
+    <field id="_YsmdE7fSEe-6BZFGswrzLA" name="b_error_status" ref="resource.md#_kMDoAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_error_status?">
+      <expression id="_ho4mIbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnELLfSEe-6BZFGswrzLA" enable="false" insert="true" name="dat_finaffectionnature" ref="resource.md#_kOB98bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_finaffectionnature?" update="true">
+      <expression id="_ho4mIrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>stage.dat_finaffectionnature</expression>
+      </expression>
+    </field>
+    <field id="_YsnrNrfSEe-6BZFGswrzLA" enable="false" insert="true" name="dat_creation" ref="resource.md#_kPFG0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_creation?" update="true">
+      <expression id="_ho4mI7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>stage.dat_creation</expression>
+      </expression>
+    </field>
+    <field id="_YsmdFbfSEe-6BZFGswrzLA" name="b_operationid" ref="resource.md#_kMRDYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_operationid?">
+      <expression id="_ho4mJLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEILfSEe-6BZFGswrzLA" name="b_dupsmergetarget" ref="resource.md#_kMd3sbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_dupsmergetarget?">
+      <expression id="_ho4mJbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEI7fSEe-6BZFGswrzLA" name="b_deleteauthor" ref="resource.md#_kM6jobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteauthor?">
+      <expression id="_ho4mJrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnrMbfSEe-6BZFGswrzLA" name="fd_role_par_nature_de_relati" ref="resource.md#_kOep4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_role_par_nature_de_relati?">
+      <expression id="_ho4mJ7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsmdELfSEe-6BZFGswrzLA" enable="true" insert="true" name="b_loadid" ref="resource.md#_kLwGALbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
+      <expression id="_ho4mKLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>333</expression>
+      </expression>
+    </field>
+    <field id="_YsnEJ7fSEe-6BZFGswrzLA" name="b_credate" ref="resource.md#_kNS-IbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?">
+      <expression id="_ho4mKbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEKrfSEe-6BZFGswrzLA" name="b_updator" ref="resource.md#_kNo8YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?">
+      <expression id="_ho4mKrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnrNbfSEe-6BZFGswrzLA" name="fd_type_role_nature_relation" ref="resource.md#_kO-ZIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_role_nature_relation?">
+      <expression id="_ho4mK7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnrNLfSEe-6BZFGswrzLA" name="f_type_role_nature_relation" ref="resource.md#_kO3rcbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_type_role_nature_relation?">
+      <expression id="_ho4mLLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEJrfSEe-6BZFGswrzLA" name="b_copiedfrom" ref="resource.md#_kNMQcbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_copiedfrom?">
+      <expression id="_ho5NMLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEIrfSEe-6BZFGswrzLA" name="b_deletedate" ref="resource.md#_kM0dAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletedate?">
+      <expression id="_ho5NMbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnrMrfSEe-6BZFGswrzLA" enable="true" insert="true" name="f_tiersnature" ref="resource.md#_kOqQEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_tiersnature?" update="true">
+      <expression id="_ho5NMrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>stage.ID_Tiers</expression>
+      </expression>
+    </field>
+    <field id="_YsnEKLfSEe-6BZFGswrzLA" name="b_upddate" ref="resource.md#_kNcIEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?">
+      <expression id="_ho5NM7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEKbfSEe-6BZFGswrzLA" name="b_creator" ref="resource.md#_kNiOsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?">
+      <expression id="_ho5NNLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEIbfSEe-6BZFGswrzLA" name="b_deletetype" ref="resource.md#_kMrTEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletetype?">
+      <expression id="_ho5NNbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnrMLfSEe-6BZFGswrzLA" name="f_role_par_nature_de_relati" ref="resource.md#_kOXVIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_role_par_nature_de_relati?">
+      <expression id="_ho5NNrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnEJLfSEe-6BZFGswrzLA" name="b_deleteoperation" ref="resource.md#_kNBRUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteoperation?">
+      <expression id="_ho5NN7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsmdErfSEe-6BZFGswrzLA" enable="true" insert="true" name="b_classname" ref="resource.md#_kL86UbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?" update="true">
+      <expression id="_ho5NOLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>'NatureDeRelationDuTiers'</expression>
+      </expression>
+    </field>
+    <field id="_YsnEK7fSEe-6BZFGswrzLA" enable="false" insert="true" name="dat_affectionnature" ref="resource.md#_kN4M8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_affectionnature?" update="true">
+      <expression id="_ho5NObfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>stage.dat_affectionnature</expression>
+      </expression>
+    </field>
+    <field id="_YsnELrfSEe-6BZFGswrzLA" name="fd_type_nature_relation" ref="resource.md#_kOPZUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_nature_relation?">
+      <expression id="_ho5NOrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsmdFLfSEe-6BZFGswrzLA" name="b_originalbatchid" ref="resource.md#_kMJuobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_originalbatchid?">
+      <expression id="_ho5NO7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsnELbfSEe-6BZFGswrzLA" enable="true" insert="true" name="f_type_nature_relation" ref="resource.md#_kOJSsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_type_nature_relation?" update="true">
+      <expression id="_ho5NPLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression>stage.f_type_nature_relation</expression>
+      </expression>
+    </field>
+    <field id="_YsnrM7fSEe-6BZFGswrzLA" name="fd_tiersnature" ref="resource.md#_kOw9wbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_tiersnature?">
+      <expression id="_ho5NPbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_YsmdFrfSEe-6BZFGswrzLA" name="b_dupsoperationid" ref="resource.md#_kMXxEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_dupsoperationid?">
+      <expression id="_ho5NPrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
+        <expression></expression>
+      </expression>
+    </field>
+    <constraint id="_YsnrN7fSEe-6BZFGswrzLA" name="pksa_t_ti_naturerelation" ref="resource.md#_kPUXYLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pksa_t_ti_naturerelation?" reject="true"/>
+    <setDescriptor id="_ho3_ELfTEe-6BZFGswrzLA" label="A"/>
+  </datastore>
+  <template id="_gH8-4LfTEe-6BZFGswrzLA" name="L1_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_KWesELfSEe-6BZFGswrzLA" targetId="_etHYkLfTEe-6BZFGswrzLA"/>
+  <template id="_gICecLfTEe-6BZFGswrzLA" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="_etHYkLfTEe-6BZFGswrzLA"/>
+  <template id="_ho7CYLfTEe-6BZFGswrzLA" name="I_sa_t_ti_naturerelation" process="resource.proc#_dQ2dRp4SEd6bQIkgWyxFQQ?fileId=_dQ2dRp4SEd6bQIkgWyxFQQ$type=proc$name=INTEGRATION%20PostgreSql?" targetId="_YskA0LfSEe-6BZFGswrzLA"/>
+  <template id="_hpH2sLfTEe-6BZFGswrzLA" name="L1_sa_t_ti_naturerelation" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_etHYkLfTEe-6BZFGswrzLA" targetId="_YskA0LfSEe-6BZFGswrzLA"/>
+  <query id="_etHYkLfTEe-6BZFGswrzLA" alias="stage" dataset="_etH_obfTEe-6BZFGswrzLA" stagingArea="resource.md#_g_TEYLcUEe-0Xc913hdzrA?fileId=_g_TEYLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
+    <field id="_gH6ioLfTEe-6BZFGswrzLA" name="ID_Tiers">
+      <expression id="_gH7JsLfTEe-6BZFGswrzLA" location="WRK" setDescriptorRef="_gH6iobfTEe-6BZFGswrzLA">
+        <expression>nature_de_relation_.ID_Tiers</expression>
+      </expression>
+    </field>
+    <field id="_gIGv4LfTEe-6BZFGswrzLA" name="id_naturerelation">
+      <expression id="_gIHW8LfTEe-6BZFGswrzLA" location="WRK" setDescriptorRef="_gH6iobfTEe-6BZFGswrzLA">
+        <expression>nature_de_relation_.id_naturerelation</expression>
+      </expression>
+    </field>
+    <field id="_gIMPcLfTEe-6BZFGswrzLA" name="f_type_nature_relation">
+      <expression id="_gIMPcbfTEe-6BZFGswrzLA" location="WRK" setDescriptorRef="_gH6iobfTEe-6BZFGswrzLA">
+        <expression>nature_de_relation_.f_type_nature_relation</expression>
+      </expression>
+    </field>
+    <field id="_gIQg4LfTEe-6BZFGswrzLA" name="dat_creation">
+      <expression id="_gIQg4bfTEe-6BZFGswrzLA" location="WRK" setDescriptorRef="_gH6iobfTEe-6BZFGswrzLA">
+        <expression>cast (TO_CHAR(TO_DATE(nature_de_relation_.dat_creation, 'DD/MM/YYYY'), 'YYYY-MM-DD') as date)</expression>
+      </expression>
+    </field>
+    <field id="_gIdVMLfTEe-6BZFGswrzLA" name="dat_affectionnature">
+      <expression id="_gIdVMbfTEe-6BZFGswrzLA" location="WRK" setDescriptorRef="_gH6iobfTEe-6BZFGswrzLA">
+        <expression>cast (TO_CHAR(TO_DATE(nature_de_relation_.dat_affectionnature, 'DD/MM/YYYY'), 'YYYY-MM-DD') as date)</expression>
+      </expression>
+    </field>
+    <field id="_gIiNsLfTEe-6BZFGswrzLA" name="dat_finaffectionnature">
+      <expression id="_gIiNsbfTEe-6BZFGswrzLA" location="WRK" setDescriptorRef="_gH6iobfTEe-6BZFGswrzLA">
+        <expression>cast (TO_CHAR(TO_DATE(nature_de_relation_.dat_finaffectionnature, 'DD/MM/YYYY'), 'YYYY-MM-DD') as date)</expression>
+      </expression>
+    </field>
+    <setDescriptor id="_gH6iobfTEe-6BZFGswrzLA" label="A"/>
+  </query>
+  <dataSet id="_KWi9gLfSEe-6BZFGswrzLA">
+    <container>_KWesELfSEe-6BZFGswrzLA</container>
+  </dataSet>
+  <dataSet id="_YsoSR7fSEe-6BZFGswrzLA">
+    <container>_YskA0LfSEe-6BZFGswrzLA</container>
+  </dataSet>
+  <dataSet id="_etH_obfTEe-6BZFGswrzLA">
+    <container>_etHYkLfTEe-6BZFGswrzLA</container>
+  </dataSet>
+  <hint>
+    <usedField>#_KWiWcLfSEe-6BZFGswrzLA</usedField>
+    <usedField>#_KWiWcbfSEe-6BZFGswrzLA</usedField>
+    <usedField>#_KWhvYbfSEe-6BZFGswrzLA</usedField>
+    <usedField>#_KWiWdbfSEe-6BZFGswrzLA</usedField>
+    <usedField>#_KWiWdLfSEe-6BZFGswrzLA</usedField>
+    <usedField>#_KWiWc7fSEe-6BZFGswrzLA</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="_Gaq90LfSEe-6BZFGswrzLA" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_KWkysLfSEe-6BZFGswrzLA" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KWlZwLfSEe-6BZFGswrzLA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KWlZwbfSEe-6BZFGswrzLA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KWlZwrfSEe-6BZFGswrzLA" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KWlZw7fSEe-6BZFGswrzLA" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KWlZxLfSEe-6BZFGswrzLA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KWlZxbfSEe-6BZFGswrzLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KWlZxrfSEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KWlZx7fSEe-6BZFGswrzLA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_KWlZyLfSEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KWlZybfSEe-6BZFGswrzLA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KWlZyrfSEe-6BZFGswrzLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KWlZy7fSEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KWlZzLfSEe-6BZFGswrzLA" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_KWesELfSEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWkysbfSEe-6BZFGswrzLA" x="32" y="252"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_etMRELfTEe-6BZFGswrzLA" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_etMRErfTEe-6BZFGswrzLA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_etMRE7fTEe-6BZFGswrzLA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_etMRFLfTEe-6BZFGswrzLA" type="7001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_etMRFbfTEe-6BZFGswrzLA" type="7011"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_etMRFrfTEe-6BZFGswrzLA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_etMRF7fTEe-6BZFGswrzLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_etMRGLfTEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_etMRGbfTEe-6BZFGswrzLA" type="5008">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_etMRGrfTEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_etMRG7fTEe-6BZFGswrzLA" type="7007"/>
+    <element xmi:type="map:Query" href="resource.map#_etHYkLfTEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etMREbfTEe-6BZFGswrzLA" x="347" y="252"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_YsqHcLfSEe-6BZFGswrzLA" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsqHcrfSEe-6BZFGswrzLA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsqHc7fSEe-6BZFGswrzLA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsqHdLfSEe-6BZFGswrzLA" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsqHdbfSEe-6BZFGswrzLA" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_YsqHdrfSEe-6BZFGswrzLA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YsqHd7fSEe-6BZFGswrzLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YsqHeLfSEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsqHebfSEe-6BZFGswrzLA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_YsqHerfSEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsqHe7fSEe-6BZFGswrzLA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YsqHfLfSEe-6BZFGswrzLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YsqHfbfSEe-6BZFGswrzLA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_YsqHfrfSEe-6BZFGswrzLA" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_YskA0LfSEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YsqHcbfSEe-6BZFGswrzLA" x="995" y="32"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Gaq90bfSEe-6BZFGswrzLA"/>
+  <element xmi:type="map:Map" href="resource.map#_GUAVILfSEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map$name=04_Nature?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_gIntQLfTEe-6BZFGswrzLA" type="targetLink" source="_etMRELfTEe-6BZFGswrzLA" target="_KWkysLfSEe-6BZFGswrzLA">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gIntQbfTEe-6BZFGswrzLA" points="[-64, 6, 341, -36]$[-271, 28, 134, -14]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gI5aELfTEe-6BZFGswrzLA" type="targetDataSetLink" source="_etMRELfTEe-6BZFGswrzLA" target="_etMRELfTEe-6BZFGswrzLA">
+    <element xmi:type="map:DataSet" href="resource.map#_KWi9gLfSEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gI5aEbfTEe-6BZFGswrzLA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gI6BILfTEe-6BZFGswrzLA" type="targetSetLink" source="_etMRELfTEe-6BZFGswrzLA" target="_etMRELfTEe-6BZFGswrzLA">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_gH6iobfTEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gI6BIbfTEe-6BZFGswrzLA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_hpDlQLfTEe-6BZFGswrzLA" type="targetLink" source="_YsqHcLfSEe-6BZFGswrzLA" target="_etMRELfTEe-6BZFGswrzLA">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hpDlQbfTEe-6BZFGswrzLA" points="[-138, -30, 461, 98]$[-332, -71, 267, 57]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_hpEMULfTEe-6BZFGswrzLA" type="targetDataSetLink" source="_YsqHcLfSEe-6BZFGswrzLA" target="_YsqHcLfSEe-6BZFGswrzLA">
+    <element xmi:type="map:DataSet" href="resource.map#_etH_obfTEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hpEMUbfTEe-6BZFGswrzLA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_hpEMUrfTEe-6BZFGswrzLA" type="targetSetLink" source="_YsqHcLfSEe-6BZFGswrzLA" target="_YsqHcLfSEe-6BZFGswrzLA">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_ho3_ELfTEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hpEMU7fTEe-6BZFGswrzLA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>

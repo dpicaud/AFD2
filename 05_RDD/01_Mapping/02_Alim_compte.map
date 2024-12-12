@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_7n_3kLbjEe-oWcSwM0X2ag" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_Ko31sLeoEe-HWORqlyIdiQ" alias="sa_t_ti_banque" dataset="_ykERgbeqEe-HWORqlyIdiQ" ref="resource.md#_kPbFELbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=sa_t_ti_banque?" subExpression="[A]">
+    <field id="_Ko_KdreoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_type_utilisation_compte" ref="resource.md#_kVpB0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_type_utilisation_compte?" update="true">
+      <expression id="_dIu74berEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.id_typeutilisationcompte_f_type_utilisation_compte</expression>
+      </expression>
+    </field>
+    <field id="_Ko7gELeoEe-HWORqlyIdiQ" enable="true" insert="true" name="id_banque" ref="resource.md#_kP3xAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_banque?" update="true" updateKey="true">
+      <expression id="_dIu74rerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.id_banque</expression>
+      </expression>
+    </field>
+    <field id="_Ko_Kd7eoEe-HWORqlyIdiQ" name="fd_type_utilisation_compte" ref="resource.md#_kVvvgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_utilisation_compte?">
+      <expression id="_dIu747erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko9VRbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="nom_agence_br" ref="resource.md#_kTBLobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nom_agence_br?" update="true">
+      <expression id="_dIu75LerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.nom_agence_br</expression>
+      </expression>
+    </field>
+    <field id="_Ko-jYbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="cle_rib" ref="resource.md#_kURv4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=cle_rib?" update="true">
+      <expression id="_dIvi8LerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.cle_rib</expression>
+      </expression>
+    </field>
+    <field id="_Ko9VQ7eoEe-HWORqlyIdiQ" name="fd_tiers" ref="resource.md#_kSzJMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_tiers?">
+      <expression id="_dIvi8berEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko_KdLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_nature_compte" ref="resource.md#_kVc0kbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_nature_compte?" update="true">
+      <expression id="_dIvi8rerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.id_nature_compte</expression>
+      </expression>
+    </field>
+    <field id="_Ko_KebeoEe-HWORqlyIdiQ" name="bic_for_webservice" ref="resource.md#_kV8j0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=bic_for_webservice?">
+      <expression id="_dIvi87erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8HJ7eoEe-HWORqlyIdiQ" name="b_copiedfrom" ref="resource.md#_kRKKcbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_copiedfrom?">
+      <expression id="_dIvi9LerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko98VreoEe-HWORqlyIdiQ" enable="true" insert="true" name="compte_actif" ref="resource.md#_kUFiobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=compte_actif?" update="true">
+      <expression id="_dIvi9berEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.compte_actif</expression>
+      </expression>
+    </field>
+    <field id="_Ko8HI7eoEe-HWORqlyIdiQ" name="b_deletedate" ref="resource.md#_kQxI4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletedate?">
+      <expression id="_dIvi9rerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko-jZLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="bban" ref="resource.md#_kUkq0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=bban?" update="true">
+      <expression id="_dIvi97erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.bban</expression>
+      </expression>
+    </field>
+    <field id="_Ko7gFLeoEe-HWORqlyIdiQ" name="b_operationid" ref="resource.md#_kQSAsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_operationid?">
+      <expression id="_dIvi-LerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8HIreoEe-HWORqlyIdiQ" name="b_deletetype" ref="resource.md#_kQqbMLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletetype?">
+      <expression id="_dIvi-berEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8uN7eoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_pays" ref="resource.md#_kSHzwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays?" update="true">
+      <expression id="_dIvi-rerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.pays_id_2_f_pays</expression>
+      </expression>
+    </field>
+    <field id="_Ko8HJreoEe-HWORqlyIdiQ" name="b_deletepath" ref="resource.md#_kRED0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletepath?">
+      <expression id="_dIvi-7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko9VSbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="fax_agence" ref="resource.md#_kTZmIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fax_agence?" update="true">
+      <expression id="_dIvi_LerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.fax_agence</expression>
+      </expression>
+    </field>
+    <field id="_Ko8uM7eoEe-HWORqlyIdiQ" enable="true" insert="true" name="sigle" ref="resource.md#_kRuLIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=sigle?" update="true">
+      <expression id="_dIvi_berEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.sigle</expression>
+      </expression>
+    </field>
+    <field id="_Ko7gEreoEe-HWORqlyIdiQ" name="b_error_status" ref="resource.md#_kQElUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_error_status?">
+      <expression id="_dIvi_rerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko9VRreoEe-HWORqlyIdiQ" name="code_agence" ref="resource.md#_kTHSQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_agence?">
+      <expression id="_dIwKALerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko7gE7eoEe-HWORqlyIdiQ" name="b_originalbatchid" ref="resource.md#_kQL6EbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_originalbatchid?">
+      <expression id="_dIwKAberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8HKbeoEe-HWORqlyIdiQ" name="b_upddate" ref="resource.md#_kRWXsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?">
+      <expression id="_dIwKArerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko-jYreoEe-HWORqlyIdiQ" enable="true" insert="true" name="swift_banque" ref="resource.md#_kUYdkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=swift_banque?" update="true">
+      <expression id="_dIwKA7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.swift_banque</expression>
+      </expression>
+    </field>
+    <field id="_Ko98ULeoEe-HWORqlyIdiQ" enable="true" insert="true" name="mail_agence" ref="resource.md#_kTfswbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=mail_agence?" update="true">
+      <expression id="_dIwKBLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.mail_agence</expression>
+      </expression>
+    </field>
+    <field id="_Ko98VLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="date_ouverture" ref="resource.md#_kT5VYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_ouverture?" update="true">
+      <expression id="_dIwKBberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.date_ouverture</expression>
+      </expression>
+    </field>
+    <field id="_Ko8HIbeoEe-HWORqlyIdiQ" name="b_dupsmergetarget" ref="resource.md#_kQkUkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_dupsmergetarget?">
+      <expression id="_dIwKBrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8uNreoEe-HWORqlyIdiQ" enable="true" insert="true" name="iban" ref="resource.md#_kR_38bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=iban?" update="true">
+      <expression id="_dIwKB7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.iban</expression>
+      </expression>
+    </field>
+    <field id="_Ko7gEbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_classname" ref="resource.md#_kP-esbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?" update="true">
+      <expression id="_dIwKCLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>'Banque'</expression>
+      </expression>
+    </field>
+    <field id="_Ko8HILeoEe-HWORqlyIdiQ" name="b_dupsoperationid" ref="resource.md#_kQYuYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_dupsoperationid?">
+      <expression id="_dIwKCberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8uNLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="code_banque" ref="resource.md#_kR0RwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_banque?" update="true">
+      <expression id="_dIwKCrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.code_banque</expression>
+      </expression>
+    </field>
+    <field id="_Ko8uOLeoEe-HWORqlyIdiQ" name="fd_pays" ref="resource.md#_kSNTUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays?">
+      <expression id="_dIwxELerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko_KcLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_pays_compte" ref="resource.md#_kU-6gbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_compte?" update="true">
+      <expression id="_dIwxEberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.pays_id_f_pays_compte</expression>
+      </expression>
+    </field>
+    <field id="_Ko_KeLeoEe-HWORqlyIdiQ" name="statut" ref="resource.md#_kV12IbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=statut?">
+      <expression id="_dIwxErerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8HJbeoEe-HWORqlyIdiQ" name="b_deleteoperation" ref="resource.md#_kQ99MbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteoperation?">
+      <expression id="_dIwxE7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8HKLeoEe-HWORqlyIdiQ" name="b_credate" ref="resource.md#_kRQREbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?">
+      <expression id="_dIwxFLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko9VQLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_devise" ref="resource.md#_kSXEUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_devise?" update="true">
+      <expression id="_dIwxFberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.devise_id</expression>
+      </expression>
+    </field>
+    <field id="_Ko_KdbeoEe-HWORqlyIdiQ" name="fd_nature_compte" ref="resource.md#_kVi7MbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_nature_compte?">
+      <expression id="_dIwxFrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko9VRLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="nom_agence" ref="resource.md#_kS6d8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nom_agence?" update="true">
+      <expression id="_dIwxF7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.nom_agence</expression>
+      </expression>
+    </field>
+    <field id="_Ko9VQreoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_tiers" ref="resource.md#_kSsbgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_tiers?" update="true">
+      <expression id="_dIwxGLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.ID_Tiers</expression>
+      </expression>
+    </field>
+    <field id="_Ko8uMreoEe-HWORqlyIdiQ" enable="true" insert="true" name="nombanque" ref="resource.md#_kRoEgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nombanque?" update="true">
+      <expression id="_dIwxGberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.nombanque</expression>
+      </expression>
+    </field>
+    <field id="_Ko98U7eoEe-HWORqlyIdiQ" enable="true" insert="true" name="numero_compte" ref="resource.md#_kTynsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=numero_compte?" update="true">
+      <expression id="_dIwxGrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.numero_compte</expression>
+      </expression>
+    </field>
+    <field id="_Ko98VbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="compte_defaut" ref="resource.md#_kT_cAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=compte_defaut?" update="true">
+      <expression id="_dIwxG7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.compte_defaut</expression>
+      </expression>
+    </field>
+    <field id="_Ko-jZbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="cle_iban" ref="resource.md#_kUrYgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=cle_iban?" update="true">
+      <expression id="_dIwxHLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.cle_iban</expression>
+      </expression>
+    </field>
+    <field id="_Ko98UreoEe-HWORqlyIdiQ" enable="true" insert="true" name="inititule_du_compte" ref="resource.md#_kTr6AbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=inititule_du_compte?" update="true">
+      <expression id="_dIwxHberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.inititule_du_compte</expression>
+      </expression>
+    </field>
+    <field id="_Ko-jZ7eoEe-HWORqlyIdiQ" enable="true" insert="true" name="date_de_fermeture" ref="resource.md#_kU3lwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_de_fermeture?" update="true">
+      <expression id="_dIwxHrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.date_de_fermeture</expression>
+      </expression>
+    </field>
+    <field id="_Ko9VQbeoEe-HWORqlyIdiQ" name="fd_devise" ref="resource.md#_kSlGwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_devise?">
+      <expression id="_dIwxH7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko-jYLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="code_guichet" ref="resource.md#_kULpQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_guichet?" update="true">
+      <expression id="_dIwxILerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.code_guichet</expression>
+      </expression>
+    </field>
+    <field id="_Ko8uMbeoEe-HWORqlyIdiQ" name="b_updator" ref="resource.md#_kRik8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?">
+      <expression id="_dIwxIberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8HJLeoEe-HWORqlyIdiQ" name="b_deleteauthor" ref="resource.md#_kQ32kbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteauthor?">
+      <expression id="_dIwxIrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko9VR7eoEe-HWORqlyIdiQ" enable="true" insert="true" name="ville_agence" ref="resource.md#_kTNY4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ville_agence?" update="true">
+      <expression id="_dIxYILerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.ville_agence</expression>
+      </expression>
+    </field>
+    <field id="_Ko98UbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="adresse_agence" ref="resource.md#_kTlzYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=adresse_agence?" update="true">
+      <expression id="_dIxYIberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.adresse_agence</expression>
+      </expression>
+    </field>
+    <field id="_Ko_Kc7eoEe-HWORqlyIdiQ" name="fd_pays_swift" ref="resource.md#_kVTDkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_swift?">
+      <expression id="_dIxYIrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko8uNbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="bic11" ref="resource.md#_kR5xUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=bic11?" update="true">
+      <expression id="_dIxYI7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.bic11</expression>
+      </expression>
+    </field>
+    <field id="_Ko_xgbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="numero_compte_acct" ref="resource.md#_kWG74bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=numero_compte_acct?" update="true">
+      <expression id="_dIxYJLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.NUMERO_COMPTE_ACCT</expression>
+      </expression>
+    </field>
+    <field id="_Ko-jY7eoEe-HWORqlyIdiQ" enable="true" insert="true" name="bic8" ref="resource.md#_kUfLQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=bic8?" update="true">
+      <expression id="_dIxYJberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.bic8</expression>
+      </expression>
+    </field>
+    <field id="_Ko9VSLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="tel_agence" ref="resource.md#_kTUGkLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tel_agence?" update="true">
+      <expression id="_dIxYJrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.tel_agence</expression>
+      </expression>
+    </field>
+    <field id="_Ko-jZreoEe-HWORqlyIdiQ" enable="true" insert="true" name="numero_aba" ref="resource.md#_kUxfIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=numero_aba?" update="true">
+      <expression id="_dIxYJ7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.numero_aba</expression>
+      </expression>
+    </field>
+    <field id="_Ko8uMLeoEe-HWORqlyIdiQ" name="b_creator" ref="resource.md#_kRceUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?">
+      <expression id="_dIxYKLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko_KcreoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_pays_swift" ref="resource.md#_kVM88bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_swift?" update="true">
+      <expression id="_dIxYKberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.pays_id_f_pays_swift</expression>
+      </expression>
+    </field>
+    <field id="_Ko_KcbeoEe-HWORqlyIdiQ" name="fd_pays_compte" ref="resource.md#_kVFBIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_compte?">
+      <expression id="_dIxYKrerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_Ko65AbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_loadid" ref="resource.md#_kPxqYLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
+      <expression id="_dIxYK7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>'333'</expression>
+      </expression>
+    </field>
+    <field id="_Ko_xgLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="indicateur_debit_office" ref="resource.md#_kWCDYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=indicateur_debit_office?" update="true">
+      <expression id="_dIxYLLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
+        <expression>stage.INDICATEUR_DEBIT_OFFICE</expression>
+      </expression>
+    </field>
+    <constraint id="_Ko_xgreoEe-HWORqlyIdiQ" name="pksa_t_ti_banque" ref="resource.md#_kYbQELbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pksa_t_ti_banque?" reject="true"/>
+    <setDescriptor id="_dIu74LerEe-HWORqlyIdiQ" label="A"/>
+  </datastore>
+  <datastore id="_OLj5ULeoEe-HWORqlyIdiQ" alias="banque_" dataset="_ykERgLeqEe-HWORqlyIdiQ" ref="resource.md#_lvkEQLeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=banque$?">
+    <field id="_OLmVobeoEe-HWORqlyIdiQ" fullAlias="bic8" name="bic8" ref="resource.md#_lvqLPbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=bic8?"/>
+    <field id="_OLm8oLeoEe-HWORqlyIdiQ" fullAlias="bic11" name="bic11" ref="resource.md#_lvqLQ7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=bic11?"/>
+    <field id="_OLm8oreoEe-HWORqlyIdiQ" fullAlias="bban" name="bban" ref="resource.md#_lvqLT7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=bban?"/>
+    <field id="_OLmVk7eoEe-HWORqlyIdiQ" fullAlias="tel_agence" name="tel_agence" ref="resource.md#_lvpkDLeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=tel_agence?"/>
+    <field id="_OLlugbeoEe-HWORqlyIdiQ" fullAlias="ID_Tiers" name="ID_Tiers" ref="resource.md#_lvpj0LeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=ID_Tiers?"/>
+    <field id="_OLm8preoEe-HWORqlyIdiQ" fullAlias="f_pays_swift" name="f_pays_swift" ref="resource.md#_lvqLZ7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_pays_swift?"/>
+    <field id="_OLmVnreoEe-HWORqlyIdiQ" fullAlias="code_banque" name="code_banque" ref="resource.md#_lvqLJbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=code_banque?"/>
+    <field id="_OLmVm7eoEe-HWORqlyIdiQ" fullAlias="f_pays_compte" name="f_pays_compte" ref="resource.md#_lvqLE7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_pays_compte?"/>
+    <field id="_OLmVn7eoEe-HWORqlyIdiQ" fullAlias="numero_compte" name="numero_compte" ref="resource.md#_lvqLMbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=numero_compte?"/>
+    <field id="_OLmVkreoEe-HWORqlyIdiQ" fullAlias="mail_agence" name="mail_agence" ref="resource.md#_lvpkBreqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=mail_agence?"/>
+    <field id="_OLmVl7eoEe-HWORqlyIdiQ" fullAlias="INDICATEUR_DEBIT_OFFICE" name="INDICATEUR_DEBIT_OFFICE" ref="resource.md#_lvqK9beqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=INDICATEUR_DEBIT_OFFICE?"/>
+    <field id="_OLluhLeoEe-HWORqlyIdiQ" fullAlias="sigle" name="sigle" ref="resource.md#_lvpj4reqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=sigle?"/>
+    <field id="_OLm8obeoEe-HWORqlyIdiQ" fullAlias="iban" name="iban" ref="resource.md#_lvqLSbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=iban?"/>
+    <field id="_OLmVkLeoEe-HWORqlyIdiQ" fullAlias="adresse_agence" name="adresse_agence" ref="resource.md#_lvpj9LeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=adresse_agence?"/>
+    <field id="_OLmVlLeoEe-HWORqlyIdiQ" fullAlias="fax_agence" name="fax_agence" ref="resource.md#_lvqK47eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=fax_agence?"/>
+    <field id="_OLlugreoEe-HWORqlyIdiQ" fullAlias="id_banque" name="id_banque" ref="resource.md#_lvpj1reqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=id_banque?"/>
+    <field id="_OLm8pLeoEe-HWORqlyIdiQ" fullAlias="numero_aba" name="numero_aba" ref="resource.md#_lvqLW7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=numero_aba?"/>
+    <field id="_OLmVlbeoEe-HWORqlyIdiQ" fullAlias="compte_defaut" name="compte_defaut" ref="resource.md#_lvqK6beqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=compte_defaut?"/>
+    <field id="_OLmVoLeoEe-HWORqlyIdiQ" fullAlias="cle_rib" name="cle_rib" ref="resource.md#_lvqLN7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=cle_rib?"/>
+    <field id="_OLm8o7eoEe-HWORqlyIdiQ" fullAlias="cle_iban" name="cle_iban" ref="resource.md#_lvqLVbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=cle_iban?"/>
+    <field id="_OLmVkbeoEe-HWORqlyIdiQ" fullAlias="ville_agence" name="ville_agence" ref="resource.md#_lvpj-reqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=ville_agence?"/>
+    <field id="_OLmVnLeoEe-HWORqlyIdiQ" fullAlias="f_type_utilisation_compte" name="f_type_utilisation_compte" ref="resource.md#_lvqLGbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_type_utilisation_compte?"/>
+    <field id="_OLm8pbeoEe-HWORqlyIdiQ" fullAlias="swift_banque" name="swift_banque" ref="resource.md#_lvqLYbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=swift_banque?"/>
+    <field id="_OLmVmreoEe-HWORqlyIdiQ" fullAlias="date_de_fermeture" name="date_de_fermeture" ref="resource.md#_lvqLB7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=date_de_fermeture?"/>
+    <field id="_OLmVnbeoEe-HWORqlyIdiQ" fullAlias="f_nature_compte" name="f_nature_compte" ref="resource.md#_lvqLH7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_nature_compte?"/>
+    <field id="_OLm8p7eoEe-HWORqlyIdiQ" fullAlias="NUMERO_COMPTE_ACCT" name="NUMERO_COMPTE_ACCT" ref="resource.md#_lvqLbbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=NUMERO_COMPTE_ACCT?"/>
+    <field id="_OLmVmLeoEe-HWORqlyIdiQ" fullAlias="inititule_du_compte" name="inititule_du_compte" ref="resource.md#_lvqK-7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=inititule_du_compte?"/>
+    <field id="_OLlug7eoEe-HWORqlyIdiQ" fullAlias="nombanque" name="nombanque" ref="resource.md#_lvpj3LeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=nombanque?"/>
+    <field id="_OLmVmbeoEe-HWORqlyIdiQ" fullAlias="date_ouverture" name="date_ouverture" ref="resource.md#_lvqLAbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=date_ouverture?"/>
+    <field id="_OLmVlreoEe-HWORqlyIdiQ" fullAlias="compte_actif" name="compte_actif" ref="resource.md#_lvqK77eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=compte_actif?"/>
+    <field id="_OLluhbeoEe-HWORqlyIdiQ" fullAlias="nom_agence" name="nom_agence" ref="resource.md#_lvpj6LeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=nom_agence?"/>
+    <field id="_vWlB0LeqEe-HWORqlyIdiQ" fullAlias="f_pays" name="f_pays" ref="resource.md#_lvpkALeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_pays?"/>
+    <field id="_vWm3ALeqEe-HWORqlyIdiQ" fullAlias="code_guichet" name="code_guichet" ref="resource.md#_lvqLK7eqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=code_guichet?"/>
+    <field id="_vWkawLeqEe-HWORqlyIdiQ" fullAlias="nom_agence_br" name="nom_agence_br" ref="resource.md#_lvpj7reqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=nom_agence_br?"/>
+    <field id="_vWlo4LeqEe-HWORqlyIdiQ" fullAlias="f_devise" name="f_devise" ref="resource.md#_lvqLDbeqEe-HWORqlyIdiQ?fileId=_VCfIMLbUEe-oWcSwM0X2ag$type=md$name=f_devise?"/>
+  </datastore>
+  <datastore id="_0LvE0LeoEe-HWORqlyIdiQ" alias="gd_t_no_pays" dataset="_ykERgLeqEe-HWORqlyIdiQ" fieldSelectorEnabled="true" ref="resource.md#_92E74LbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=gd_t_no_pays?" synchronized="true">
+    <field id="_0LxhGLeoEe-HWORqlyIdiQ" inView="false" name="libelle_long" ref="resource.md#_95nYEbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_long?"/>
+    <field id="_0LxhFreoEe-HWORqlyIdiQ" fullAlias="code_pays" name="code_pays" ref="resource.md#_93U5EbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_pays?"/>
+    <field id="_0LyvMbeoEe-HWORqlyIdiQ" inView="false" name="txt_geolocalisation" ref="resource.md#_97eZQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=txt_geolocalisation?"/>
+    <field id="_0LyIIbeoEe-HWORqlyIdiQ" inView="false" name="id_zone_inter_v_juridique" ref="resource.md#_96Dc8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_zone_inter_v_juridique?"/>
+    <field id="_0LyIKbeoEe-HWORqlyIdiQ" inView="false" name="date_deb_saisie" ref="resource.md#_962HIbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_deb_saisie?"/>
+    <field id="_0LxhF7eoEe-HWORqlyIdiQ" inView="false" name="libelle_court" ref="resource.md#_93a_sbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_court?"/>
+    <field id="_0LyIJreoEe-HWORqlyIdiQ" inView="false" name="date_creation" ref="resource.md#_96jzQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_creation?"/>
+    <field id="_0LxhE7eoEe-HWORqlyIdiQ" inView="false" name="b_creator" ref="resource.md#_93ClMbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?"/>
+    <field id="_0LyILbeoEe-HWORqlyIdiQ" inView="false" name="la_pays" ref="resource.md#_97PvwbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=la_pays?"/>
+    <field id="_0LxhFbeoEe-HWORqlyIdiQ" inView="false" name="id_pays" ref="resource.md#_93OycbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_pays?"/>
+    <field id="_0LyIJ7eoEe-HWORqlyIdiQ" inView="false" name="user_maj" ref="resource.md#_96qg8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=user_maj?"/>
+    <field id="_0Lw6AbeoEe-HWORqlyIdiQ" fullAlias="pays_id" name="pays_id" ref="resource.md#_92a6ILbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pays_id?" updateKey="true"/>
+    <field id="_0LyIKLeoEe-HWORqlyIdiQ" inView="false" name="date_maj" ref="resource.md#_96wnkLbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_maj?"/>
+    <field id="_0LyILLeoEe-HWORqlyIdiQ" inView="false" name="le_pays" ref="resource.md#_97JpILbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=le_pays?"/>
+    <field id="_0LxhGreoEe-HWORqlyIdiQ" inView="false" name="date_butoir" ref="resource.md#_952BkbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_butoir?"/>
+    <field id="_0LyIJLeoEe-HWORqlyIdiQ" inView="false" name="date_fin_validite" ref="resource.md#_96W-8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_fin_validite?"/>
+    <field id="_0LxhELeoEe-HWORqlyIdiQ" inView="false" name="b_batchid" ref="resource.md#_92r_4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_batchid?"/>
+    <field id="_0Lw6AreoEe-HWORqlyIdiQ" inView="false" name="b_classname" ref="resource.md#_92iO4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?"/>
+    <field id="_0LxhEreoEe-HWORqlyIdiQ" inView="false" name="b_upddate" ref="resource.md#_9273gbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?"/>
+    <field id="_0LyIJbeoEe-HWORqlyIdiQ" inView="false" name="user_creation" ref="resource.md#_96dsobbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=user_creation?"/>
+    <field id="_0LyvMLeoEe-HWORqlyIdiQ" inView="false" name="ll_region" ref="resource.md#_97XrkbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ll_region?"/>
+    <field id="_0LyIKreoEe-HWORqlyIdiQ" inView="false" name="date_fin_saisie" ref="resource.md#_96800bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_fin_saisie?"/>
+    <field id="_0LyIILeoEe-HWORqlyIdiQ" inView="false" name="id_devise" ref="resource.md#_958vQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_devise?"/>
+    <field id="_0LxhGbeoEe-HWORqlyIdiQ" inView="false" name="code_nature_pays" ref="resource.md#_95us0bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_nature_pays?"/>
+    <field id="_0LxhEbeoEe-HWORqlyIdiQ" inView="false" name="b_credate" ref="resource.md#_921w4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?"/>
+    <field id="_0LyIIreoEe-HWORqlyIdiQ" inView="false" name="code_affection" ref="resource.md#_96KKobbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_affection?"/>
+    <field id="_0LyIK7eoEe-HWORqlyIdiQ" inView="false" name="id_pays3" ref="resource.md#_97DigbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_pays3?"/>
+    <field id="_0LyII7eoEe-HWORqlyIdiQ" inView="false" name="date_deb_validite" ref="resource.md#_96QRQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_deb_validite?"/>
+    <field id="_0LxhFLeoEe-HWORqlyIdiQ" inView="false" name="b_updator" ref="resource.md#_93Ir0bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?"/>
+    <constraint id="_0LyvMreoEe-HWORqlyIdiQ" name="pkgd_t_no_pays" ref="resource.md#_97r0oLbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pkgd_t_no_pays?" reject="true"/>
+  </datastore>
+  <datastore id="69f7e9c2-ba03-413c-8bfe-0e130a29da6a" alias="gd_t_no_pays_2" dataset="_ykERgLeqEe-HWORqlyIdiQ" fieldSelectorEnabled="true" ref="resource.md#_92E74LbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=gd_t_no_pays?" synchronized="true">
+    <field id="2db44fe5-f217-40b5-816f-7477add640b8" fullAlias="libelle_long" inView="false" name="libelle_long" ref="resource.md#_95nYEbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_long?"/>
+    <field id="0a95c932-a475-430d-95c8-a27c66cc33a1" fullAlias="code_pays" name="code_pays" ref="resource.md#_93U5EbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_pays?"/>
+    <field id="92143ca6-d3a2-412d-914e-f8716e94081b" fullAlias="txt_geolocalisation" inView="false" name="txt_geolocalisation" ref="resource.md#_97eZQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=txt_geolocalisation?"/>
+    <field id="ea52661f-0f42-4345-b7e6-2ecec2329dfb" fullAlias="id_zone_inter_v_juridique" inView="false" name="id_zone_inter_v_juridique" ref="resource.md#_96Dc8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_zone_inter_v_juridique?"/>
+    <field id="3f86d3fe-2576-4676-ad8a-352563c26c06" fullAlias="date_deb_saisie" inView="false" name="date_deb_saisie" ref="resource.md#_962HIbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_deb_saisie?"/>
+    <field id="7a84b5dd-63e4-481b-acfa-a29269cd35ae" fullAlias="libelle_court" inView="false" name="libelle_court" ref="resource.md#_93a_sbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_court?"/>
+    <field id="7dcddfa2-6d64-4d39-b5f1-4a09fc0f201c" fullAlias="date_creation" inView="false" name="date_creation" ref="resource.md#_96jzQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_creation?"/>
+    <field id="4a559735-590b-4513-b6d5-21ca814b06b5" fullAlias="b_creator" inView="false" name="b_creator" ref="resource.md#_93ClMbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?"/>
+    <field id="ddf88bb0-7fbe-4ac6-81a6-6dc2764f6f31" fullAlias="la_pays" inView="false" name="la_pays" ref="resource.md#_97PvwbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=la_pays?"/>
+    <field id="4533da3a-b356-4edd-8fd9-90915bd9d085" fullAlias="id_pays" inView="false" name="id_pays" ref="resource.md#_93OycbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_pays?"/>
+    <field id="37df91fd-266b-4b71-a832-a5ffc6f0ff93" fullAlias="user_maj" inView="false" name="user_maj" ref="resource.md#_96qg8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=user_maj?"/>
+    <field id="0c0bc92b-610d-4f95-b020-4d13af6234ac" fullAlias="pays_id" name="pays_id" ref="resource.md#_92a6ILbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pays_id?" updateKey="true"/>
+    <field id="47540141-7a27-4902-bd44-c49de408a2b4" fullAlias="date_maj" inView="false" name="date_maj" ref="resource.md#_96wnkLbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_maj?"/>
+    <field id="7c0b3168-1f42-465d-bf15-9005fc4fd772" fullAlias="le_pays" inView="false" name="le_pays" ref="resource.md#_97JpILbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=le_pays?"/>
+    <field id="2e6eb8ba-f295-4226-80ee-7b4d84332787" fullAlias="date_butoir" inView="false" name="date_butoir" ref="resource.md#_952BkbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_butoir?"/>
+    <field id="44c71a39-ade7-447d-9df2-b213044e01fe" fullAlias="date_fin_validite" inView="false" name="date_fin_validite" ref="resource.md#_96W-8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_fin_validite?"/>
+    <field id="ec408b6a-40f4-4a97-bb45-27280db74b37" fullAlias="b_batchid" inView="false" name="b_batchid" ref="resource.md#_92r_4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_batchid?"/>
+    <field id="9d4c3651-31fe-47a9-b256-8ca7794d94a0" fullAlias="b_classname" inView="false" name="b_classname" ref="resource.md#_92iO4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?"/>
+    <field id="8a7281a0-f513-4f18-8bc2-8c4121ada3c0" fullAlias="b_upddate" inView="false" name="b_upddate" ref="resource.md#_9273gbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?"/>
+    <field id="a4b0ddd1-1f0d-444b-954c-dec85b86baa3" fullAlias="user_creation" inView="false" name="user_creation" ref="resource.md#_96dsobbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=user_creation?"/>
+    <field id="b8569f76-a6ff-4cd6-8a51-90a86f61e603" fullAlias="ll_region" inView="false" name="ll_region" ref="resource.md#_97XrkbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ll_region?"/>
+    <field id="cb3d1fed-ffcb-45d0-b153-112c47315753" fullAlias="date_fin_saisie" inView="false" name="date_fin_saisie" ref="resource.md#_96800bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_fin_saisie?"/>
+    <field id="d0a83405-cc53-4a40-9c16-75fa464518bb" fullAlias="id_devise" inView="false" name="id_devise" ref="resource.md#_958vQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_devise?"/>
+    <field id="134b5e85-68af-4738-81ed-2a781558fbff" fullAlias="code_nature_pays" inView="false" name="code_nature_pays" ref="resource.md#_95us0bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_nature_pays?"/>
+    <field id="65d5240b-a7ed-4049-974f-74cda65439db" fullAlias="b_credate" inView="false" name="b_credate" ref="resource.md#_921w4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?"/>
+    <field id="3a891076-d8f6-470c-a7b7-0f9db260e2eb" fullAlias="code_affection" inView="false" name="code_affection" ref="resource.md#_96KKobbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_affection?"/>
+    <field id="9ec05850-b3c3-40e2-a155-8769fa3f96ff" fullAlias="id_pays3" inView="false" name="id_pays3" ref="resource.md#_97DigbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_pays3?"/>
+    <field id="c0f1c463-c45b-438a-8ea9-7dfd00ffc0a5" fullAlias="date_deb_validite" inView="false" name="date_deb_validite" ref="resource.md#_96QRQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_deb_validite?"/>
+    <field id="6118d178-7fcd-4176-8069-6246045ac3b1" fullAlias="b_updator" inView="false" name="b_updator" ref="resource.md#_93Ir0bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?"/>
+    <constraint id="224352ca-c2ba-426c-8584-11a44fd36945" name="pkgd_t_no_pays" ref="resource.md#_97r0oLbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pkgd_t_no_pays?" reject="true"/>
+  </datastore>
+  <datastore id="_ts9OELepEe-HWORqlyIdiQ" alias="gd_t_no_devise" dataset="_ykERgLeqEe-HWORqlyIdiQ" fieldSelectorEnabled="true" ref="resource.md#_jrg-ULepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=gd_t_no_devise?" synchronized="true">
+    <field id="_ttARYbepEe-HWORqlyIdiQ" inView="false" name="b_batchid" ref="resource.md#_juVo0bepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_batchid?"/>
+    <field id="_ttARarepEe-HWORqlyIdiQ" inView="false" name="id_devise" ref="resource.md#_jvT5MbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_devise?"/>
+    <field id="_ttARZLepEe-HWORqlyIdiQ" inView="false" name="b_creator" ref="resource.md#_juojwbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?"/>
+    <field id="_ttARZbepEe-HWORqlyIdiQ" inView="false" name="b_updator" ref="resource.md#_juvRcbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?"/>
+    <field id="_ttARYrepEe-HWORqlyIdiQ" inView="false" name="b_credate" ref="resource.md#_jubvcbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?"/>
+    <field id="_ttARY7epEe-HWORqlyIdiQ" inView="false" name="b_upddate" ref="resource.md#_juidIbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?"/>
+    <field id="_ttARYLepEe-HWORqlyIdiQ" inView="false" name="b_classname" ref="resource.md#_juO7IbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?"/>
+    <field id="_ttARZrepEe-HWORqlyIdiQ" fullAlias="code" name="code" ref="resource.md#_ju2mMbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code?"/>
+    <field id="_ttARZ7epEe-HWORqlyIdiQ" inView="false" name="libelle_court" ref="resource.md#_ju_JEbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_court?"/>
+    <field id="_ttARaLepEe-HWORqlyIdiQ" inView="false" name="libelle_long" ref="resource.md#_jvGd0bepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_long?"/>
+    <field id="_ttARabepEe-HWORqlyIdiQ" inView="false" name="quotite" ref="resource.md#_jvMkcbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=quotite?"/>
+    <field id="_ts_qUbepEe-HWORqlyIdiQ" fullAlias="devise_id" name="devise_id" ref="resource.md#_juI0gLepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=devise_id?" updateKey="true"/>
+    <constraint id="_ttARa7epEe-HWORqlyIdiQ" name="pkgd_t_no_devise" ref="resource.md#_jviisLepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pkgd_t_no_devise?" reject="true"/>
+  </datastore>
+  <datastore id="_uPky8LepEe-HWORqlyIdiQ" alias="gd_t_no_naturecompte" dataset="_ykERgLeqEe-HWORqlyIdiQ" fieldSelectorEnabled="true" ref="resource.md#_mVLvQLepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=gd_t_no_naturecompte?" synchronized="true">
+    <field id="_uPnPOLepEe-HWORqlyIdiQ" inView="false" name="libelle_court" ref="resource.md#_mWc6kbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_court?"/>
+    <field id="_uPnPMrepEe-HWORqlyIdiQ" inView="false" name="b_batchid" ref="resource.md#_mVwXALepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_batchid?"/>
+    <field id="_uPnPN7epEe-HWORqlyIdiQ" fullAlias="code" name="code" ref="resource.md#_mWWz8bepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code?"/>
+    <field id="_uPnPNrepEe-HWORqlyIdiQ" inView="false" name="b_updator" ref="resource.md#_mWOREbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?"/>
+    <field id="_uPnPMLepEe-HWORqlyIdiQ" fullAlias="id_nature_compte" name="id_nature_compte" ref="resource.md#_mViUkLepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_nature_compte?" updateKey="true"/>
+    <field id="_uPnPMbepEe-HWORqlyIdiQ" inView="false" name="b_classname" ref="resource.md#_mVppUbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?"/>
+    <field id="_uPnPNLepEe-HWORqlyIdiQ" inView="false" name="b_upddate" ref="resource.md#_mWAOobepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?"/>
+    <field id="_uPnPM7epEe-HWORqlyIdiQ" inView="false" name="b_credate" ref="resource.md#_mV3rwbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?"/>
+    <field id="_uPnPNbepEe-HWORqlyIdiQ" inView="false" name="b_creator" ref="resource.md#_mWIKcbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?"/>
+    <field id="_uPnPObepEe-HWORqlyIdiQ" inView="false" name="libelle_long" ref="resource.md#_mWk2YbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_long?"/>
+    <constraint id="_uPn2QLepEe-HWORqlyIdiQ" name="pkgd_t_no_naturecompte" ref="resource.md#_mW3KQLepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pkgd_t_no_naturecompte?" reject="true"/>
+  </datastore>
+  <datastore id="_vqYkELepEe-HWORqlyIdiQ" alias="gd_t_no_typeutilicompte" dataset="_ykERgLeqEe-HWORqlyIdiQ" fieldSelectorEnabled="true" ref="resource.md#_hVT78LepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=gd_t_no_typeutilicompte?" synchronized="true">
+    <field id="_vqbnZLepEe-HWORqlyIdiQ" inView="false" name="libelle_long" ref="resource.md#_hWwGYbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_long?"/>
+    <field id="_vqbnYrepEe-HWORqlyIdiQ" fullAlias="code" name="code" ref="resource.md#_hWckYbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code?"/>
+    <field id="_vqbAUrepEe-HWORqlyIdiQ" inView="false" name="b_batchid" ref="resource.md#_hV0SQLepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_batchid?"/>
+    <field id="_vqbAU7epEe-HWORqlyIdiQ" inView="false" name="b_credate" ref="resource.md#_hV7nAbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?"/>
+    <field id="_vqbAVLepEe-HWORqlyIdiQ" inView="false" name="b_upddate" ref="resource.md#_hWCUsbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?"/>
+    <field id="_vqbAULepEe-HWORqlyIdiQ" fullAlias="id_typeutilisationcompte" name="id_typeutilisationcompte" ref="resource.md#_hVnd8LepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_typeutilisationcompte?" updateKey="true"/>
+    <field id="_vqbnYbepEe-HWORqlyIdiQ" inView="false" name="b_updator" ref="resource.md#_hWUBgbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?"/>
+    <field id="_vqbnY7epEe-HWORqlyIdiQ" inView="false" name="libelle_court" ref="resource.md#_hWluUbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_court?"/>
+    <field id="_vqbAUbepEe-HWORqlyIdiQ" inView="false" name="b_classname" ref="resource.md#_hVtkkbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?"/>
+    <field id="_vqbnYLepEe-HWORqlyIdiQ" inView="false" name="b_creator" ref="resource.md#_hWK3kbepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?"/>
+    <constraint id="_vqbnZbepEe-HWORqlyIdiQ" name="pkgd_t_no_typeutilicompte" ref="resource.md#_hXBMILepEe-HWORqlyIdiQ?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pkgd_t_no_typeutilicompte?" reject="true"/>
+  </datastore>
+  <datastore id="ee97ef96-d406-4761-ba2b-2701e2d795d7" alias="gd_t_no_pays_2_2" dataset="_ykERgLeqEe-HWORqlyIdiQ" fieldSelectorEnabled="true" ref="resource.md#_92E74LbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=gd_t_no_pays?" synchronized="true">
+    <field id="5fe6c510-0b81-4628-80a1-a34e37160d3d" fullAlias="libelle_long" inView="false" name="libelle_long" ref="resource.md#_95nYEbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_long?"/>
+    <field id="a4924100-b4c8-48d2-acd3-950b31d2ad26" fullAlias="code_pays" name="code_pays" ref="resource.md#_93U5EbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_pays?"/>
+    <field id="7c745a1f-8783-48f3-91d4-01e70a53870c" fullAlias="txt_geolocalisation" inView="false" name="txt_geolocalisation" ref="resource.md#_97eZQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=txt_geolocalisation?"/>
+    <field id="d957802e-9594-4fb1-9649-69eecf234929" fullAlias="id_zone_inter_v_juridique" inView="false" name="id_zone_inter_v_juridique" ref="resource.md#_96Dc8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_zone_inter_v_juridique?"/>
+    <field id="b38a1f56-482d-478c-a4b7-5b1789acdcd9" fullAlias="date_deb_saisie" inView="false" name="date_deb_saisie" ref="resource.md#_962HIbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_deb_saisie?"/>
+    <field id="c13a8632-74ce-429c-a575-8fface31b872" fullAlias="libelle_court" inView="false" name="libelle_court" ref="resource.md#_93a_sbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=libelle_court?"/>
+    <field id="d371229f-89ae-4afb-aab0-f46f73aea0b0" fullAlias="date_creation" inView="false" name="date_creation" ref="resource.md#_96jzQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_creation?"/>
+    <field id="7856b91c-65e7-4d4c-b6ed-8812448257ed" fullAlias="b_creator" inView="false" name="b_creator" ref="resource.md#_93ClMbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?"/>
+    <field id="14a37a4c-1e7d-4a41-ba4a-afac711e4a39" fullAlias="la_pays" inView="false" name="la_pays" ref="resource.md#_97PvwbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=la_pays?"/>
+    <field id="2cb79377-42b5-496e-bb90-e2a4b2e9f01b" fullAlias="id_pays" inView="false" name="id_pays" ref="resource.md#_93OycbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_pays?"/>
+    <field id="4270c023-eebe-4e5e-bebd-35dc1f4c9f96" fullAlias="user_maj" inView="false" name="user_maj" ref="resource.md#_96qg8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=user_maj?"/>
+    <field id="253c4b02-1c60-4532-b042-fb927da46f78" fullAlias="pays_id" name="pays_id" ref="resource.md#_92a6ILbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pays_id?" updateKey="true"/>
+    <field id="85433c25-53cf-41a2-b0e4-78e870bb656a" fullAlias="date_maj" inView="false" name="date_maj" ref="resource.md#_96wnkLbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_maj?"/>
+    <field id="968c9070-204b-459e-8ade-b13ccb86f8f0" fullAlias="le_pays" inView="false" name="le_pays" ref="resource.md#_97JpILbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=le_pays?"/>
+    <field id="e5d5f5d4-1f4b-4a3d-9927-be20c9f9c576" fullAlias="date_butoir" inView="false" name="date_butoir" ref="resource.md#_952BkbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_butoir?"/>
+    <field id="5a900bcf-7200-4b77-be04-0de8d78aab86" fullAlias="date_fin_validite" inView="false" name="date_fin_validite" ref="resource.md#_96W-8bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_fin_validite?"/>
+    <field id="799a5de0-8eb0-4c2f-8151-cb15bcfe4900" fullAlias="b_batchid" inView="false" name="b_batchid" ref="resource.md#_92r_4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_batchid?"/>
+    <field id="6dfaa34d-419b-4521-9d38-8d5014356172" fullAlias="b_classname" inView="false" name="b_classname" ref="resource.md#_92iO4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?"/>
+    <field id="d479879f-5770-4117-b084-2fcf5e90b398" fullAlias="b_upddate" inView="false" name="b_upddate" ref="resource.md#_9273gbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?"/>
+    <field id="383632f6-2d43-491c-b8cc-7a97d081fed2" fullAlias="user_creation" inView="false" name="user_creation" ref="resource.md#_96dsobbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=user_creation?"/>
+    <field id="fa098e06-781f-45ad-a2bd-185103ce6cb4" fullAlias="ll_region" inView="false" name="ll_region" ref="resource.md#_97XrkbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ll_region?"/>
+    <field id="9dd205ea-1a61-4134-8045-431054572bea" fullAlias="date_fin_saisie" inView="false" name="date_fin_saisie" ref="resource.md#_96800bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_fin_saisie?"/>
+    <field id="a8eff102-4985-4356-b197-b96a83e7ad06" fullAlias="id_devise" inView="false" name="id_devise" ref="resource.md#_958vQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_devise?"/>
+    <field id="0fba6db2-46b3-4d7e-b9c3-4d81ba52d0cc" fullAlias="code_nature_pays" inView="false" name="code_nature_pays" ref="resource.md#_95us0bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_nature_pays?"/>
+    <field id="60fd1167-3fac-46bc-99ad-e3717692baf6" fullAlias="b_credate" inView="false" name="b_credate" ref="resource.md#_921w4bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?"/>
+    <field id="472548e3-69f3-457a-be49-8e7e7da0ec41" fullAlias="code_affection" inView="false" name="code_affection" ref="resource.md#_96KKobbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_affection?"/>
+    <field id="f5741834-859a-481f-bb02-37cd42ffc79a" fullAlias="id_pays3" inView="false" name="id_pays3" ref="resource.md#_97DigbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_pays3?"/>
+    <field id="b1a7838f-33ec-4617-8ed8-bd13cbee851c" fullAlias="date_deb_validite" inView="false" name="date_deb_validite" ref="resource.md#_96QRQbbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_deb_validite?"/>
+    <field id="efe5bf82-ef24-4510-a768-aa39a32673d9" fullAlias="b_updator" inView="false" name="b_updator" ref="resource.md#_93Ir0bbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?"/>
+    <constraint id="5cc85f19-5928-4a6e-8d43-facdbf9d967d" name="pkgd_t_no_pays" ref="resource.md#_97r0oLbnEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pkgd_t_no_pays?" reject="true"/>
+  </datastore>
+  <join id="_O-QsILepEe-HWORqlyIdiQ" location="WRK" joinType="Left_Join" left="_OLj5ULeoEe-HWORqlyIdiQ" order="10" right="_0LvE0LeoEe-HWORqlyIdiQ">
+    <expression>banque_.f_pays_compte = gd_t_no_pays.code_pays</expression>
+  </join>
+  <join id="_XlXE0LepEe-HWORqlyIdiQ" location="WRK" joinType="Left_Join" left="_OLj5ULeoEe-HWORqlyIdiQ" order="30" right="69f7e9c2-ba03-413c-8bfe-0e130a29da6a">
+    <expression>banque_.f_pays_swift = gd_t_no_pays_2.code_pays</expression>
+  </join>
+  <join id="_BTa3ULeqEe-HWORqlyIdiQ" location="WRK" joinType="Left_Join" left="_OLj5ULeoEe-HWORqlyIdiQ" order="50" right="_uPky8LepEe-HWORqlyIdiQ">
+    <expression>banque_.f_nature_compte = gd_t_no_naturecompte.code</expression>
+  </join>
+  <join id="_zvuMULeqEe-HWORqlyIdiQ" location="WRK" joinType="Left_Join" left="_OLj5ULeoEe-HWORqlyIdiQ" order="70" right="ee97ef96-d406-4761-ba2b-2701e2d795d7">
+    <expression>banque_.f_pays = gd_t_no_pays_2_2.code_pays</expression>
+  </join>
+  <join id="_43PfwLeqEe-HWORqlyIdiQ" location="WRK" joinType="Left_Join" left="_OLj5ULeoEe-HWORqlyIdiQ" order="90" right="_ts9OELepEe-HWORqlyIdiQ">
+    <expression>banque_.f_devise = gd_t_no_devise.code</expression>
+  </join>
+  <join id="_BJSOcLerEe-HWORqlyIdiQ" location="WRK" joinType="Left_Join" left="_OLj5ULeoEe-HWORqlyIdiQ" order="110" right="_vqYkELepEe-HWORqlyIdiQ">
+    <expression>banque_.f_type_utilisation_compte = gd_t_no_typeutilicompte.code</expression>
+  </join>
+  <template id="_UBGB8LerEe-HWORqlyIdiQ" name="L1_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_OLj5ULeoEe-HWORqlyIdiQ" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBIeMLerEe-HWORqlyIdiQ" name="L3_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_uPky8LepEe-HWORqlyIdiQ" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBLhgLerEe-HWORqlyIdiQ" name="L5_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="69f7e9c2-ba03-413c-8bfe-0e130a29da6a" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBOk0LerEe-HWORqlyIdiQ" name="L4_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_0LvE0LeoEe-HWORqlyIdiQ" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBRoILerEe-HWORqlyIdiQ" name="L6_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="ee97ef96-d406-4761-ba2b-2701e2d795d7" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBUrcLerEe-HWORqlyIdiQ" name="L2_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_ts9OELepEe-HWORqlyIdiQ" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBXuwLerEe-HWORqlyIdiQ" name="L7_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_vqYkELepEe-HWORqlyIdiQ" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_UBayELerEe-HWORqlyIdiQ" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="_OscRcLerEe-HWORqlyIdiQ"/>
+  <template id="_dI3ewLerEe-HWORqlyIdiQ" name="I_sa_t_ti_banque" process="resource.proc#_dQ2dRp4SEd6bQIkgWyxFQQ?fileId=_dQ2dRp4SEd6bQIkgWyxFQQ$type=proc$name=INTEGRATION%20PostgreSql?" targetId="_Ko31sLeoEe-HWORqlyIdiQ"/>
+  <template id="_dJtMQLerEe-HWORqlyIdiQ" name="L1_sa_t_ti_banque" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_OscRcLerEe-HWORqlyIdiQ" targetId="_Ko31sLeoEe-HWORqlyIdiQ"/>
+  <query id="_OscRcLerEe-HWORqlyIdiQ" alias="stage" dataset="_Osk0UberEe-HWORqlyIdiQ" stagingArea="resource.md#_BG69kLcUEe-0Xc913hdzrA?fileId=_BA9fgLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
+    <field id="_UA-GILerEe-HWORqlyIdiQ" name="NUMERO_COMPTE_ACCT">
+      <expression id="_UBBJcberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.NUMERO_COMPTE_ACCT</expression>
+      </expression>
+    </field>
+    <field id="_UBrQwLerEe-HWORqlyIdiQ" name="ID_Tiers">
+      <expression id="_UBrQwberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.ID_Tiers</expression>
+      </expression>
+    </field>
+    <field id="_UB7vcLerEe-HWORqlyIdiQ" name="id_banque">
+      <expression id="_UB7vcberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.id_banque</expression>
+      </expression>
+    </field>
+    <field id="_UCODULerEe-HWORqlyIdiQ" name="nombanque">
+      <expression id="_UCOqYLerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.nombanque</expression>
+      </expression>
+    </field>
+    <field id="_UCkBkLerEe-HWORqlyIdiQ" name="sigle">
+      <expression id="_UCkBkberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.sigle</expression>
+      </expression>
+    </field>
+    <field id="_UC6m4LerEe-HWORqlyIdiQ" name="nom_agence">
+      <expression id="_UC6m4berEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.nom_agence</expression>
+      </expression>
+    </field>
+    <field id="_UDRzQLerEe-HWORqlyIdiQ" name="nom_agence_br">
+      <expression id="_UDRzQberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.nom_agence_br</expression>
+      </expression>
+    </field>
+    <field id="_UDywoLerEe-HWORqlyIdiQ" name="adresse_agence">
+      <expression id="_UDywoberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.adresse_agence</expression>
+      </expression>
+    </field>
+    <field id="_UEMZQLerEe-HWORqlyIdiQ" name="ville_agence">
+      <expression id="_UEMZQberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.ville_agence</expression>
+      </expression>
+    </field>
+    <field id="_UFGYMLerEe-HWORqlyIdiQ" name="mail_agence">
+      <expression id="_UFG_QLerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.mail_agence</expression>
+      </expression>
+    </field>
+    <field id="_UFlgYLerEe-HWORqlyIdiQ" name="tel_agence">
+      <expression id="_UFlgYberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.tel_agence</expression>
+      </expression>
+    </field>
+    <field id="_UGCMULerEe-HWORqlyIdiQ" name="fax_agence">
+      <expression id="_UGCMUberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.fax_agence</expression>
+      </expression>
+    </field>
+    <field id="_UGeRMLerEe-HWORqlyIdiQ" name="compte_defaut">
+      <expression id="_UGeRMberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression><![CDATA[case when banque_.compte_defaut='1' then true
+else false
+end]]></expression>
+      </expression>
+    </field>
+    <field id="_UG1dkLerEe-HWORqlyIdiQ" name="compte_actif">
+      <expression id="_UG1dkberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression><![CDATA[case when banque_.compte_actif='1' then true
+else false
+end]]></expression>
+      </expression>
+    </field>
+    <field id="_UHN4ELerEe-HWORqlyIdiQ" name="INDICATEUR_DEBIT_OFFICE">
+      <expression id="_UHN4EberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression><![CDATA[case when banque_.INDICATEUR_DEBIT_OFFICE='1' then true
+else false
+end]]></expression>
+      </expression>
+    </field>
+    <field id="_UHqkALerEe-HWORqlyIdiQ" name="inititule_du_compte">
+      <expression id="_UHrLELerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.inititule_du_compte</expression>
+      </expression>
+    </field>
+    <field id="_UIFawLerEe-HWORqlyIdiQ" name="date_ouverture">
+      <expression id="_UIGB0LerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>cast (TO_CHAR(TO_DATE(banque_.date_ouverture, 'DD/MM/YYYY'), 'YYYY-MM-DD') as date)</expression>
+      </expression>
+    </field>
+    <field id="_UIgRgLerEe-HWORqlyIdiQ" name="date_de_fermeture">
+      <expression id="_UIgRgberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>cast (TO_CHAR(TO_DATE(banque_.date_de_fermeture, 'DD/MM/YYYY'), 'YYYY-MM-DD') as date)</expression>
+      </expression>
+    </field>
+    <field id="_UKt4ALerEe-HWORqlyIdiQ" name="code_banque">
+      <expression id="_UKt4AberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.code_banque</expression>
+      </expression>
+    </field>
+    <field id="_ULHgoLerEe-HWORqlyIdiQ" name="code_guichet">
+      <expression id="_ULHgoberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.code_guichet</expression>
+      </expression>
+    </field>
+    <field id="_ULhJQLerEe-HWORqlyIdiQ" name="numero_compte">
+      <expression id="_ULhwULerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.numero_compte</expression>
+      </expression>
+    </field>
+    <field id="_UMRXMLerEe-HWORqlyIdiQ" name="cle_rib">
+      <expression id="_UMR-QLerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.cle_rib</expression>
+      </expression>
+    </field>
+    <field id="_UNNLULerEe-HWORqlyIdiQ" name="bic8">
+      <expression id="_UNNLUberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.bic8</expression>
+      </expression>
+    </field>
+    <field id="_UN_OcLerEe-HWORqlyIdiQ" name="bic11">
+      <expression id="_UN_OcberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.bic11</expression>
+      </expression>
+    </field>
+    <field id="_UOousLerEe-HWORqlyIdiQ" name="iban">
+      <expression id="_UOousberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.iban</expression>
+      </expression>
+    </field>
+    <field id="_UPcnALerEe-HWORqlyIdiQ" name="bban">
+      <expression id="_UPdOELerEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.bban</expression>
+      </expression>
+    </field>
+    <field id="_UQCc4LerEe-HWORqlyIdiQ" name="cle_iban">
+      <expression id="_UQCc4berEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.cle_iban</expression>
+      </expression>
+    </field>
+    <field id="_UQfv4LerEe-HWORqlyIdiQ" name="numero_aba">
+      <expression id="_UQfv4berEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.numero_aba</expression>
+      </expression>
+    </field>
+    <field id="_URAGMLerEe-HWORqlyIdiQ" name="swift_banque">
+      <expression id="_URAGMberEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>banque_.swift_banque</expression>
+      </expression>
+    </field>
+    <field id="_Cos9ULesEe-HWORqlyIdiQ" name="pays_id_f_pays_swift">
+      <expression id="_CotkYLesEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>gd_t_no_pays_2.pays_id</expression>
+      </expression>
+    </field>
+    <field id="_LEYwMLesEe-HWORqlyIdiQ" name="pays_id_f_pays_compte">
+      <expression id="_LEYwMbesEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>gd_t_no_pays.pays_id</expression>
+      </expression>
+    </field>
+    <field id="_LFb5ELesEe-HWORqlyIdiQ" name="id_typeutilisationcompte_f_type_utilisation_compte">
+      <expression id="_LFcgILesEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>gd_t_no_typeutilicompte.id_typeutilisationcompte</expression>
+      </expression>
+    </field>
+    <field id="_LGY7ULesEe-HWORqlyIdiQ" name="id_nature_compte">
+      <expression id="_LGY7UbesEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>gd_t_no_naturecompte.id_nature_compte</expression>
+      </expression>
+    </field>
+    <field id="_LHcEMLesEe-HWORqlyIdiQ" name="pays_id_2_f_pays">
+      <expression id="_LHcEMbesEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>gd_t_no_pays_2_2.pays_id</expression>
+      </expression>
+    </field>
+    <field id="_LIdX4LesEe-HWORqlyIdiQ" name="devise_id">
+      <expression id="_LIdX4besEe-HWORqlyIdiQ" location="WRK" setDescriptorRef="_UBBJcLerEe-HWORqlyIdiQ">
+        <expression>gd_t_no_devise.devise_id</expression>
+      </expression>
+    </field>
+    <setDescriptor id="_UBBJcLerEe-HWORqlyIdiQ" label="A"/>
+  </query>
+  <dataSet id="_ykERgLeqEe-HWORqlyIdiQ">
+    <container>_OLj5ULeoEe-HWORqlyIdiQ</container>
+    <container>_uPky8LepEe-HWORqlyIdiQ</container>
+    <container>69f7e9c2-ba03-413c-8bfe-0e130a29da6a</container>
+    <container>_0LvE0LeoEe-HWORqlyIdiQ</container>
+    <container>ee97ef96-d406-4761-ba2b-2701e2d795d7</container>
+    <container>_ts9OELepEe-HWORqlyIdiQ</container>
+    <container>_vqYkELepEe-HWORqlyIdiQ</container>
+  </dataSet>
+  <dataSet id="_ykERgbeqEe-HWORqlyIdiQ">
+    <container>_Ko31sLeoEe-HWORqlyIdiQ</container>
+  </dataSet>
+  <dataSet id="_Osk0UberEe-HWORqlyIdiQ">
+    <container>_OscRcLerEe-HWORqlyIdiQ</container>
+  </dataSet>
+  <hint>
+    <usedField>#_OLmVobeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8oLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8oreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVk7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLlugbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8preoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVnreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVm7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVn7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVkreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVl7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLluhLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8obeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVkLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVlLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLlugreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8pLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVlbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVoLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8o7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVkbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVnLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8pbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVmreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVnbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLm8p7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVmLeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLlug7eoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVmbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLmVlreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_OLluhbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_vWlB0LeqEe-HWORqlyIdiQ</usedField>
+    <usedField>#_vWm3ALeqEe-HWORqlyIdiQ</usedField>
+    <usedField>#_vWkawLeqEe-HWORqlyIdiQ</usedField>
+    <usedField>#_vWlo4LeqEe-HWORqlyIdiQ</usedField>
+    <usedField>#_0LxhFreoEe-HWORqlyIdiQ</usedField>
+    <usedField>#_0Lw6AbeoEe-HWORqlyIdiQ</usedField>
+    <usedField>#0a95c932-a475-430d-95c8-a27c66cc33a1</usedField>
+    <usedField>#0c0bc92b-610d-4f95-b020-4d13af6234ac</usedField>
+    <usedField>#_ttARZrepEe-HWORqlyIdiQ</usedField>
+    <usedField>#_ts_qUbepEe-HWORqlyIdiQ</usedField>
+    <usedField>#_uPnPN7epEe-HWORqlyIdiQ</usedField>
+    <usedField>#_uPnPMLepEe-HWORqlyIdiQ</usedField>
+    <usedField>#_vqbnYrepEe-HWORqlyIdiQ</usedField>
+    <usedField>#_vqbAULepEe-HWORqlyIdiQ</usedField>
+    <usedField>#a4924100-b4c8-48d2-acd3-950b31d2ad26</usedField>
+    <usedField>#253c4b02-1c60-4532-b042-fb927da46f78</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="_yt0KwLenEe-HWORqlyIdiQ" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_OLqnALeoEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OLqnAreoEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OLqnA7eoEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OLqnBLeoEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OLqnBbeoEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OLqnBreoEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OLqnB7eoEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OLqnCLeoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OLqnCbeoEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_OLqnCreoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OLqnC7eoEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OLqnDLeoEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OLqnDbeoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OLqnDreoEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_OLj5ULeoEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OLqnAbeoEe-HWORqlyIdiQ" x="32" y="42"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_O-WywLepEe-HWORqlyIdiQ" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_O-WywbepEe-HWORqlyIdiQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_O-WywrepEe-HWORqlyIdiQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_O-Wyw7epEe-HWORqlyIdiQ"/>
+    <element xmi:type="map:Join" href="resource.map#_O-QsILepEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O-WyxLepEe-HWORqlyIdiQ" x="334" y="315"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Xlb9ULepEe-HWORqlyIdiQ" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Xlb9UbepEe-HWORqlyIdiQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Xlb9UrepEe-HWORqlyIdiQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_Xlb9U7epEe-HWORqlyIdiQ"/>
+    <element xmi:type="map:Join" href="resource.map#_XlXE0LepEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xlb9VLepEe-HWORqlyIdiQ" x="334" y="257"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_WgH7ELepEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WgH7ErepEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WgH7E7epEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WgH7FLepEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WgH7FbepEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WgH7FrepEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WgH7F7epEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WgH7GLepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WgH7GbepEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_WgH7GrepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WgH7G7epEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WgH7HLepEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WgH7HbepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WgIiILepEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#69f7e9c2-ba03-413c-8bfe-0e130a29da6a?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WgH7EbepEe-HWORqlyIdiQ" x="400" y="84"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0L2ZkLeoEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0L2ZkreoEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0L2Zk7eoEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0L2ZlLeoEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0L2ZlbeoEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0L2ZlreoEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0L2Zl7eoEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0L2ZmLeoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0L2ZmbeoEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0L2ZmreoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0L2Zm7eoEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0L2ZnLeoEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0L2ZnbeoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0L2ZnreoEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_0LvE0LeoEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0L2ZkbeoEe-HWORqlyIdiQ" x="400" y="199"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_uPrgoLepEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uPrgorepEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uPrgo7epEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uPrgpLepEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uPrgpbepEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_uPrgprepEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uPrgp7epEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uPrgqLepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uPrgqbepEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_uPrgqrepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uPrgq7epEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uPsHsLepEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uPsHsbepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_uPsHsrepEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_uPky8LepEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPrgobepEe-HWORqlyIdiQ" x="400" y="429"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_BTg98LeqEe-HWORqlyIdiQ" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BTg98beqEe-HWORqlyIdiQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BTg98reqEe-HWORqlyIdiQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_BTg987eqEe-HWORqlyIdiQ"/>
+    <element xmi:type="map:Join" href="resource.map#_BTa3ULeqEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTg99LeqEe-HWORqlyIdiQ" x="334" y="429"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_yjykvbeqEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yjzLwLeqEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yjzLwbeqEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yjzLwreqEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yjzLw7eqEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yjzLxLeqEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yjzLxbeqEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yjzLxreqEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yjzLx7eqEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_yjzLyLeqEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yjzLybeqEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yjzLyreqEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yjzLy7eqEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yjzLzLeqEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#ee97ef96-d406-4761-ba2b-2701e2d795d7?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yjykvreqEe-HWORqlyIdiQ" x="400" y="544"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zv06ALeqEe-HWORqlyIdiQ" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zv06AbeqEe-HWORqlyIdiQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zv06AreqEe-HWORqlyIdiQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_zv06A7eqEe-HWORqlyIdiQ"/>
+    <element xmi:type="map:Join" href="resource.map#_zvuMULeqEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zv06BLeqEe-HWORqlyIdiQ" x="334" y="487"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_43W0gLeqEe-HWORqlyIdiQ" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_43W0gbeqEe-HWORqlyIdiQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_43W0greqEe-HWORqlyIdiQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_43W0g7eqEe-HWORqlyIdiQ"/>
+    <element xmi:type="map:Join" href="resource.map#_43PfwLeqEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_43W0hLeqEe-HWORqlyIdiQ" x="334" y="544"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_BJY8ILerEe-HWORqlyIdiQ" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BJY8IberEe-HWORqlyIdiQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BJY8IrerEe-HWORqlyIdiQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_BJY8I7erEe-HWORqlyIdiQ"/>
+    <element xmi:type="map:Join" href="resource.map#_BJSOcLerEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BJY8JLerEe-HWORqlyIdiQ" x="334" y="372"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vqhG8LepEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqhG8repEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqhG87epEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqhG9LepEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqhG9bepEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vqhG9repEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vqhG97epEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vqhG-LepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqhG-bepEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_vqhG-repEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqhG-7epEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vqhG_LepEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vqhG_bepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vqhG_repEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_vqYkELepEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vqhG8bepEe-HWORqlyIdiQ" x="400" y="314"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ttNswLepEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ttNswrepEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ttNsw7epEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ttNsxLepEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ttNsxbepEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ttNsxrepEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ttNsx7epEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ttNsyLepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ttNsybepEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ttNsyrepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ttNsy7epEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ttNszLepEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ttNszbepEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ttOT0LepEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_ts9OELepEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ttNswbepEe-HWORqlyIdiQ" x="400" y="659"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_OssJELerEe-HWORqlyIdiQ" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OssJErerEe-HWORqlyIdiQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OssJE7erEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OssJFLerEe-HWORqlyIdiQ" type="7001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OssJFberEe-HWORqlyIdiQ" type="7011"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OssJFrerEe-HWORqlyIdiQ" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OssJF7erEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OssJGLerEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OssJGberEe-HWORqlyIdiQ" type="5008">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_OssJGrerEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OssJG7erEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Query" href="resource.map#_OscRcLerEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OssJEberEe-HWORqlyIdiQ" x="701" y="32"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KpEC8LeoEe-HWORqlyIdiQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KpEC8reoEe-HWORqlyIdiQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KpEC87eoEe-HWORqlyIdiQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KpEC9LeoEe-HWORqlyIdiQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KpEC9beoEe-HWORqlyIdiQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KpEC9reoEe-HWORqlyIdiQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KpEC97eoEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KpEC-LeoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KpEC-beoEe-HWORqlyIdiQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_KpEC-reoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KpEC-7eoEe-HWORqlyIdiQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KpEC_LeoEe-HWORqlyIdiQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KpEC_beoEe-HWORqlyIdiQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KpEC_reoEe-HWORqlyIdiQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_Ko31sLeoEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KpEC8beoEe-HWORqlyIdiQ" x="1342" y="23"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yt0KwbenEe-HWORqlyIdiQ"/>
+  <element xmi:type="map:Map" href="resource.map#_7n_3kLbjEe-oWcSwM0X2ag?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map$name=02_Alim_compte?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_O-YA4LepEe-HWORqlyIdiQ" type="joinLink" source="_O-WywLepEe-HWORqlyIdiQ" target="_0L2ZkLeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O-YA4bepEe-HWORqlyIdiQ" points="[-1, -1, -177, -1054]$[123, 742, -53, -311]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_O-YA4repEe-HWORqlyIdiQ" type="joinLink" source="_O-WywLepEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O-YA47epEe-HWORqlyIdiQ" points="[-1, -1, -178, -380]$[42, 90, -135, -289]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XlckYLepEe-HWORqlyIdiQ" type="joinLink" source="_Xlb9ULepEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XlckYbepEe-HWORqlyIdiQ" points="[-1, -1, -178, -380]$[42, 90, -135, -289]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XldLcLepEe-HWORqlyIdiQ" type="joinLink" source="_Xlb9ULepEe-HWORqlyIdiQ" target="_WgH7ELepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XldLcbepEe-HWORqlyIdiQ" points="[-1, -1, -403, -826]$[382, 784, -20, -41]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_BTiMELeqEe-HWORqlyIdiQ" type="joinLink" source="_BTg98LeqEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BTiMEbeqEe-HWORqlyIdiQ" points="[-2, -12, 50, 333]$[4, 27, 56, 372]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_BTiMEreqEe-HWORqlyIdiQ" type="joinLink" source="_BTg98LeqEe-HWORqlyIdiQ" target="_uPrgoLepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BTiME7eqEe-HWORqlyIdiQ" points="[-1, -1, -425, -635]$[343, 513, -81, -121]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zv2IILeqEe-HWORqlyIdiQ" type="joinLink" source="_zv06ALeqEe-HWORqlyIdiQ" target="_yjykvbeqEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zv2IIbeqEe-HWORqlyIdiQ" points="[-1, -1, 193, -546]$[-179, 504, 15, -41]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zv2IIreqEe-HWORqlyIdiQ" type="joinLink" source="_zv06ALeqEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zv2II7eqEe-HWORqlyIdiQ" points="[-1, -1, -178, -420]$[42, 99, -135, -320]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_43YCoLeqEe-HWORqlyIdiQ" type="joinLink" source="_43W0gLeqEe-HWORqlyIdiQ" target="_ttNswLepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_43YCobeqEe-HWORqlyIdiQ" points="[-1, -1, -457, -500]$[370, 405, -86, -94]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_43YCoreqEe-HWORqlyIdiQ" type="joinLink" source="_43W0gLeqEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_43YCo7eqEe-HWORqlyIdiQ" points="[-1, -1, -178, -420]$[42, 99, -135, -320]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_BJaKQLerEe-HWORqlyIdiQ" type="joinLink" source="_BJY8ILerEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BJaKQberEe-HWORqlyIdiQ" points="[-1, -1, -178, -420]$[42, 99, -135, -320]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_BJaKQrerEe-HWORqlyIdiQ" type="joinLink" source="_BJY8ILerEe-HWORqlyIdiQ" target="_vqhG8LepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BJaxULerEe-HWORqlyIdiQ" points="[-1, -1, -498, -796]$[421, 674, -76, -121]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_USWKALerEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_OLqnALeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_USWKAberEe-HWORqlyIdiQ" points="[-46, 36, 378, -297]$[-289, 227, 135, -106]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_US4VgLerEe-HWORqlyIdiQ" type="targetDataSetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_OssJELerEe-HWORqlyIdiQ">
+    <element xmi:type="map:DataSet" href="resource.map#_ykERgLeqEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_US4VgberEe-HWORqlyIdiQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_US4VgrerEe-HWORqlyIdiQ" type="targetSetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_OssJELerEe-HWORqlyIdiQ">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_UBBJcLerEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_US4Vg7erEe-HWORqlyIdiQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dJgX8LerEe-HWORqlyIdiQ" type="targetLink" source="_KpEC8LeoEe-HWORqlyIdiQ" target="_OssJELerEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dJgX8berEe-HWORqlyIdiQ" points="[-133, -78, 360, 210]$[-227, -133, 266, 155]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dJhmELerEe-HWORqlyIdiQ" type="targetDataSetLink" source="_KpEC8LeoEe-HWORqlyIdiQ" target="_KpEC8LeoEe-HWORqlyIdiQ">
+    <element xmi:type="map:DataSet" href="resource.map#_Osk0UberEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dJhmEberEe-HWORqlyIdiQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dJiNILerEe-HWORqlyIdiQ" type="targetSetLink" source="_KpEC8LeoEe-HWORqlyIdiQ" target="_KpEC8LeoEe-HWORqlyIdiQ">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_dIu74LerEe-HWORqlyIdiQ?fileId=_7n_3kLbjEe-oWcSwM0X2ag$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dJiNIberEe-HWORqlyIdiQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Cpp_kLesEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_WgH7ELepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Cpp_kbesEe-HWORqlyIdiQ" points="[-265, -157, 221, 131]$[-416, -246, 70, 42]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LJYk8LesEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_0L2ZkLeoEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LJYk8besEe-HWORqlyIdiQ" points="[-265, -100, 222, 83]$[-407, -153, 80, 30]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LJc2YLesEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_vqhG8LepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LJddcLesEe-HWORqlyIdiQ" points="[-265, -41, 175, 27]$[-313, -48, 127, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LJddcbesEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_uPrgoLepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LJddcresEe-HWORqlyIdiQ" points="[-265, 27, 197, -20]$[-358, 36, 104, -11]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LJddc7esEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_yjykvbeqEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LJdddLesEe-HWORqlyIdiQ" points="[-265, 90, 214, -72]$[-392, 133, 87, -29]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LJdddbesEe-HWORqlyIdiQ" type="targetLink" source="_OssJELerEe-HWORqlyIdiQ" target="_ttNswLepEe-HWORqlyIdiQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LJdddresEe-HWORqlyIdiQ" points="[-265, 151, 223, -126]$[-415, 236, 73, -41]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>

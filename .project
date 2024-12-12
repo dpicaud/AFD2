@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>AFD2</name>
+	<name>AFD</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -13,4 +13,11 @@
 	</buildSpec>
 	<natures>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>indy.build</name>
+			<type>2</type>
+			<locationURI>WORKSPACE_LOC/.indy.build/AFD2</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
