@@ -115,9 +115,9 @@
     <field id="_2VZRSreuEe-HWORqlyIdiQ" name="fd_langue_communication" ref="resource.md#_kK0R4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_langue_communication?">
       <expression id="_a0oOdrevEe-HWORqlyIdiQ" setDescriptorRef="_a0oOcbevEe-HWORqlyIdiQ"/>
     </field>
-    <field id="_2VXcEbeuEe-HWORqlyIdiQ" enable="true" name="id_coordonneecom" ref="resource.md#_kGGJ8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_coordonneecom?" updateKey="true">
+    <field id="_2VXcEbeuEe-HWORqlyIdiQ" enable="true" insert="true" name="id_coordonneecom" ref="resource.md#_kGGJ8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_coordonneecom?" update="true" updateKey="true">
       <expression id="_a0oOd7evEe-HWORqlyIdiQ" setDescriptorRef="_a0oOcbevEe-HWORqlyIdiQ">
-        <expression></expression>
+        <expression>stage.id_coordonneecom</expression>
       </expression>
     </field>
     <field id="_2VYqMbeuEe-HWORqlyIdiQ" enable="true" insert="true" name="cd_postal" ref="resource.md#_kIfWobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=cd_postal?" update="true">
@@ -207,7 +207,7 @@
     </field>
     <field id="_2VXcELeuEe-HWORqlyIdiQ" enable="true" insert="true" name="b_loadid" ref="resource.md#_kF9nELbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
       <expression id="_a0oOjbevEe-HWORqlyIdiQ" setDescriptorRef="_a0oOcbevEe-HWORqlyIdiQ">
-        <expression>1</expression>
+        <expression>${~/XDM_LOAD_ID}$</expression>
       </expression>
     </field>
     <field id="_2VYDIreuEe-HWORqlyIdiQ" name="b_deleteoperation" ref="resource.md#_kHX8UbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteoperation?">

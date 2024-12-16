@@ -9,9 +9,9 @@
         <expression></expression>
       </expression>
     </field>
-    <field id="_CUksAbbeEe-oWcSwM0X2ag" enable="true" name="b_loadid" ref="resource.md#_kcEZ8LbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" updateKey="true">
+    <field id="_CUksAbbeEe-oWcSwM0X2ag" enable="true" insert="true" name="b_loadid" ref="resource.md#_kcEZ8LbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
       <expression id="_DvlRcrbeEe-oWcSwM0X2ag" setDescriptorRef="_DvkqYLbeEe-oWcSwM0X2ag">
-        <expression></expression>
+        <expression>${~/XDM_LOAD_ID}$</expression>
       </expression>
     </field>
     <field id="_CUlTQrbeEe-oWcSwM0X2ag" name="tec_num_voie_siege_social" ref="resource.md#_kn6dkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_num_voie_siege_social?">
@@ -716,7 +716,7 @@ end]]></expression>
     <expression>tiers_.F_PAYS_NATIONALITE = gd_t_no_pays.code_pays</expression>
   </join>
   <template id="_-ldV8LbdEe-oWcSwM0X2ag" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="_5EGmMLbdEe-oWcSwM0X2ag"/>
-  <template id="_DvtNQLbeEe-oWcSwM0X2ag" name="I_sa_t_ti_tiers" process="resource.proc#_XKEu4F6CEe2mo9lRZZpcnA?fileId=_XKEu4F6CEe2mo9lRZZpcnA$type=proc$name=INTEGRATION%20Semarchy%20xDM?" targetId="_CUkE8LbeEe-oWcSwM0X2ag"/>
+  <template id="_DvtNQLbeEe-oWcSwM0X2ag" name="I_sa_t_ti_tiers" process="resource.proc#_dQ2dRp4SEd6bQIkgWyxFQQ?fileId=_dQ2dRp4SEd6bQIkgWyxFQQ$type=proc$name=INTEGRATION%20PostgreSql?" targetId="_CUkE8LbeEe-oWcSwM0X2ag"/>
   <template id="_1-7doLbgEe-oWcSwM0X2ag" name="L1_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_1-v3cLbgEe-oWcSwM0X2ag" targetId="_5EGmMLbdEe-oWcSwM0X2ag"/>
   <query id="_5EGmMLbdEe-oWcSwM0X2ag" alias="stage" dataset="_5cWikbbnEe-oWcSwM0X2ag" stagingArea="resource.md#_CZS4ILbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=db_mdmreftiers.data_reftiers?" subExpression="[A]">
     <field id="_-lZEgLbdEe-oWcSwM0X2ag" name="ID_Tiers">

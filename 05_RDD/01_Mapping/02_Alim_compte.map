@@ -303,7 +303,7 @@
     </field>
     <field id="_Ko65AbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_loadid" ref="resource.md#_kPxqYLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
       <expression id="_dIxYK7erEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
-        <expression>'333'</expression>
+        <expression>${~/XDM_LOAD_ID}$</expression>
       </expression>
     </field>
     <field id="_Ko_xgLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="indicateur_debit_office" ref="resource.md#_kWCDYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=indicateur_debit_office?" update="true">
