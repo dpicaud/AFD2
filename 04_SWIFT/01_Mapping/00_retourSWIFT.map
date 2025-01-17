@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_9MYvUNTbEe-ayYrzKU_LEQ" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_MzV2ENTcEe-ayYrzKU_LEQ" alias="ConsommationSWIFT" dataset="_QWqL0dTcEe-ayYrzKU_LEQ" ref="resource.md#_wyVpcdTbEe-ayYrzKU_LEQ?fileId=_AOK6wNTbEe-ayYrzKU_LEQ$type=md$name=ConsommationSWIFT?">
+    <field id="_MzV2EtTcEe-ayYrzKU_LEQ" fullAlias="Value" name="Value" ref="resource.md#_Gw1hEdTcEe-ayYrzKU_LEQ?fileId=_AOK6wNTbEe-ayYrzKU_LEQ$type=md?"/>
+  </datastore>
+  <template id="_QWho9tTcEe-ayYrzKU_LEQ" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="72d75b31-af51-4972-ad80-3342cdbaca42"/>
+  <template id="_RssKoNTcEe-ayYrzKU_LEQ" name="L1_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_MzV2ENTcEe-ayYrzKU_LEQ" targetId="72d75b31-af51-4972-ad80-3342cdbaca42"/>
+  <query id="72d75b31-af51-4972-ad80-3342cdbaca42" alias="stage" dataset="_QWqL0NTcEe-ayYrzKU_LEQ" stagingArea="resource.md#_BG69kLcUEe-0Xc913hdzrA?fileId=_BA9fgLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
+    <field id="7a242c42-64cd-498b-ae99-4a84f250f7ea" name="Value">
+      <expression id="62825b78-bd75-4163-9256-21fcb22abab2" location="WRK" setDescriptorRef="a9e0728d-0fe2-461f-a710-987fb1f2b128">
+        <expression>ConsommationSWIFT.Value</expression>
+      </expression>
+    </field>
+    <setDescriptor id="a9e0728d-0fe2-461f-a710-987fb1f2b128" label="A"/>
+  </query>
+  <dataSet id="_QWqL0NTcEe-ayYrzKU_LEQ">
+    <container>72d75b31-af51-4972-ad80-3342cdbaca42</container>
+  </dataSet>
+  <dataSet id="_QWqL0dTcEe-ayYrzKU_LEQ">
+    <container>_MzV2ENTcEe-ayYrzKU_LEQ</container>
+  </dataSet>
+  <hint>
+    <usedField>#_MzV2EtTcEe-ayYrzKU_LEQ</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="_9MtfcNTbEe-ayYrzKU_LEQ" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_MzaukNTcEe-ayYrzKU_LEQ" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MzauktTcEe-ayYrzKU_LEQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Mzauk9TcEe-ayYrzKU_LEQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MzaulNTcEe-ayYrzKU_LEQ" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MzauldTcEe-ayYrzKU_LEQ" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MzaultTcEe-ayYrzKU_LEQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Mzaul9TcEe-ayYrzKU_LEQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MzaumNTcEe-ayYrzKU_LEQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MzaumdTcEe-ayYrzKU_LEQ" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MzaumtTcEe-ayYrzKU_LEQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Mzaum9TcEe-ayYrzKU_LEQ" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MzaunNTcEe-ayYrzKU_LEQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MzaundTcEe-ayYrzKU_LEQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MzauntTcEe-ayYrzKU_LEQ" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_MzV2ENTcEe-ayYrzKU_LEQ?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MzaukdTcEe-ayYrzKU_LEQ" x="253" y="327"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_QWjeINTcEe-ayYrzKU_LEQ" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QWjeItTcEe-ayYrzKU_LEQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QWjeI9TcEe-ayYrzKU_LEQ" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QWjeJNTcEe-ayYrzKU_LEQ" type="7001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QWjeJdTcEe-ayYrzKU_LEQ" type="7011"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QWjeJtTcEe-ayYrzKU_LEQ" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QWjeJ9TcEe-ayYrzKU_LEQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QWjeKNTcEe-ayYrzKU_LEQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QWjeKdTcEe-ayYrzKU_LEQ" type="5008">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_QWjeKtTcEe-ayYrzKU_LEQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QWjeK9TcEe-ayYrzKU_LEQ" type="7007"/>
+    <element xmi:type="map:Query" href="resource.map#72d75b31-af51-4972-ad80-3342cdbaca42?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QWjeIdTcEe-ayYrzKU_LEQ" x="621" y="319"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_9MtfcdTbEe-ayYrzKU_LEQ"/>
+  <element xmi:type="map:Map" href="resource.map#_9MYvUNTbEe-ayYrzKU_LEQ?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map$name=00_retourSWIFT?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_RsqVcNTcEe-ayYrzKU_LEQ" type="targetLink" source="_QWjeINTcEe-ayYrzKU_LEQ" target="_MzaukNTcEe-ayYrzKU_LEQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RsqVcdTcEe-ayYrzKU_LEQ" points="[-67, 4, 300, -19]$[-278, 17, 89, -6]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_RsqVctTcEe-ayYrzKU_LEQ" type="targetDataSetLink" source="_QWjeINTcEe-ayYrzKU_LEQ" target="_QWjeINTcEe-ayYrzKU_LEQ">
+    <element xmi:type="map:DataSet" href="resource.map#_QWqL0dTcEe-ayYrzKU_LEQ?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RsqVc9TcEe-ayYrzKU_LEQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Rsq8gNTcEe-ayYrzKU_LEQ" type="targetSetLink" source="_QWjeINTcEe-ayYrzKU_LEQ" target="_QWjeINTcEe-ayYrzKU_LEQ">
+    <element xmi:type="map:SetDescriptor" href="resource.map#a9e0728d-0fe2-461f-a710-987fb1f2b128?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rsq8gdTcEe-ayYrzKU_LEQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>

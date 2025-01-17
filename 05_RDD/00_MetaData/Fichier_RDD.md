@@ -13,45 +13,6 @@
     <attribute defType="com.stambia.rdbms.schema.loadMask" id="_VNW7cLbUEe-oWcSwM0X2ag" value="L[number]_[targetName]"/>
     <attribute defType="com.stambia.rdbms.schema.integrationMask" id="_VNXigLbUEe-oWcSwM0X2ag" value="I_[targetName]"/>
     <attribute defType="com.stambia.rdbms.schema.dataStoreFilter" id="_qPbKkLbVEe-oWcSwM0X2ag" value=""/>
-    <node defType="com.stambia.rdbms.datastore" id="_L4DuELbWEe-oWcSwM0X2ag" name="entité lié à la nature relation$">
-      <attribute defType="com.stambia.rdbms.datastore.name" id="_L4EVILbWEe-oWcSwM0X2ag" value="entité lié à la nature relation$"/>
-      <attribute defType="com.stambia.rdbms.datastore.type" id="_L4EVIbbWEe-oWcSwM0X2ag" value="TABLE"/>
-      <node defType="com.stambia.rdbms.column" id="_L4EVIrbWEe-oWcSwM0X2ag" name="id_naturerelation" position="1">
-        <attribute defType="com.stambia.rdbms.column.name" id="_L4E8MLbWEe-oWcSwM0X2ag" value="id_naturerelation"/>
-        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_L4E8MbbWEe-oWcSwM0X2ag" value="false"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_L4E8MrbWEe-oWcSwM0X2ag" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.remarks" id="_L4E8M7bWEe-oWcSwM0X2ag" value=""/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_L4E8NLbWEe-oWcSwM0X2ag" value="VARCHAR"/>
-      </node>
-      <node defType="com.stambia.rdbms.column" id="_L4E8NbbWEe-oWcSwM0X2ag" name="id_entiteutilisantnature" position="2">
-        <attribute defType="com.stambia.rdbms.column.name" id="_L4E8NrbWEe-oWcSwM0X2ag" value="id_entiteutilisantnature"/>
-        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_L4E8N7bWEe-oWcSwM0X2ag" value="false"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_L4E8OLbWEe-oWcSwM0X2ag" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.remarks" id="_L4E8ObbWEe-oWcSwM0X2ag" value=""/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_L4E8OrbWEe-oWcSwM0X2ag" value="VARCHAR"/>
-      </node>
-      <node defType="com.stambia.rdbms.column" id="_L4E8O7bWEe-oWcSwM0X2ag" name="f_entite" position="3">
-        <attribute defType="com.stambia.rdbms.column.name" id="_L4E8PLbWEe-oWcSwM0X2ag" value="f_entite"/>
-        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_L4E8PbbWEe-oWcSwM0X2ag" value="false"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_L4E8PrbWEe-oWcSwM0X2ag" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.remarks" id="_L4E8P7bWEe-oWcSwM0X2ag" value=""/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_L4E8QLbWEe-oWcSwM0X2ag" value="VARCHAR"/>
-      </node>
-      <node defType="com.stambia.rdbms.column" id="_L4E8QbbWEe-oWcSwM0X2ag" name="dat_debutentite" position="4">
-        <attribute defType="com.stambia.rdbms.column.name" id="_L4E8QrbWEe-oWcSwM0X2ag" value="dat_debutentite"/>
-        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_L4E8Q7bWEe-oWcSwM0X2ag" value="false"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_L4E8RLbWEe-oWcSwM0X2ag" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.remarks" id="_L4E8RbbWEe-oWcSwM0X2ag" value=""/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_L4E8RrbWEe-oWcSwM0X2ag" value="VARCHAR"/>
-      </node>
-      <node defType="com.stambia.rdbms.column" id="_L4E8R7bWEe-oWcSwM0X2ag" name="dat_finentite" position="5">
-        <attribute defType="com.stambia.rdbms.column.name" id="_L4E8SLbWEe-oWcSwM0X2ag" value="dat_finentite"/>
-        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_L4E8SbbWEe-oWcSwM0X2ag" value="false"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_L4E8SrbWEe-oWcSwM0X2ag" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.remarks" id="_L4E8S7bWEe-oWcSwM0X2ag" value=""/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_L4E8TLbWEe-oWcSwM0X2ag" value="VARCHAR"/>
-      </node>
-    </node>
     <node defType="com.stambia.rdbms.datastore" id="_L5qQkLbWEe-oWcSwM0X2ag" name="nature de relation$">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_L5qQkbbWEe-oWcSwM0X2ag" value="nature de relation$"/>
       <attribute defType="com.stambia.rdbms.datastore.type" id="_L5qQkrbWEe-oWcSwM0X2ag" value="TABLE"/>
@@ -700,6 +661,45 @@
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Dq0h67fREe-6BZFGswrzLA" value="1"/>
         <attribute defType="com.stambia.rdbms.column.remarks" id="_Dq0h7LfREe-6BZFGswrzLA" value=""/>
         <attribute defType="com.stambia.rdbms.column.type" id="_Dq0h7bfREe-6BZFGswrzLA" value="VARCHAR"/>
+      </node>
+    </node>
+    <node defType="com.stambia.rdbms.datastore" id="_VggwIL2nEe-tfsN_kpKWQQ" name="entite lie à la nature relation$">
+      <attribute defType="com.stambia.rdbms.datastore.name" id="_VggwIb2nEe-tfsN_kpKWQQ" value="entite lie à la nature relation$"/>
+      <attribute defType="com.stambia.rdbms.datastore.type" id="_VggwIr2nEe-tfsN_kpKWQQ" value="TABLE"/>
+      <node defType="com.stambia.rdbms.column" id="_Vgh-QL2nEe-tfsN_kpKWQQ" name="id_naturerelation" position="1">
+        <attribute defType="com.stambia.rdbms.column.name" id="_Vgh-Qb2nEe-tfsN_kpKWQQ" value="id_naturerelation"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_Vgh-Qr2nEe-tfsN_kpKWQQ" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_Vgh-Q72nEe-tfsN_kpKWQQ" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.remarks" id="_Vgh-RL2nEe-tfsN_kpKWQQ" value=""/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Vgh-Rb2nEe-tfsN_kpKWQQ" value="VARCHAR"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_Vgh-Rr2nEe-tfsN_kpKWQQ" name="id_entiteutilisantnature" position="2">
+        <attribute defType="com.stambia.rdbms.column.name" id="_Vgh-R72nEe-tfsN_kpKWQQ" value="id_entiteutilisantnature"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_Vgh-SL2nEe-tfsN_kpKWQQ" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_Vgh-Sb2nEe-tfsN_kpKWQQ" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.remarks" id="_Vgh-Sr2nEe-tfsN_kpKWQQ" value=""/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Vgh-S72nEe-tfsN_kpKWQQ" value="VARCHAR"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_Vgh-TL2nEe-tfsN_kpKWQQ" name="f_entite" position="3">
+        <attribute defType="com.stambia.rdbms.column.name" id="_Vgh-Tb2nEe-tfsN_kpKWQQ" value="f_entite"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_Vgh-Tr2nEe-tfsN_kpKWQQ" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_Vgh-T72nEe-tfsN_kpKWQQ" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.remarks" id="_Vgh-UL2nEe-tfsN_kpKWQQ" value=""/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Vgh-Ub2nEe-tfsN_kpKWQQ" value="VARCHAR"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_Vgh-Ur2nEe-tfsN_kpKWQQ" name="dat_debutentite" position="4">
+        <attribute defType="com.stambia.rdbms.column.name" id="_Vgh-U72nEe-tfsN_kpKWQQ" value="dat_debutentite"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_Vgh-VL2nEe-tfsN_kpKWQQ" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_Vgh-Vb2nEe-tfsN_kpKWQQ" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.remarks" id="_Vgh-Vr2nEe-tfsN_kpKWQQ" value=""/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Vgh-V72nEe-tfsN_kpKWQQ" value="VARCHAR"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_Vgh-WL2nEe-tfsN_kpKWQQ" name="dat_finentite" position="5">
+        <attribute defType="com.stambia.rdbms.column.name" id="_Vgh-Wb2nEe-tfsN_kpKWQQ" value="dat_finentite"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_Vgh-Wr2nEe-tfsN_kpKWQQ" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_Vgh-W72nEe-tfsN_kpKWQQ" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.remarks" id="_Vgh-XL2nEe-tfsN_kpKWQQ" value=""/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Vgh-Xb2nEe-tfsN_kpKWQQ" value="VARCHAR"/>
       </node>
     </node>
   </node>

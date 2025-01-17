@@ -25,12 +25,12 @@
         <expression></expression>
       </expression>
     </field>
-    <field id="_YsnELLfSEe-6BZFGswrzLA" enable="false" insert="true" name="dat_finaffectionnature" ref="resource.md#_kOB98bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_finaffectionnature?" update="true">
+    <field id="_YsnELLfSEe-6BZFGswrzLA" enable="true" insert="true" name="dat_finaffectionnature" ref="resource.md#_kOB98bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_finaffectionnature?" update="true">
       <expression id="_ho4mIrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
         <expression>stage.dat_finaffectionnature</expression>
       </expression>
     </field>
-    <field id="_YsnrNrfSEe-6BZFGswrzLA" enable="false" insert="true" name="dat_creation" ref="resource.md#_kPFG0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_creation?" update="true">
+    <field id="_YsnrNrfSEe-6BZFGswrzLA" enable="true" insert="true" name="dat_creation" ref="resource.md#_kPFG0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_creation?" update="true">
       <expression id="_ho4mI7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
         <expression>stage.dat_creation</expression>
       </expression>
@@ -57,17 +57,17 @@
     </field>
     <field id="_YsmdELfSEe-6BZFGswrzLA" enable="true" insert="true" name="b_loadid" ref="resource.md#_kLwGALbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
       <expression id="_ho4mKLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
-        <expression>333</expression>
+        <expression>${~/XDM_LOAD_ID}$</expression>
       </expression>
     </field>
-    <field id="_YsnEJ7fSEe-6BZFGswrzLA" name="b_credate" ref="resource.md#_kNS-IbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?">
+    <field id="_YsnEJ7fSEe-6BZFGswrzLA" enable="true" insert="true" name="b_credate" ref="resource.md#_kNS-IbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?" update="true">
       <expression id="_ho4mKbfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
-        <expression></expression>
+        <expression>current_date</expression>
       </expression>
     </field>
-    <field id="_YsnEKrfSEe-6BZFGswrzLA" name="b_updator" ref="resource.md#_kNo8YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?">
+    <field id="_YsnEKrfSEe-6BZFGswrzLA" enable="true" insert="true" name="b_updator" ref="resource.md#_kNo8YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?" update="true">
       <expression id="_ho4mKrfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
-        <expression></expression>
+        <expression>'Xdi_user'</expression>
       </expression>
     </field>
     <field id="_YsnrNbfSEe-6BZFGswrzLA" name="fd_type_role_nature_relation" ref="resource.md#_kO-ZIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_role_nature_relation?">
@@ -95,14 +95,14 @@
         <expression>stage.ID_Tiers</expression>
       </expression>
     </field>
-    <field id="_YsnEKLfSEe-6BZFGswrzLA" name="b_upddate" ref="resource.md#_kNcIEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?">
+    <field id="_YsnEKLfSEe-6BZFGswrzLA" enable="true" insert="true" name="b_upddate" ref="resource.md#_kNcIEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?" update="true">
       <expression id="_ho5NM7fTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
-        <expression></expression>
+        <expression>current_date</expression>
       </expression>
     </field>
-    <field id="_YsnEKbfSEe-6BZFGswrzLA" name="b_creator" ref="resource.md#_kNiOsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?">
+    <field id="_YsnEKbfSEe-6BZFGswrzLA" enable="true" insert="true" name="b_creator" ref="resource.md#_kNiOsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?" update="true">
       <expression id="_ho5NNLfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
-        <expression></expression>
+        <expression>'Xdi_user'</expression>
       </expression>
     </field>
     <field id="_YsnEIbfSEe-6BZFGswrzLA" name="b_deletetype" ref="resource.md#_kMrTEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletetype?">
@@ -125,7 +125,7 @@
         <expression>'NatureDeRelationDuTiers'</expression>
       </expression>
     </field>
-    <field id="_YsnEK7fSEe-6BZFGswrzLA" enable="false" insert="true" name="dat_affectionnature" ref="resource.md#_kN4M8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_affectionnature?" update="true">
+    <field id="_YsnEK7fSEe-6BZFGswrzLA" enable="true" insert="true" name="dat_affectionnature" ref="resource.md#_kN4M8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=dat_affectionnature?" update="true">
       <expression id="_ho5NObfTEe-6BZFGswrzLA" setDescriptorRef="_ho3_ELfTEe-6BZFGswrzLA">
         <expression>stage.dat_affectionnature</expression>
       </expression>
@@ -271,7 +271,7 @@
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YsqHcbfSEe-6BZFGswrzLA" x="995" y="32"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_Gaq90bfSEe-6BZFGswrzLA"/>
-  <element xmi:type="map:Map" href="resource.map#_GUAVILfSEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map$name=04_Nature?"/>
+  <element xmi:type="map:Map" href="resource.map#_GUAVILfSEe-6BZFGswrzLA?fileId=_GUAVILfSEe-6BZFGswrzLA$type=map$name=04_Alim_Nature?"/>
   <edges xmi:type="notation:Edge" xmi:id="_gIntQLfTEe-6BZFGswrzLA" type="targetLink" source="_etMRELfTEe-6BZFGswrzLA" target="_KWkysLfSEe-6BZFGswrzLA">
     <element xsi:nil="true"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gIntQbfTEe-6BZFGswrzLA" points="[-64, 6, 341, -36]$[-271, 28, 134, -14]"/>

@@ -106,9 +106,9 @@
         <expression></expression>
       </expression>
     </field>
-    <field id="_Ko8HKbeoEe-HWORqlyIdiQ" name="b_upddate" ref="resource.md#_kRWXsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?">
+    <field id="_Ko8HKbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_upddate" ref="resource.md#_kRWXsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?" update="true">
       <expression id="_dIwKArerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
-        <expression></expression>
+        <expression>current_date</expression>
       </expression>
     </field>
     <field id="_Ko-jYreoEe-HWORqlyIdiQ" enable="true" insert="true" name="swift_banque" ref="resource.md#_kUYdkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=swift_banque?" update="true">
@@ -171,9 +171,9 @@
         <expression></expression>
       </expression>
     </field>
-    <field id="_Ko8HKLeoEe-HWORqlyIdiQ" name="b_credate" ref="resource.md#_kRQREbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?">
+    <field id="_Ko8HKLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_credate" ref="resource.md#_kRQREbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?" update="true">
       <expression id="_dIwxFLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
-        <expression></expression>
+        <expression>current_date</expression>
       </expression>
     </field>
     <field id="_Ko9VQLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_devise" ref="resource.md#_kSXEUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_devise?" update="true">
@@ -236,9 +236,9 @@
         <expression>stage.code_guichet</expression>
       </expression>
     </field>
-    <field id="_Ko8uMbeoEe-HWORqlyIdiQ" name="b_updator" ref="resource.md#_kRik8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?">
+    <field id="_Ko8uMbeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_updator" ref="resource.md#_kRik8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?" update="true">
       <expression id="_dIwxIberEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
-        <expression></expression>
+        <expression>'Xdi_user'</expression>
       </expression>
     </field>
     <field id="_Ko8HJLeoEe-HWORqlyIdiQ" name="b_deleteauthor" ref="resource.md#_kQ32kbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteauthor?">
@@ -286,9 +286,9 @@
         <expression>stage.numero_aba</expression>
       </expression>
     </field>
-    <field id="_Ko8uMLeoEe-HWORqlyIdiQ" name="b_creator" ref="resource.md#_kRceUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?">
+    <field id="_Ko8uMLeoEe-HWORqlyIdiQ" enable="true" insert="true" name="b_creator" ref="resource.md#_kRceUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?" update="true">
       <expression id="_dIxYKLerEe-HWORqlyIdiQ" setDescriptorRef="_dIu74LerEe-HWORqlyIdiQ">
-        <expression></expression>
+        <expression>'Xdi_user'</expression>
       </expression>
     </field>
     <field id="_Ko_KcreoEe-HWORqlyIdiQ" enable="true" insert="true" name="f_pays_swift" ref="resource.md#_kVM88bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_swift?" update="true">

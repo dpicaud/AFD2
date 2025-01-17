@@ -840,7 +840,9 @@
   <filter id="_PVpiQLh2Ee-6BZFGswrzLA" location="SRC">
     <expression>gd_t_no_statuttiers.cd_statut_tiers = 'REF'</expression>
   </filter>
-  <template id="_yjbVa7h1Ee-6BZFGswrzLA" name="I_sa_t_ti_tiers" process="resource.proc#_XKEu4F6CEe2mo9lRZZpcnA?fileId=_XKEu4F6CEe2mo9lRZZpcnA$type=proc$name=INTEGRATION%20Semarchy%20xDM?" targetId="_yjatAbh1Ee-6BZFGswrzLA"/>
+  <template id="_yjbVa7h1Ee-6BZFGswrzLA" name="I_sa_t_ti_tiers" process="resource.proc#_XKEu4F6CEe2mo9lRZZpcnA?fileId=_XKEu4F6CEe2mo9lRZZpcnA$type=proc$name=INTEGRATION%20Semarchy%20xDM?" targetId="_yjatAbh1Ee-6BZFGswrzLA">
+    <parameter id="_7QXDYL4lEe-Eb5PBxWJImA" name="Synch" value="false"/>
+  </template>
   <dataSet id="_yjbVbLh1Ee-6BZFGswrzLA">
     <container>_yjatAbh1Ee-6BZFGswrzLA</container>
   </dataSet>

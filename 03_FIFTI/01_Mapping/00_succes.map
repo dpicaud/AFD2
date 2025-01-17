@@ -824,7 +824,9 @@
   <filter id="_cA-pkLhvEe-6BZFGswrzLA" location="SRC">
     <expression>gd_t_ti_tiers.id_tiers = ${~/Tiers_ID}$</expression>
   </filter>
-  <template id="_guvZMLhvEe-6BZFGswrzLA" name="I_sa_t_ti_tiers" process="resource.proc#_XKEu4F6CEe2mo9lRZZpcnA?fileId=_XKEu4F6CEe2mo9lRZZpcnA$type=proc$name=INTEGRATION%20Semarchy%20xDM?" targetId="_RXI9ELhvEe-6BZFGswrzLA"/>
+  <template id="_guvZMLhvEe-6BZFGswrzLA" name="I_sa_t_ti_tiers" process="resource.proc#_XKEu4F6CEe2mo9lRZZpcnA?fileId=_XKEu4F6CEe2mo9lRZZpcnA$type=proc$name=INTEGRATION%20Semarchy%20xDM?" targetId="_RXI9ELhvEe-6BZFGswrzLA">
+    <parameter id="_wAPaAL4lEe-Eb5PBxWJImA" name="Synch" value="true"/>
+  </template>
   <dataSet id="_RXYNoLhvEe-6BZFGswrzLA">
     <container>_RXI9ELhvEe-6BZFGswrzLA</container>
   </dataSet>
