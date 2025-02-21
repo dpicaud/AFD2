@@ -7,6 +7,11 @@
   <attribute defType="com.stambia.rdbms.server.password" id="_lfph4Jq_Ee-7z7pmqdWxtw" value="B636036AAA53948DEE468AE21FC99F974FCDB273CCF4EDE3BF0FA5D65D44E067"/>
   <attribute defType="com.stambia.rdbms.server.url" id="_lfph4Zq_Ee-7z7pmqdWxtw" value="jdbc:postgresql://frpardev61:5432/db_mdmreftiers"/>
   <attribute defType="com.stambia.rdbms.server.isXdmDatabase" id="_liLt4JuCEe-DKYFre3OFCQ" value="true"/>
+  <attribute defType="com.stambia.rdbms.server.userName" id="_5upKEOn4Ee-4q5GBG05Ffg" value="semadmin"/>
+  <attribute defType="com.stambia.rdbms.server.semRepoSchema" id="_6zUTIOn4Ee-4q5GBG05Ffg" value="repo_reftiers"/>
+  <attribute defType="com.stambia.rdbms.server.dataLocationName" id="_9vfwYOn4Ee-4q5GBG05Ffg" value="ref_tiers"/>
+  <attribute defType="com.stambia.rdbms.server.MDMSchema" id="_-p7YUOn4Ee-4q5GBG05Ffg" value="data_reftiers"/>
+  <attribute defType="com.stambia.rdbms.server.integrationJobName" id="__dlp4On4Ee-4q5GBG05Ffg" value="ALL"/>
   <configuration id="_qIFQIJrAEe-7z7pmqdWxtw" name="Dev">
     <attribute defType="com.stambia.rdbms.server.url" id="_tsfLAZrAEe-7z7pmqdWxtw" value="jdbc:postgresql://frpardev61:5432/db_mdmreftiers"/>
     <attribute defType="com.stambia.rdbms.server.user" id="_tzLo4ZrAEe-7z7pmqdWxtw" value="usr_data_reftiers"/>
@@ -28,9 +33,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJUfpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJUf5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_motifdesactivation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJUgJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJUgZq_Ee-7z7pmqdWxtw" name="motifdesactivation_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJUgpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJUjJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=motifdesactivation_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJUgZq_Ee-7z7pmqdWxtw" name="motifdesactivation_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJUg5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJUhJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -243,12 +246,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJ4sZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJ4spq_Ee-7z7pmqdWxtw" name="pksa_t_no_motifdesactivation">
-        <node defType="com.stambia.rdbms.colref" id="_lgJ4s5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ4tJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJUg5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ4tZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ4tpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJUjJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=motifdesactivation_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ4s5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ4tZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgMXpJq_Ee-7z7pmqdWxtw" name="sa_t_no_motifrejetdoublon">
@@ -256,9 +255,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgMXppq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgMXp5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_motifrejetdoublon">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgMXqJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgMXqZq_Ee-7z7pmqdWxtw" name="id_motifrejetdoublon">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMXqpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMXtJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_motifrejetdoublon?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMXqZq_Ee-7z7pmqdWxtw" name="id_motifrejetdoublon"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgMXq5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgMXrJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -461,12 +458,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgM7kJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgM7kZq_Ee-7z7pmqdWxtw" name="pksa_t_no_motifrejetdoublon">
-        <node defType="com.stambia.rdbms.colref" id="_lgM7kpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgM7k5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgMXq5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgM7lJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgM7lZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMXtJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_motifrejetdoublon?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgM7kpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgM7lJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgHd7Jq_Ee-7z7pmqdWxtw" name="sa_t_no_paysimmatriculation">
@@ -474,9 +467,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgHd7pq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgHd75q_Ee-7z7pmqdWxtw" name="i1sa_t_no_paysimmatriculation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgHd8Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgHd8Zq_Ee-7z7pmqdWxtw" name="id_paysimmatriculation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHd8pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHd_Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_paysimmatriculation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHd8Zq_Ee-7z7pmqdWxtw" name="id_paysimmatriculation"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgHd85q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgHd9Jq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -659,12 +650,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgHelJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgHelZq_Ee-7z7pmqdWxtw" name="pksa_t_no_paysimmatriculation">
-        <node defType="com.stambia.rdbms.colref" id="_lgHelpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHel5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgHd85q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgHemJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHemZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHd_Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_paysimmatriculation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHelpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgHemJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgScY5q_Ee-7z7pmqdWxtw" name="sa_t_no_motifexception">
@@ -672,9 +659,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgScZZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgScZpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_motifexception">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgScZ5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgScaJq_Ee-7z7pmqdWxtw" name="id_motifexception">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgScaZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgScc5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_motifexception?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgScaJq_Ee-7z7pmqdWxtw" name="id_motifexception"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgScapq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgSca5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -887,12 +872,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgSdJpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgSdJ5q_Ee-7z7pmqdWxtw" name="pksa_t_no_motifexception">
-        <node defType="com.stambia.rdbms.colref" id="_lgSdKJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSdKZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgScapq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgSdKpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSdK5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgScc5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_motifexception?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSdKJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgSdKpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgKgPpq_Ee-7z7pmqdWxtw" name="sa_t_no_stpa">
@@ -900,9 +881,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgKgQJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgKgQZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_stpa">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKgQpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKgQ5q_Ee-7z7pmqdWxtw" name="id_stpa">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKgRJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKgTpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_stpa?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKgQ5q_Ee-7z7pmqdWxtw" name="id_stpa"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgKgRZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgKgRpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -1115,12 +1094,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgKhAZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgKhApq_Ee-7z7pmqdWxtw" name="pksa_t_no_stpa">
-        <node defType="com.stambia.rdbms.colref" id="_lgKhA5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhBJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKgRZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhBZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhBpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKgTpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_stpa?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhA5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhBZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLwy5q_Ee-7z7pmqdWxtw" name="sa_documents_obligatoires_ti">
@@ -1128,33 +1103,23 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLwzZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLwzpq_Ee-7z7pmqdWxtw" name="fksa_document_obligatoire_cate">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLwz5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLw0Jq_Ee-7z7pmqdWxtw" name="f_categorie_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLw0Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMVgpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_categorie_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLw0Jq_Ee-7z7pmqdWxtw" name="f_categorie_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgLw0pq_Ee-7z7pmqdWxtw" name="fksa_documents_obligatoires_ca">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLw05q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLw1Jq_Ee-7z7pmqdWxtw" name="f_categorie_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLw1Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMVgpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_categorie_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLw1Jq_Ee-7z7pmqdWxtw" name="f_categorie_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgLw1pq_Ee-7z7pmqdWxtw" name="fksa_documents_obligatoires_ro">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLw15q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLw2Jq_Ee-7z7pmqdWxtw" name="f_role">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLw2Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMVlJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_role?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLw2Jq_Ee-7z7pmqdWxtw" name="f_role"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgLw2pq_Ee-7z7pmqdWxtw" name="fksa_documents_obligatoires_ti">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLw25q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLw3Jq_Ee-7z7pmqdWxtw" name="f_cat_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLw3Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMV5Zq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_cat_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLw3Jq_Ee-7z7pmqdWxtw" name="f_cat_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgMUcJq_Ee-7z7pmqdWxtw" name="i1sa_documents_obligatoires_ti">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgMUcZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgMUcpq_Ee-7z7pmqdWxtw" name="documents_obligatoires_ti">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMUc5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgMUfZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=documents_obligatoires_ti?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMUcpq_Ee-7z7pmqdWxtw" name="documents_obligatoires_ti"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgMUdJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgMUdZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -1597,12 +1562,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgMV_5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgMWAJq_Ee-7z7pmqdWxtw" name="pksa_documents_obligatoires_ti">
-        <node defType="com.stambia.rdbms.colref" id="_lgMWAZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMWApq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMUdJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgMWA5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMWBJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMUfZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=documents_obligatoires_ti?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMWAZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgMWA5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLGv5q_Ee-7z7pmqdWxtw" name="sa_entite_tiers">
@@ -1610,21 +1571,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLGwZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLGwpq_Ee-7z7pmqdWxtw" name="fksa_entite_du_tierses_entite">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLGw5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLGxJq_Ee-7z7pmqdWxtw" name="f_entite">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLGxZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLHgpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_entite?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLGxJq_Ee-7z7pmqdWxtw" name="f_entite"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgLGxpq_Ee-7z7pmqdWxtw" name="fksa_entite_du_tierses_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLGx5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLGyJq_Ee-7z7pmqdWxtw" name="f_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLGyZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLHlJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLGyJq_Ee-7z7pmqdWxtw" name="f_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgLGypq_Ee-7z7pmqdWxtw" name="i1sa_entite_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLGy5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLGzJq_Ee-7z7pmqdWxtw" name="entite_tiers_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLGzZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLG15q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=entite_tiers_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLGzJq_Ee-7z7pmqdWxtw" name="entite_tiers_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLGzpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLGz5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -1867,12 +1822,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLHpZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLHppq_Ee-7z7pmqdWxtw" name="pksa_entite_tiers">
-        <node defType="com.stambia.rdbms.colref" id="_lgLHp5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLHqJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLGzpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLHqZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLHqpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLG15q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=entite_tiers_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLHp5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLHqZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgRPTZq_Ee-7z7pmqdWxtw" name="sa_t_ti_coordonneecom">
@@ -1880,45 +1831,31 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgRPT5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgRPUJq_Ee-7z7pmqdWxtw" name="fksa_coordonnees_de_com_adress">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPUZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPUpq_Ee-7z7pmqdWxtw" name="f_type_adresse">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPU5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0Opq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_adresse?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPUpq_Ee-7z7pmqdWxtw" name="f_type_adresse"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgRPVJq_Ee-7z7pmqdWxtw" name="fksa_coordonnees_de_com_pays">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPVZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPVpq_Ee-7z7pmqdWxtw" name="f_pays">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPV5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0Xpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_pays?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPVpq_Ee-7z7pmqdWxtw" name="f_pays"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgRPWJq_Ee-7z7pmqdWxtw" name="fksa_coordonnees_de_com_voie">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPWZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPWpq_Ee-7z7pmqdWxtw" name="f_type_voie">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPW5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0TJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_voie?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPWpq_Ee-7z7pmqdWxtw" name="f_type_voie"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgRPXJq_Ee-7z7pmqdWxtw" name="fksa_coordonnees_de_communica2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPXZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPXpq_Ee-7z7pmqdWxtw" name="f_langue_edition">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPX5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0lJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_langue_edition?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPXpq_Ee-7z7pmqdWxtw" name="f_langue_edition"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgRPYJq_Ee-7z7pmqdWxtw" name="fksa_coordonnees_de_communica4">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPYZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPYpq_Ee-7z7pmqdWxtw" name="f_tiers_com">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPY5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0cJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers_com?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPYpq_Ee-7z7pmqdWxtw" name="f_tiers_com"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgRPZJq_Ee-7z7pmqdWxtw" name="fksa_coordonnees_de_communicat">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPZZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPZpq_Ee-7z7pmqdWxtw" name="f_langue_communication">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPZ5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0gpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_langue_communication?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPZpq_Ee-7z7pmqdWxtw" name="f_langue_communication"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgRPaJq_Ee-7z7pmqdWxtw" name="i1sa_t_ti_coordonneecom">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRPaZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPapq_Ee-7z7pmqdWxtw" name="id_coordonneecom">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPa5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgRPdZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_coordonneecom?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPapq_Ee-7z7pmqdWxtw" name="id_coordonneecom"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgRPbJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgRPbZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -2371,12 +2308,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgR0pZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgR0ppq_Ee-7z7pmqdWxtw" name="pksa_t_ti_coordonneecom">
-        <node defType="com.stambia.rdbms.colref" id="_lgR0p5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR0qJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgRPbJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgR0qZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR0qpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgRPdZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_coordonneecom?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR0p5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgR0qZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgGOj5q_Ee-7z7pmqdWxtw" name="sa_t_no_categorie_juridique">
@@ -2384,9 +2317,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgGOkZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgGOkpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_categorie_juridique">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgGOk5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgGOlJq_Ee-7z7pmqdWxtw" name="categorie_juridique_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgGOlZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgGOn5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=categorie_juridique_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgGOlJq_Ee-7z7pmqdWxtw" name="categorie_juridique_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgGOlpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgGOl5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -2609,12 +2540,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgGPW5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgGPXJq_Ee-7z7pmqdWxtw" name="pksa_t_no_categorie_juridique">
-        <node defType="com.stambia.rdbms.colref" id="_lgGPXZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgGPXpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgGOlpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgGPX5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgGPYJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgGOn5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=categorie_juridique_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgGPXZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgGPX5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIqOZq_Ee-7z7pmqdWxtw" name="sa_pays_residence">
@@ -2622,9 +2549,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIqO5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIqPJq_Ee-7z7pmqdWxtw" name="i1sa_pays_residence">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIqPZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIqPpq_Ee-7z7pmqdWxtw" name="pays_residence_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIqP5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgIqSZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pays_residence_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIqPpq_Ee-7z7pmqdWxtw" name="pays_residence_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIqQJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIqQZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -2837,12 +2762,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIq_Jq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIq_Zq_Ee-7z7pmqdWxtw" name="pksa_pays_residence">
-        <node defType="com.stambia.rdbms.colref" id="_lgIq_pq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIq_5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgIqQJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIrAJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIrAZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIqSZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pays_residence_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIq_pq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIrAJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIrApq_Ee-7z7pmqdWxtw" name="sa_t_no_naturecompte">
@@ -2850,9 +2771,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIrBJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIrBZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_naturecompte">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIrBpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIrB5q_Ee-7z7pmqdWxtw" name="id_nature_compte">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIrCJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIrEpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_nature_compte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIrB5q_Ee-7z7pmqdWxtw" name="id_nature_compte"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIrCZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIrCpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -3065,12 +2984,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIrxZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIrxpq_Ee-7z7pmqdWxtw" name="pksa_t_no_naturecompte">
-        <node defType="com.stambia.rdbms.colref" id="_lgIrx5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIryJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIrCZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIryZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIrypq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIrEpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_nature_compte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIrx5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIryZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgHb_Jq_Ee-7z7pmqdWxtw" name="sa_t_no_code_naf">
@@ -3078,15 +2993,11 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgHb_pq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgHb_5q_Ee-7z7pmqdWxtw" name="fksa_code_nafs_regroupement_na">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgHcAJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgHcAZq_Ee-7z7pmqdWxtw" name="f_regroupement_naf">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHcApq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHdDJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_regroupement_naf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHcAZq_Ee-7z7pmqdWxtw" name="f_regroupement_naf"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgHcA5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_code_naf">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgHcBJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgHcBZq_Ee-7z7pmqdWxtw" name="code_nafid">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHcBpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHcEJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=code_nafid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHcBZq_Ee-7z7pmqdWxtw" name="code_nafid"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgHcB5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgHcCJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -3399,12 +3310,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgHdHZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgHdHpq_Ee-7z7pmqdWxtw" name="pksa_t_no_code_naf">
-        <node defType="com.stambia.rdbms.colref" id="_lgHdH5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHdIJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHcB5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgHdIZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHdIpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHcEJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=code_nafid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHdH5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgHdIZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgHdI5q_Ee-7z7pmqdWxtw" name="sa_t_no_typevoie">
@@ -3412,9 +3319,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgHdJZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgHdJpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_typevoie">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgHdJ5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgHdKJq_Ee-7z7pmqdWxtw" name="id_typevoie">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHdKZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHdM5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typevoie?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHdKJq_Ee-7z7pmqdWxtw" name="id_typevoie"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgHdKpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgHdK5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -3627,12 +3532,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgHd5pq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgHd55q_Ee-7z7pmqdWxtw" name="pksa_t_no_typevoie">
-        <node defType="com.stambia.rdbms.colref" id="_lgHd6Jq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHd6Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHdKpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgHd6pq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHd65q_Ee-7z7pmqdWxtw" ref="resource.md#_lgHdM5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typevoie?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHd6Jq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgHd6pq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJ4t5q_Ee-7z7pmqdWxtw" name="sa_t_no_motifrejetscreening">
@@ -3640,9 +3541,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJ4uZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJ4upq_Ee-7z7pmqdWxtw" name="i1sa_t_no_motifrejetscreening">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ4u5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ4vJq_Ee-7z7pmqdWxtw" name="id_motifrejetscreening">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ4vZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ4x5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_motifrejetscreening?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ4vJq_Ee-7z7pmqdWxtw" name="id_motifrejetscreening"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJ4vpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJ4v5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -3845,12 +3744,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJ5cZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJ5cpq_Ee-7z7pmqdWxtw" name="pksa_t_no_motifrejetscreening">
-        <node defType="com.stambia.rdbms.colref" id="_lgJ5c5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ5dJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ4vpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ5dZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ5dpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ4x5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_motifrejetscreening?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ5c5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ5dZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgEYppq_Ee-7z7pmqdWxtw" name="sa_t_no_famille_cofinancier">
@@ -3858,9 +3753,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgEYqJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgEYqZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_famille_cofinancier">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgEYqpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgEYq5q_Ee-7z7pmqdWxtw" name="famille_cofinancier_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgEYrJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgEYtpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=famille_cofinancier_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgEYq5q_Ee-7z7pmqdWxtw" name="famille_cofinancier_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgEYrZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgEYrpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -4163,12 +4056,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgFAEJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgFAEZq_Ee-7z7pmqdWxtw" name="pksa_t_no_famille_cofinancier">
-        <node defType="com.stambia.rdbms.colref" id="_lgFAEpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFAE5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgEYrZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgFAFJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFAFZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgEYtpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=famille_cofinancier_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFAEpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgFAFJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgR1WZq_Ee-7z7pmqdWxtw" name="sa_pays_naissance">
@@ -4176,9 +4065,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgR1W5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgR1XJq_Ee-7z7pmqdWxtw" name="i1sa_pays_naissance">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR1XZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR1Xpq_Ee-7z7pmqdWxtw" name="pays_naissance_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR1X5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR1aZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pays_naissance_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR1Xpq_Ee-7z7pmqdWxtw" name="pays_naissance_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgR1YJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgR1YZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -4361,12 +4248,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgR2AZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgR2Apq_Ee-7z7pmqdWxtw" name="pksa_pays_naissance">
-        <node defType="com.stambia.rdbms.colref" id="_lgR2A5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR2BJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR1YJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgR2BZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR2Bpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR1aZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pays_naissance_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR2A5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgR2BZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLHq5q_Ee-7z7pmqdWxtw" name="sa_t_ti_interlocuteur">
@@ -4374,15 +4257,11 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLHrZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLHrpq_Ee-7z7pmqdWxtw" name="fksa_interlocuteurs_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLHr5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLHsJq_Ee-7z7pmqdWxtw" name="f_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLHsZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLIjpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLHsJq_Ee-7z7pmqdWxtw" name="f_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgLHspq_Ee-7z7pmqdWxtw" name="i1sa_t_ti_interlocuteur">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLHs5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLHtJq_Ee-7z7pmqdWxtw" name="id_interlocuteur">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLHtZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLHv5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_interlocuteur?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLHtJq_Ee-7z7pmqdWxtw" name="id_interlocuteur"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLHtpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLHt5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -4645,12 +4524,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLIn5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLIoJq_Ee-7z7pmqdWxtw" name="pksa_t_ti_interlocuteur">
-        <node defType="com.stambia.rdbms.colref" id="_lgLIoZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLIopq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLHtpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLIo5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLIpJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLHv5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_interlocuteur?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLIoZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLIo5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgSdLJq_Ee-7z7pmqdWxtw" name="sa_t_no_classement_lme">
@@ -4658,9 +4533,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgSdLpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgSdL5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_classement_lme">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSdMJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSdMZq_Ee-7z7pmqdWxtw" name="classement_lmeid">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSdMpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSdPJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=classement_lmeid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSdMZq_Ee-7z7pmqdWxtw" name="classement_lmeid"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgSdM5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgSdNJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -4873,12 +4746,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgSd75q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgSd8Jq_Ee-7z7pmqdWxtw" name="pksa_t_no_classement_lme">
-        <node defType="com.stambia.rdbms.colref" id="_lgSd8Zq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSd8pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSdM5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgSd85q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSd9Jq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSdPJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=classement_lmeid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSd8Zq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgSd85q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgFoyJq_Ee-7z7pmqdWxtw" name="sa_t_ti_identifiant_externe">
@@ -5146,21 +5015,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgTDHJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgTDHZq_Ee-7z7pmqdWxtw" name="fksa_entites_entite_du_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgTDHpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgTDH5q_Ee-7z7pmqdWxtw" name="f_entite_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTDIJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTD75q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_entite_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTDH5q_Ee-7z7pmqdWxtw" name="f_entite_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgTDIZq_Ee-7z7pmqdWxtw" name="fksa_entites_entite_utilisant2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgTDIpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgTDI5q_Ee-7z7pmqdWxtw" name="f_entite_utilisant_la_natur">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTDJJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTD3Zq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_entite_utilisant_la_natur?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTDI5q_Ee-7z7pmqdWxtw" name="f_entite_utilisant_la_natur"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgTDJZq_Ee-7z7pmqdWxtw" name="i1sa_entite">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgTDJpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgTDJ5q_Ee-7z7pmqdWxtw" name="entite_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTDKJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTDMpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=entite_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTDJ5q_Ee-7z7pmqdWxtw" name="entite_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgTDKZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgTDKpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -5403,12 +5266,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgTEAJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgTEAZq_Ee-7z7pmqdWxtw" name="pksa_entite">
-        <node defType="com.stambia.rdbms.colref" id="_lgTEApq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTEA5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgTDKZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgTEBJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTEBZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTDMpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=entite_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTEApq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgTEBJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIDepq_Ee-7z7pmqdWxtw" name="sa_param_cat_tiers_agent_eco">
@@ -5416,21 +5275,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIDfJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIDfZq_Ee-7z7pmqdWxtw" name="fksa_param_cat_tiers_agent_ec2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIDfpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIDf5q_Ee-7z7pmqdWxtw" name="f_cat_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIDgJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIEYZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_cat_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIDf5q_Ee-7z7pmqdWxtw" name="f_cat_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgIDgZq_Ee-7z7pmqdWxtw" name="fksa_param_cat_tiers_agent_eco">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIDgpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIDg5q_Ee-7z7pmqdWxtw" name="f_agent_economique">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIDhJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIET5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_agent_economique?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIDg5q_Ee-7z7pmqdWxtw" name="f_agent_economique"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgIDhZq_Ee-7z7pmqdWxtw" name="i1sa_param_cat_tiers_agent_eco">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIDhpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIDh5q_Ee-7z7pmqdWxtw" name="param_cat_tiers_agent_eco">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIDiJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIDkpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=param_cat_tiers_agent_eco?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIDh5q_Ee-7z7pmqdWxtw" name="param_cat_tiers_agent_eco"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIDiZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIDipq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -5693,12 +5546,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIEcpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIEc5q_Ee-7z7pmqdWxtw" name="pksa_param_cat_tiers_agent_eco">
-        <node defType="com.stambia.rdbms.colref" id="_lgIEdJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIEdZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIDiZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIEdpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIEd5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgIDkpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=param_cat_tiers_agent_eco?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIEdJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIEdpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJ7cJq_Ee-7z7pmqdWxtw" name="sa_t_no_agence">
@@ -5706,21 +5555,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJ7cpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJ7c5q_Ee-7z7pmqdWxtw" name="fksa_agences_banque">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ7dJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ7dZq_Ee-7z7pmqdWxtw" name="f_banque">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ7dpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKgJ5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_banque?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ7dZq_Ee-7z7pmqdWxtw" name="f_banque"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgJ7d5q_Ee-7z7pmqdWxtw" name="fksa_agences_pays">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ7eJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ7eZq_Ee-7z7pmqdWxtw" name="f_pays">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ7epq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKgFZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_pays?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ7eZq_Ee-7z7pmqdWxtw" name="f_pays"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgJ7e5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_agence">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ7fJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ7fZq_Ee-7z7pmqdWxtw" name="id_agence">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ7fpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ7iJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_agence?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ7fZq_Ee-7z7pmqdWxtw" name="id_agence"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJ7f5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJ7gJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -6023,12 +5866,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgKgOJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgKgOZq_Ee-7z7pmqdWxtw" name="pksa_t_no_agence">
-        <node defType="com.stambia.rdbms.colref" id="_lgKgOpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKgO5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ7f5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgKgPJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKgPZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ7iJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_agence?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKgOpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgKgPJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgR20Jq_Ee-7z7pmqdWxtw" name="sa_t_ti_entiteutilisantnatur">
@@ -6036,21 +5875,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgR20pq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgR205q_Ee-7z7pmqdWxtw" name="fksa_entite_utilisant_la_natu3">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR21Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR21Zq_Ee-7z7pmqdWxtw" name="f_nature_de_relation_du_tie">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR21pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR3pZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_nature_de_relation_du_tie?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR21Zq_Ee-7z7pmqdWxtw" name="f_nature_de_relation_du_tie"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgR215q_Ee-7z7pmqdWxtw" name="fksa_entite_utilisant_la_natur">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR22Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR22Zq_Ee-7z7pmqdWxtw" name="f_entite">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR22pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR3k5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_entite?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR22Zq_Ee-7z7pmqdWxtw" name="f_entite"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgR225q_Ee-7z7pmqdWxtw" name="i1sa_t_ti_entiteutilisantnatur">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR23Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR23Zq_Ee-7z7pmqdWxtw" name="id_entiteutilisantnature">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR23pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR26Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_entiteutilisantnature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR23Zq_Ee-7z7pmqdWxtw" name="id_entiteutilisantnature"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgR235q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgR24Jq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -6293,12 +6126,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgR3tpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgR3t5q_Ee-7z7pmqdWxtw" name="pksa_t_ti_entiteutilisantnatur">
-        <node defType="com.stambia.rdbms.colref" id="_lgR3uJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR3uZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR235q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgR3upq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR3u5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR26Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_entiteutilisantnature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR3uJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgR3upq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJ5d5q_Ee-7z7pmqdWxtw" name="sa_t_no_groupe_cofinancier">
@@ -6306,15 +6135,11 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJ5eZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJ5epq_Ee-7z7pmqdWxtw" name="fksa_groupe_cofinanciers_categ">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ5e5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ5fJq_Ee-7z7pmqdWxtw" name="f_categorie_cofinancier">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ5fZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ6mZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_categorie_cofinancier?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ5fJq_Ee-7z7pmqdWxtw" name="f_categorie_cofinancier"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgJ5fpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_groupe_cofinancier">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ5f5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ5gJq_Ee-7z7pmqdWxtw" name="groupe_cofinancier_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ5gZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ5i5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=groupe_cofinancier_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ5gJq_Ee-7z7pmqdWxtw" name="groupe_cofinancier_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJ5gpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJ5g5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -6647,12 +6472,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJ6qpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJ6q5q_Ee-7z7pmqdWxtw" name="pksa_t_no_groupe_cofinancier">
-        <node defType="com.stambia.rdbms.colref" id="_lgJ6rJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ6rZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ5gpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ6rpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ6r5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ5i5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=groupe_cofinancier_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ6rJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ6rpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIEeJq_Ee-7z7pmqdWxtw" name="sa_t_no_soussectionnaf">
@@ -6660,15 +6481,11 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIEepq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIEe5q_Ee-7z7pmqdWxtw" name="fksa_sous_section_nafs_section">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIEfJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIEfZq_Ee-7z7pmqdWxtw" name="f_section_naf">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIEfpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIFiJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_section_naf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIEfZq_Ee-7z7pmqdWxtw" name="f_section_naf"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgIEf5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_soussectionnaf">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIEgJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIEgZq_Ee-7z7pmqdWxtw" name="id_soussectionnaf">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIEgpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIEjJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_soussectionnaf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIEgZq_Ee-7z7pmqdWxtw" name="id_soussectionnaf"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIEg5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIEhJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -6981,12 +6798,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIFmZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIFmpq_Ee-7z7pmqdWxtw" name="pksa_t_no_soussectionnaf">
-        <node defType="com.stambia.rdbms.colref" id="_lgIFm5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIFnJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIEg5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIFnZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIFnpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIEjJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_soussectionnaf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIFm5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIFnZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIs6Zq_Ee-7z7pmqdWxtw" name="sa_param_agent_eco_cat_jur">
@@ -6994,21 +6807,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIs65q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIs7Jq_Ee-7z7pmqdWxtw" name="fksa_param_agent_eco_cat_jurs2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIs7Zq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIs7pq_Ee-7z7pmqdWxtw" name="f_categorie_juridique">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIs75q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJRJ5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_categorie_juridique?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIs7pq_Ee-7z7pmqdWxtw" name="f_categorie_juridique"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgIs8Jq_Ee-7z7pmqdWxtw" name="fksa_param_agent_eco_cat_jurs_">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIs8Zq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIs8pq_Ee-7z7pmqdWxtw" name="f_agent_economique">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIs85q_Ee-7z7pmqdWxtw" ref="resource.md#_lgItvpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_agent_economique?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIs8pq_Ee-7z7pmqdWxtw" name="f_agent_economique"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgIs9Jq_Ee-7z7pmqdWxtw" name="i1sa_param_agent_eco_cat_jur">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIs9Zq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIs9pq_Ee-7z7pmqdWxtw" name="param_agent_eco_cat_jur_i">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIs95q_Ee-7z7pmqdWxtw" ref="resource.md#_lgItAZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=param_agent_eco_cat_jur_i?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIs9pq_Ee-7z7pmqdWxtw" name="param_agent_eco_cat_jur_i"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIs-Jq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIs-Zq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -7271,12 +7078,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJROJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJROZq_Ee-7z7pmqdWxtw" name="pksa_param_agent_eco_cat_jur">
-        <node defType="com.stambia.rdbms.colref" id="_lgJROpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJRO5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgIs-Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJRPJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJRPZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgItAZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=param_agent_eco_cat_jur_i?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJROpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJRPJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgG2CJq_Ee-7z7pmqdWxtw" name="sa_fournisseur_externe">
@@ -7284,9 +7087,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgG2Cpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgG2C5q_Ee-7z7pmqdWxtw" name="i1sa_fournisseur_externe">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgG2DJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgG2DZq_Ee-7z7pmqdWxtw" name="fournisseur_externe_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgG2Dpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgG2GJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=fournisseur_externe_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgG2DZq_Ee-7z7pmqdWxtw" name="fournisseur_externe_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgG2D5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgG2EJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -7489,12 +7290,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgHb9pq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgHb95q_Ee-7z7pmqdWxtw" name="pksa_fournisseur_externe">
-        <node defType="com.stambia.rdbms.colref" id="_lgHb-Jq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHb-Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgG2D5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgHb-pq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHb-5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgG2GJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=fournisseur_externe_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHb-Jq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgHb-pq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJTvJq_Ee-7z7pmqdWxtw" name="sa_t_no_role">
@@ -7502,9 +7299,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJTvpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJTv5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_role">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJTwJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJTwZq_Ee-7z7pmqdWxtw" name="id_role">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJTwpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJTzJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_role?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJTwZq_Ee-7z7pmqdWxtw" name="id_role"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJTw5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJTxJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -7707,12 +7502,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJUdpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJUd5q_Ee-7z7pmqdWxtw" name="pksa_t_no_role">
-        <node defType="com.stambia.rdbms.colref" id="_lgJUeJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJUeZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJTw5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJUepq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJUe5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJTzJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_role?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJUeJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJUepq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgFAFpq_Ee-7z7pmqdWxtw" name="sa_t_no_pays">
@@ -7720,9 +7511,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgFAGJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgFAGZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_pays">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgFAGpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgFAG5q_Ee-7z7pmqdWxtw" name="pays_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFAHJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgFAJpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pays_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFAG5q_Ee-7z7pmqdWxtw" name="pays_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgFAHZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgFAHpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -8125,12 +7914,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgFBhJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgFBhZq_Ee-7z7pmqdWxtw" name="pksa_t_no_pays">
-        <node defType="com.stambia.rdbms.colref" id="_lgFBhpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFBh5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgFAHZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgFBiJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFBiZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgFAJpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pays_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFBhpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgFBiJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgRNspq_Ee-7z7pmqdWxtw" name="sa_t_no_agent_economique">
@@ -8138,9 +7923,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgRNtJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgRNtZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_agent_economique">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgRNtpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgRNt5q_Ee-7z7pmqdWxtw" name="id_agenteconomique">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRNuJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgRNwpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_agenteconomique?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRNt5q_Ee-7z7pmqdWxtw" name="id_agenteconomique"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgRNuZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgRNupq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -8363,12 +8146,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgROfpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgROf5q_Ee-7z7pmqdWxtw" name="pksa_t_no_agent_economique">
-        <node defType="com.stambia.rdbms.colref" id="_lgROgJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgROgZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgRNuZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgROgpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgROg5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgRNwpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_agenteconomique?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgROgJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgROgpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLIpZq_Ee-7z7pmqdWxtw" name="sa_t_no_code_nace">
@@ -8376,9 +8155,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLIp5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLIqJq_Ee-7z7pmqdWxtw" name="i1sa_t_no_code_nace">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLIqZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLIqpq_Ee-7z7pmqdWxtw" name="code_nace_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLIq5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgLItZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=code_nace_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLIqpq_Ee-7z7pmqdWxtw" name="code_nace_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLIrJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLIrZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -8581,12 +8358,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLJX5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLJYJq_Ee-7z7pmqdWxtw" name="pksa_t_no_code_nace">
-        <node defType="com.stambia.rdbms.colref" id="_lgLJYZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLJYpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLIrJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLJY5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLJZJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLItZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=code_nace_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLJYZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLJY5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgG1Npq_Ee-7z7pmqdWxtw" name="sa_t_no_cat_tiers">
@@ -8594,9 +8367,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgG1OJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgG1OZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_cat_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgG1Opq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgG1O5q_Ee-7z7pmqdWxtw" name="cat_tiers_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgG1PJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgG1Rpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=cat_tiers_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgG1O5q_Ee-7z7pmqdWxtw" name="cat_tiers_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgG1PZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgG1Ppq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -8819,12 +8590,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgG2Apq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgG2A5q_Ee-7z7pmqdWxtw" name="pksa_t_no_cat_tiers">
-        <node defType="com.stambia.rdbms.colref" id="_lgG2BJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgG2BZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgG1PZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgG2Bpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgG2B5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgG1Rpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=cat_tiers_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgG2BJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgG2Bpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJRPpq_Ee-7z7pmqdWxtw" name="sa_t_no_typetiers">
@@ -8832,9 +8599,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJRQJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJRQZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_typetiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJRQpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJRQ5q_Ee-7z7pmqdWxtw" name="id_typetiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJRRJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJRTpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typetiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJRQ5q_Ee-7z7pmqdWxtw" name="id_typetiers"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJRRZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJRRpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -9047,12 +8812,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJSAZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJSApq_Ee-7z7pmqdWxtw" name="pksa_t_no_typetiers">
-        <node defType="com.stambia.rdbms.colref" id="_lgJSA5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJSBJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJRRZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJSBZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJSBpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJRTpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typetiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJSA5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJSBZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgSbQpq_Ee-7z7pmqdWxtw" name="sa_t_ti_naturerelation">
@@ -9060,33 +8821,23 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgSbRJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgSbRZq_Ee-7z7pmqdWxtw" name="fksa_nature_de_relation_du_ti2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSbRpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSbR5q_Ee-7z7pmqdWxtw" name="f_type_nature_relation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbSJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgScDZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_nature_relation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbR5q_Ee-7z7pmqdWxtw" name="f_type_nature_relation"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgSbSZq_Ee-7z7pmqdWxtw" name="fksa_nature_de_relation_du_ti3">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSbSpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSbS5q_Ee-7z7pmqdWxtw" name="f_tiersnature">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbTJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgScMZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiersnature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbS5q_Ee-7z7pmqdWxtw" name="f_tiersnature"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgSbTZq_Ee-7z7pmqdWxtw" name="fksa_nature_de_relation_du_ti4">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSbTpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSbT5q_Ee-7z7pmqdWxtw" name="f_type_role_nature_relation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbUJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgScQ5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_role_nature_relation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbT5q_Ee-7z7pmqdWxtw" name="f_type_role_nature_relation"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgSbUZq_Ee-7z7pmqdWxtw" name="fksa_nature_de_relation_du_tie">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSbUpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSbU5q_Ee-7z7pmqdWxtw" name="f_role_par_nature_de_relati">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbVJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgScH5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_role_par_nature_de_relati?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbU5q_Ee-7z7pmqdWxtw" name="f_role_par_nature_de_relati"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgSbVZq_Ee-7z7pmqdWxtw" name="i1sa_t_ti_naturerelation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSbVpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSbV5q_Ee-7z7pmqdWxtw" name="id_naturerelation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbWJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSbYpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_naturerelation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbV5q_Ee-7z7pmqdWxtw" name="id_naturerelation"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgSbWZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgSbWpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -9379,12 +9130,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgScXZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgScXpq_Ee-7z7pmqdWxtw" name="pksa_t_ti_naturerelation">
-        <node defType="com.stambia.rdbms.colref" id="_lgScX5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgScYJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSbWZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgScYZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgScYpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSbYpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_naturerelation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgScX5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgScYZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgM7lpq_Ee-7z7pmqdWxtw" name="sa_t_ti_tiers">
@@ -10741,12 +10488,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgRNrJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgRNrZq_Ee-7z7pmqdWxtw" name="pksa_t_ti_tiers">
-        <node defType="com.stambia.rdbms.colref" id="_lgRNrpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRNr5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgM7mZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgRNsJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRNsZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgM7opq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRNrpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgRNsJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgMW5Jq_Ee-7z7pmqdWxtw" name="sa_t_no_code_pcs">
@@ -10754,9 +10497,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgMW5pq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgMW55q_Ee-7z7pmqdWxtw" name="i1sa_t_no_code_pcs">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgMW6Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgMW6Zq_Ee-7z7pmqdWxtw" name="code_pcsid">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMW6pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMW9Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=code_pcsid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMW6Zq_Ee-7z7pmqdWxtw" name="code_pcsid"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgMW65q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgMW7Jq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -10959,12 +10700,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgMXnpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgMXn5q_Ee-7z7pmqdWxtw" name="pksa_t_no_code_pcs">
-        <node defType="com.stambia.rdbms.colref" id="_lgMXoJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMXoZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMW65q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgMXopq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMXo5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgMW9Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=code_pcsid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMXoJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgMXopq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIry5q_Ee-7z7pmqdWxtw" name="sa_regroupement_naf">
@@ -10972,15 +10709,11 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIrzZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIrzpq_Ee-7z7pmqdWxtw" name="fksa_regroupement_nafs_sous_se">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIrz5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIr0Jq_Ee-7z7pmqdWxtw" name="f_sous_section_naf">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIr0Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIs0pq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_sous_section_naf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIr0Jq_Ee-7z7pmqdWxtw" name="f_sous_section_naf"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgIr0pq_Ee-7z7pmqdWxtw" name="i1sa_regroupement_naf">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIr05q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIr1Jq_Ee-7z7pmqdWxtw" name="regroupement_nafid">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIr1Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIr35q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=regroupement_nafid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIr1Jq_Ee-7z7pmqdWxtw" name="regroupement_nafid"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIr1pq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIr15q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -11283,12 +11016,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIs45q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIs5Jq_Ee-7z7pmqdWxtw" name="pksa_regroupement_naf">
-        <node defType="com.stambia.rdbms.colref" id="_lgIs5Zq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIs5pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIr1pq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIs55q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIs6Jq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIr35q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=regroupement_nafid?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIs5Zq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIs55q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgSd9Zq_Ee-7z7pmqdWxtw" name="sa_t_no_sssoussectionnaf">
@@ -11296,9 +11025,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgSd95q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgSd-Jq_Ee-7z7pmqdWxtw" name="i1sa_t_no_sssoussectionnaf">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSd-Zq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSd-pq_Ee-7z7pmqdWxtw" name="id_sssoussectionnaf">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSd-5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgSeBZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_sssoussectionnaf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSd-pq_Ee-7z7pmqdWxtw" name="id_sssoussectionnaf"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgSd_Jq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgSd_Zq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -11481,12 +11208,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgSenZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgSenpq_Ee-7z7pmqdWxtw" name="pksa_t_no_sssoussectionnaf">
-        <node defType="com.stambia.rdbms.colref" id="_lgSen5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSeoJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSd_Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgSeoZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSeopq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSeBZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_sssoussectionnaf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSen5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgSeoZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgFnnZq_Ee-7z7pmqdWxtw" name="sa_t_ti_listedocuments">
@@ -11494,21 +11217,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgFnn5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgFnoJq_Ee-7z7pmqdWxtw" name="fksa_liste_des_documents_du_ti">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgFnoZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgFnopq_Ee-7z7pmqdWxtw" name="f_tiers_parent">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFno5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgFohJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers_parent?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFnopq_Ee-7z7pmqdWxtw" name="f_tiers_parent"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgFnpJq_Ee-7z7pmqdWxtw" name="fksa_listes_docs_liste_docs">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgFnpZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgFnppq_Ee-7z7pmqdWxtw" name="f_liste_documents">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFnp5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgFocpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_liste_documents?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFnppq_Ee-7z7pmqdWxtw" name="f_liste_documents"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgFnqJq_Ee-7z7pmqdWxtw" name="i1sa_t_ti_listedocuments">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgFnqZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgFnqpq_Ee-7z7pmqdWxtw" name="id_listedocuments">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFnq5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgFntZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_listedocuments?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFnqpq_Ee-7z7pmqdWxtw" name="id_listedocuments"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgFnrJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgFnrZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -11821,12 +11538,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgFowpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgFow5q_Ee-7z7pmqdWxtw" name="pksa_t_ti_listedocuments">
-        <node defType="com.stambia.rdbms.colref" id="_lgFoxJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFoxZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgFnrJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgFoxpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFox5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgFntZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_listedocuments?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFoxJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgFoxpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLJZZq_Ee-7z7pmqdWxtw" name="sa_t_no_canalacheminement">
@@ -11834,9 +11547,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLJZ5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLJaJq_Ee-7z7pmqdWxtw" name="i1sa_t_no_canalacheminement">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLJaZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLJapq_Ee-7z7pmqdWxtw" name="id_canalacheminement">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLJa5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgLJdZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_canalacheminement?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLJapq_Ee-7z7pmqdWxtw" name="id_canalacheminement"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLJbJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLJbZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -12049,12 +11760,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLthpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLth5q_Ee-7z7pmqdWxtw" name="pksa_t_no_canalacheminement">
-        <node defType="com.stambia.rdbms.colref" id="_lgLtiJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLtiZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLJbJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLtipq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLti5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgLJdZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_canalacheminement?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLtiJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLtipq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgFBipq_Ee-7z7pmqdWxtw" name="sa_t_no_sectionnaf">
@@ -12062,9 +11769,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgFBjJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgFBjZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_sectionnaf">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgFBjpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgFBj5q_Ee-7z7pmqdWxtw" name="id_sectionnaf">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFBkJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgFBmpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_sectionnaf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFBj5q_Ee-7z7pmqdWxtw" name="id_sectionnaf"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgFBkZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgFBkpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -12347,12 +12052,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgFnl5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgFnmJq_Ee-7z7pmqdWxtw" name="pksa_t_no_sectionnaf">
-        <node defType="com.stambia.rdbms.colref" id="_lgFnmZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFnmpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgFBkZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgFnm5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgFnnJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgFBmpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_sectionnaf?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgFnmZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgFnm5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgR3vJq_Ee-7z7pmqdWxtw" name="sa_t_no_devise">
@@ -12360,9 +12061,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgR3vpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgR3v5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_devise">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR3wJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR3wZq_Ee-7z7pmqdWxtw" name="devise_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR3wpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR3zJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=devise_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR3wZq_Ee-7z7pmqdWxtw" name="devise_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgR3w5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgR3xJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -12595,12 +12294,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgSbPJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgSbPZq_Ee-7z7pmqdWxtw" name="pksa_t_no_devise">
-        <node defType="com.stambia.rdbms.colref" id="_lgSbPpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbP5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR3w5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgSbQJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSbQZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR3zJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=devise_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbPpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgSbQJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgROhJq_Ee-7z7pmqdWxtw" name="sa_t_no_paysfiscal">
@@ -12608,9 +12303,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgROhpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgROh5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_paysfiscal">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgROiJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgROiZq_Ee-7z7pmqdWxtw" name="id_paysfiscal">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgROipq_Ee-7z7pmqdWxtw" ref="resource.md#_lgROlJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_paysfiscal?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgROiZq_Ee-7z7pmqdWxtw" name="id_paysfiscal"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgROi5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgROjJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -12823,12 +12516,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgRPR5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgRPSJq_Ee-7z7pmqdWxtw" name="pksa_t_no_paysfiscal">
-        <node defType="com.stambia.rdbms.colref" id="_lgRPSZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPSpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgROi5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgRPS5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgRPTJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgROlJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_paysfiscal?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPSZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgRPS5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgKhB5q_Ee-7z7pmqdWxtw" name="sa_t_ti_banque">
@@ -12836,51 +12525,35 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgKhCZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgKhCpq_Ee-7z7pmqdWxtw" name="fksa_banques_devise">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhC5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhDJq_Ee-7z7pmqdWxtw" name="f_devise">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhDZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKiC5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_devise?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhDJq_Ee-7z7pmqdWxtw" name="f_devise"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhDpq_Ee-7z7pmqdWxtw" name="fksa_banques_nature_compte">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhD5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhEJq_Ee-7z7pmqdWxtw" name="f_nature_compte">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhEZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLGcpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_nature_compte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhEJq_Ee-7z7pmqdWxtw" name="f_nature_compte"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhEpq_Ee-7z7pmqdWxtw" name="fksa_banques_pays">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhE5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhFJq_Ee-7z7pmqdWxtw" name="f_pays">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhFZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKh-Zq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_pays?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhFJq_Ee-7z7pmqdWxtw" name="f_pays"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhFpq_Ee-7z7pmqdWxtw" name="fksa_banques_pays_compte">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhF5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhGJq_Ee-7z7pmqdWxtw" name="f_pays_compte">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhGZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKi7Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_pays_compte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhGJq_Ee-7z7pmqdWxtw" name="f_pays_compte"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhGpq_Ee-7z7pmqdWxtw" name="fksa_banques_pays_swift">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhG5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhHJq_Ee-7z7pmqdWxtw" name="f_pays_swift">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhHZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLGYJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_pays_swift?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhHJq_Ee-7z7pmqdWxtw" name="f_pays_swift"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhHpq_Ee-7z7pmqdWxtw" name="fksa_banques_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhH5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhIJq_Ee-7z7pmqdWxtw" name="f_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhIZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKiHZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhIJq_Ee-7z7pmqdWxtw" name="f_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhIpq_Ee-7z7pmqdWxtw" name="fksa_banques_type_utilisation_">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhI5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhJJq_Ee-7z7pmqdWxtw" name="f_type_utilisation_compte">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhJZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLGhJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_utilisation_compte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhJJq_Ee-7z7pmqdWxtw" name="f_type_utilisation_compte"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgKhJpq_Ee-7z7pmqdWxtw" name="i1sa_t_ti_banque">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgKhJ5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgKhKJq_Ee-7z7pmqdWxtw" name="id_banque">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgKhKZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKhM5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_banque?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgKhKJq_Ee-7z7pmqdWxtw" name="id_banque"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgKhKpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgKhK5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -13503,12 +13176,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLGuZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLGupq_Ee-7z7pmqdWxtw" name="pksa_t_ti_banque">
-        <node defType="com.stambia.rdbms.colref" id="_lgLGu5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLGvJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKhKpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLGvZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLGvpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgKhM5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_banque?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLGu5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLGvZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgR0q5q_Ee-7z7pmqdWxtw" name="sa_t_no_typeong">
@@ -13516,9 +13185,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgR0rZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgR0rpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_typeong">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR0r5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR0sJq_Ee-7z7pmqdWxtw" name="id_typeong">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR0sZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0u5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typeong?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR0sJq_Ee-7z7pmqdWxtw" name="id_typeong"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgR0spq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgR0s5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -13701,12 +13368,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgR1U5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgR1VJq_Ee-7z7pmqdWxtw" name="pksa_t_no_typeong">
-        <node defType="com.stambia.rdbms.colref" id="_lgR1VZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR1Vpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0spq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgR1V5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR1WJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR0u5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typeong?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR1VZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgR1V5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLwApq_Ee-7z7pmqdWxtw" name="sa_t_no_typeutilicompte">
@@ -13714,9 +13377,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLwBJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLwBZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_typeutilicompte">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLwBpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLwB5q_Ee-7z7pmqdWxtw" name="id_typeutilisationcompte">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLwCJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLwEpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typeutilisationcompte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLwB5q_Ee-7z7pmqdWxtw" name="id_typeutilisationcompte"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLwCZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLwCpq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -13929,12 +13590,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLwxZq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLwxpq_Ee-7z7pmqdWxtw" name="pksa_t_no_typeutilicompte">
-        <node defType="com.stambia.rdbms.colref" id="_lgLwx5q_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLwyJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLwCZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLwyZq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLwypq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLwEpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typeutilisationcompte?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLwx5q_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLwyZq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgSeo5q_Ee-7z7pmqdWxtw" name="sa_t_ti_rolenature">
@@ -13942,21 +13599,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgSepZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgSeppq_Ee-7z7pmqdWxtw" name="fksa_nature_de_relation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSep5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSeqJq_Ee-7z7pmqdWxtw" name="f_nature_de_relation_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSeqZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTCKZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_nature_de_relation_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSeqJq_Ee-7z7pmqdWxtw" name="f_nature_de_relation_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgSeqpq_Ee-7z7pmqdWxtw" name="fksa_role_par_nature_de_relat2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSeq5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSerJq_Ee-7z7pmqdWxtw" name="f_type_role_nature_relation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSerZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSfZpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_role_nature_relation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSerJq_Ee-7z7pmqdWxtw" name="f_type_role_nature_relation"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgSerpq_Ee-7z7pmqdWxtw" name="i1sa_t_ti_rolenature">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgSer5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgSesJq_Ee-7z7pmqdWxtw" name="id_rolenature">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgSesZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSeu5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_rolenature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgSesJq_Ee-7z7pmqdWxtw" name="id_rolenature"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgSespq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgSes5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -14199,12 +13850,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgTCOpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgTCO5q_Ee-7z7pmqdWxtw" name="pksa_t_ti_rolenature">
-        <node defType="com.stambia.rdbms.colref" id="_lgTCPJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTCPZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgSespq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgTCPpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTCP5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgSeu5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_rolenature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTCPJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgTCPpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgHempq_Ee-7z7pmqdWxtw" name="sa_t_no_paysswift">
@@ -14212,9 +13859,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgHenJq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgHenZq_Ee-7z7pmqdWxtw" name="i1sa_t_no_paysswift">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgHenpq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgHen5q_Ee-7z7pmqdWxtw" name="id_paysswift">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgHeoJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHeqpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_paysswift?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgHen5q_Ee-7z7pmqdWxtw" name="id_paysswift"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgHeoZq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgHeopq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -14427,12 +14072,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIDdJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIDdZq_Ee-7z7pmqdWxtw" name="pksa_t_no_paysswift">
-        <node defType="com.stambia.rdbms.colref" id="_lgIDdpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIDd5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgHeoZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIDeJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIDeZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgHeqpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_paysswift?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIDdpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIDeJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgTCQJq_Ee-7z7pmqdWxtw" name="sa_param_role_categorie_tier">
@@ -14440,21 +14081,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgTCQpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgTCQ5q_Ee-7z7pmqdWxtw" name="fksa_param_role_categorie_tie2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgTCRJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgTCRZq_Ee-7z7pmqdWxtw" name="f_categorie">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTCRpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTDA5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_categorie?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTCRZq_Ee-7z7pmqdWxtw" name="f_categorie"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgTCR5q_Ee-7z7pmqdWxtw" name="fksa_param_role_categorie_tier">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgTCSJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgTCSZq_Ee-7z7pmqdWxtw" name="f_role">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTCSpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTC8Zq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_role?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTCSZq_Ee-7z7pmqdWxtw" name="f_role"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgTCS5q_Ee-7z7pmqdWxtw" name="i1sa_param_role_categorie_tier">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgTCTJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgTCTZq_Ee-7z7pmqdWxtw" name="param_role_categorie_tier">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTCTpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTCWJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=param_role_categorie_tier?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTCTZq_Ee-7z7pmqdWxtw" name="param_role_categorie_tier"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgTCT5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgTCUJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -14677,12 +14312,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgTDFJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgTDFZq_Ee-7z7pmqdWxtw" name="pksa_param_role_categorie_tier">
-        <node defType="com.stambia.rdbms.colref" id="_lgTDFpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTDF5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgTCT5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgTDGJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgTDGZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgTCWJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=param_role_categorie_tier?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgTDFpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgTDGJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgGPYZq_Ee-7z7pmqdWxtw" name="sa_t_no_categorie_tiers">
@@ -14690,21 +14321,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgGPY5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgGPZJq_Ee-7z7pmqdWxtw" name="fksa_categorie_tierses_cat_tie">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgGPZZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgGPZpq_Ee-7z7pmqdWxtw" name="f_cat_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgGPZ5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgG1H5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_cat_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgGPZpq_Ee-7z7pmqdWxtw" name="f_cat_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgGPaJq_Ee-7z7pmqdWxtw" name="fksa_categorie_tierses_type_ro">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgGPaZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgGPapq_Ee-7z7pmqdWxtw" name="f_type_role_nature_relation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgGPa5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgG1BJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_role_nature_relation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgGPapq_Ee-7z7pmqdWxtw" name="f_type_role_nature_relation"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgGPbJq_Ee-7z7pmqdWxtw" name="i1sa_t_no_categorie_tiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgGPbZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgGPbpq_Ee-7z7pmqdWxtw" name="categorie_tiers_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgGPb5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgGPeZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=categorie_tiers_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgGPbpq_Ee-7z7pmqdWxtw" name="categorie_tiers_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgGPcJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgGPcZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -14957,12 +14582,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgG1MJq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgG1MZq_Ee-7z7pmqdWxtw" name="pksa_t_no_categorie_tiers">
-        <node defType="com.stambia.rdbms.colref" id="_lgG1Mpq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgG1M5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgGPcJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgG1NJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgG1NZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgGPeZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=categorie_tiers_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgG1Mpq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgG1NJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJS0Jq_Ee-7z7pmqdWxtw" name="sa_ti_no_type_role_nature">
@@ -14970,21 +14591,15 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJS0pq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJS05q_Ee-7z7pmqdWxtw" name="fksa_type_role_nature_relatio2">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJS1Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJS1Zq_Ee-7z7pmqdWxtw" name="f_type_tiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJS1pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJTpZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_tiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJS1Zq_Ee-7z7pmqdWxtw" name="f_type_tiers"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgJS15q_Ee-7z7pmqdWxtw" name="fksa_type_role_nature_relation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJS2Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJS2Zq_Ee-7z7pmqdWxtw" name="f_type_nature_relation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJS2pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJTk5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_type_nature_relation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJS2Zq_Ee-7z7pmqdWxtw" name="f_type_nature_relation"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgJS25q_Ee-7z7pmqdWxtw" name="i1sa_ti_no_type_role_nature">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJS3Jq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJS3Zq_Ee-7z7pmqdWxtw" name="id_type_role_nature">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJS3pq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJS6Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_type_role_nature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJS3Zq_Ee-7z7pmqdWxtw" name="id_type_role_nature"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJS35q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJS4Jq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -15227,12 +14842,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJTtpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJTt5q_Ee-7z7pmqdWxtw" name="pksa_ti_no_type_role_nature">
-        <node defType="com.stambia.rdbms.colref" id="_lgJTuJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJTuZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJS35q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJTupq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJTu5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJS6Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_type_role_nature?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJTuJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJTupq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLvFZq_Ee-7z7pmqdWxtw" name="sa_t_no_listedocuments">
@@ -15240,9 +14851,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLvF5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLvGJq_Ee-7z7pmqdWxtw" name="i1sa_t_no_listedocuments">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLvGZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLvGpq_Ee-7z7pmqdWxtw" name="liste_documents_id">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLvG5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgLvJZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=liste_documents_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLvGpq_Ee-7z7pmqdWxtw" name="liste_documents_id"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLvHJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLvHZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -15495,12 +15104,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLv_Jq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLv_Zq_Ee-7z7pmqdWxtw" name="pksa_t_no_listedocuments">
-        <node defType="com.stambia.rdbms.colref" id="_lgLv_pq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLv_5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgLvHJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLwAJq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLwAZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLvJZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=liste_documents_id?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLv_pq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLwAJq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgR2B5q_Ee-7z7pmqdWxtw" name="sa_t_no_typeadresse">
@@ -15508,9 +15113,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgR2CZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgR2Cpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_typeadresse">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgR2C5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgR2DJq_Ee-7z7pmqdWxtw" name="id_typeadresse">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR2DZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR2F5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typeadresse?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR2DJq_Ee-7z7pmqdWxtw" name="id_typeadresse"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgR2Dpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgR2D5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -15723,12 +15326,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgR2ypq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgR2y5q_Ee-7z7pmqdWxtw" name="pksa_t_no_typeadresse">
-        <node defType="com.stambia.rdbms.colref" id="_lgR2zJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR2zZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgR2Dpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgR2zpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgR2z5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgR2F5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typeadresse?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgR2zJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgR2zpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgIFn5q_Ee-7z7pmqdWxtw" name="sa_t_no_statuttiers">
@@ -15736,9 +15335,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgIFoZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgIFopq_Ee-7z7pmqdWxtw" name="i1sa_t_no_statuttiers">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgIFo5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgIFpJq_Ee-7z7pmqdWxtw" name="id_statuttiers">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIFpZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIFr5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_statuttiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIFpJq_Ee-7z7pmqdWxtw" name="id_statuttiers"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgIFppq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgIFp5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -15951,12 +15548,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgIqM5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgIqNJq_Ee-7z7pmqdWxtw" name="pksa_t_no_statuttiers">
-        <node defType="com.stambia.rdbms.colref" id="_lgIqNZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIqNpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIFppq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgIqN5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgIqOJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgIFr5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_statuttiers?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgIqNZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgIqN5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJ6sJq_Ee-7z7pmqdWxtw" name="sa_t_no_typenaturerelation">
@@ -15964,9 +15557,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJ6spq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJ6s5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_typenaturerelation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJ6tJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ6tZq_Ee-7z7pmqdWxtw" name="id_typenaturerelation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ6tpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ6wJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typenaturerelation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ6tZq_Ee-7z7pmqdWxtw" name="id_typenaturerelation"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJ6t5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJ6uJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -16169,12 +15760,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJ7apq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJ7a5q_Ee-7z7pmqdWxtw" name="pksa_t_no_typenaturerelation">
-        <node defType="com.stambia.rdbms.colref" id="_lgJ7bJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ7bZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ6t5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJ7bpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJ7b5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJ6wJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_typenaturerelation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ7bJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJ7bpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgMWBZq_Ee-7z7pmqdWxtw" name="sa_t_no_categoriecofinancier">
@@ -16182,15 +15769,11 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgMWB5q_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgMWCJq_Ee-7z7pmqdWxtw" name="fksa_categorie_cofinanciers_fa">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgMWCZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgMWCpq_Ee-7z7pmqdWxtw" name="f_famille_cofinancier">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMWC5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgMWzZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_famille_cofinancier?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMWCpq_Ee-7z7pmqdWxtw" name="f_famille_cofinancier"/>
       </node>
       <node defType="com.stambia.rdbms.index" id="_lgMWDJq_Ee-7z7pmqdWxtw" name="i1sa_t_no_categoriecofinancier">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgMWDZq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgMWDpq_Ee-7z7pmqdWxtw" name="id_categoriecofinancier">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMWD5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgMWGZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_categoriecofinancier?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMWDpq_Ee-7z7pmqdWxtw" name="id_categoriecofinancier"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgMWEJq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgMWEZq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -16423,12 +16006,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgMW3pq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgMW35q_Ee-7z7pmqdWxtw" name="pksa_t_no_categoriecofinancier">
-        <node defType="com.stambia.rdbms.colref" id="_lgMW4Jq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMW4Zq_Ee-7z7pmqdWxtw" ref="resource.md#_lgMWEJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgMW4pq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgMW45q_Ee-7z7pmqdWxtw" ref="resource.md#_lgMWGZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_categoriecofinancier?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgMW4Jq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgMW4pq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLtjJq_Ee-7z7pmqdWxtw" name="sa_t_no_naturerelation">
@@ -16436,9 +16015,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLtjpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLtj5q_Ee-7z7pmqdWxtw" name="i1sa_t_no_naturerelation">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLtkJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLtkZq_Ee-7z7pmqdWxtw" name="id_naturerelation">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLtkpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLtnJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_naturerelation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLtkZq_Ee-7z7pmqdWxtw" name="id_naturerelation"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLtk5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLtlJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -16641,12 +16218,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLuRpq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLuR5q_Ee-7z7pmqdWxtw" name="pksa_t_no_naturerelation">
-        <node defType="com.stambia.rdbms.colref" id="_lgLuSJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLuSZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLtk5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLuSpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLuS5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgLtnJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_naturerelation?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLuSJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLuSpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgLuTJq_Ee-7z7pmqdWxtw" name="sa_regroupement_cofinancier">
@@ -16654,9 +16227,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgLuTpq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgLuT5q_Ee-7z7pmqdWxtw" name="i1sa_regroupement_cofinancier">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgLuUJq_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgLuUZq_Ee-7z7pmqdWxtw" name="regroupement_cofinancier_">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLuUpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLuXJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=regroupement_cofinancier_?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLuUZq_Ee-7z7pmqdWxtw" name="regroupement_cofinancier_"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgLuU5q_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgLuVJq_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -16869,12 +16440,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgLvD5q_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgLvEJq_Ee-7z7pmqdWxtw" name="pksa_regroupement_cofinancier">
-        <node defType="com.stambia.rdbms.colref" id="_lgLvEZq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLvEpq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLuU5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgLvE5q_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgLvFJq_Ee-7z7pmqdWxtw" ref="resource.md#_lgLuXJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=regroupement_cofinancier_?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgLvEZq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgLvE5q_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_lgJSB5q_Ee-7z7pmqdWxtw" name="sa_t_no_langue">
@@ -16882,9 +16449,7 @@
       <attribute defType="com.stambia.rdbms.datastore.type" id="_lgJSCZq_Ee-7z7pmqdWxtw" value="TABLE"/>
       <node defType="com.stambia.rdbms.index" id="_lgJSCpq_Ee-7z7pmqdWxtw" name="i1sa_t_no_langue">
         <attribute defType="com.stambia.rdbms.index.unique" id="_lgJSC5q_Ee-7z7pmqdWxtw" value="false"/>
-        <node defType="com.stambia.rdbms.colref" id="_lgJSDJq_Ee-7z7pmqdWxtw" name="id_langues">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJSDZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJSF5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_langues?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJSDJq_Ee-7z7pmqdWxtw" name="id_langues"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_lgJSDpq_Ee-7z7pmqdWxtw" name="b_loadid" position="1">
         <attribute defType="com.stambia.rdbms.column.name" id="_lgJSD5q_Ee-7z7pmqdWxtw" value="b_loadid"/>
@@ -17097,12 +16662,8 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_lgJSypq_Ee-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_lgJSy5q_Ee-7z7pmqdWxtw" name="pksa_t_no_langue">
-        <node defType="com.stambia.rdbms.colref" id="_lgJSzJq_Ee-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJSzZq_Ee-7z7pmqdWxtw" ref="resource.md#_lgJSDpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?"/>
-        </node>
-        <node defType="com.stambia.rdbms.colref" id="_lgJSzpq_Ee-7z7pmqdWxtw" position="2">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_lgJSz5q_Ee-7z7pmqdWxtw" ref="resource.md#_lgJSF5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_langues?"/>
-        </node>
+        <node defType="com.stambia.rdbms.colref" id="_lgJSzJq_Ee-7z7pmqdWxtw" position="1"/>
+        <node defType="com.stambia.rdbms.colref" id="_lgJSzpq_Ee-7z7pmqdWxtw" position="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_K7tTtprAEe-7z7pmqdWxtw" name="gd_t_ti_tiers">
@@ -18039,8 +17600,127 @@
         <attribute defType="com.stambia.rdbms.column.arrayType" id="_K7t7r5rAEe-7z7pmqdWxtw" value=""/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_K7t7sJrAEe-7z7pmqdWxtw" name="pkgd_t_ti_tiers">
-        <node defType="com.stambia.rdbms.colref" id="_K7t7sZrAEe-7z7pmqdWxtw" position="1">
-          <attribute defType="com.stambia.rdbms.colref.ref" id="_K7t7sprAEe-7z7pmqdWxtw" ref="resource.md#_K7tTuZrAEe-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_tiers?"/>
+        <node defType="com.stambia.rdbms.colref" id="_K7t7sZrAEe-7z7pmqdWxtw" position="1"/>
+      </node>
+    </node>
+    <node defType="com.stambia.rdbms.datastore" id="_qsWVH-hpEe-hG9BZ5Z_6Fg" name="gd_t_ti_identifiant_externe">
+      <attribute defType="com.stambia.rdbms.datastore.name" id="_qsWVIOhpEe-hG9BZ5Z_6Fg" value="gd_t_ti_identifiant_externe"/>
+      <attribute defType="com.stambia.rdbms.datastore.type" id="_qsWVIehpEe-hG9BZ5Z_6Fg" value="TABLE"/>
+      <node defType="com.stambia.rdbms.index" id="_qsWVIuhpEe-hG9BZ5Z_6Fg" name="fkgd_identifiant_externe_four2">
+        <attribute defType="com.stambia.rdbms.index.unique" id="_qsWVI-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <node defType="com.stambia.rdbms.colref" id="_qsWVJOhpEe-hG9BZ5Z_6Fg" name="f_fournisseur_externe">
+          <attribute defType="com.stambia.rdbms.colref.ref" id="_qsWVJehpEe-hG9BZ5Z_6Fg" ref="resource.md#_qsWVe-hpEe-hG9BZ5Z_6Fg?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_fournisseur_externe?"/>
+        </node>
+      </node>
+      <node defType="com.stambia.rdbms.index" id="_qsWVJuhpEe-hG9BZ5Z_6Fg" name="fkgd_identifiants_externe_tier">
+        <attribute defType="com.stambia.rdbms.index.unique" id="_qsWVJ-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <node defType="com.stambia.rdbms.colref" id="_qsWVKOhpEe-hG9BZ5Z_6Fg" name="f_tiers">
+          <attribute defType="com.stambia.rdbms.colref.ref" id="_qsWVKehpEe-hG9BZ5Z_6Fg" ref="resource.md#_qsWVcuhpEe-hG9BZ5Z_6Fg?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers?"/>
+        </node>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVKuhpEe-hG9BZ5Z_6Fg" name="id_identifiant_externe" position="1">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVK-hpEe-hG9BZ5Z_6Fg" value="id_identifiant_externe"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVLOhpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVLehpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVLuhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVL-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVMOhpEe-hG9BZ5Z_6Fg" value="numeric"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVMehpEe-hG9BZ5Z_6Fg" value="38"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVMuhpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVM-hpEe-hG9BZ5Z_6Fg" name="b_classname" position="2">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVNOhpEe-hG9BZ5Z_6Fg" value="b_classname"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVNehpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVNuhpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVN-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVOOhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVOehpEe-hG9BZ5Z_6Fg" value="varchar"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVOuhpEe-hG9BZ5Z_6Fg" value="128"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVO-hpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVPOhpEe-hG9BZ5Z_6Fg" name="b_batchid" position="3">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVPehpEe-hG9BZ5Z_6Fg" value="b_batchid"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVPuhpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVP-hpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVQOhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVQehpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVQuhpEe-hG9BZ5Z_6Fg" value="numeric"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVQ-hpEe-hG9BZ5Z_6Fg" value="38"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVROhpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVRehpEe-hG9BZ5Z_6Fg" name="b_credate" position="4">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVRuhpEe-hG9BZ5Z_6Fg" value="b_credate"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVR-hpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVSOhpEe-hG9BZ5Z_6Fg" value="6"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVSehpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVSuhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVS-hpEe-hG9BZ5Z_6Fg" value="timestamp"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVTOhpEe-hG9BZ5Z_6Fg" value="29"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVTehpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVTuhpEe-hG9BZ5Z_6Fg" name="b_upddate" position="5">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVT-hpEe-hG9BZ5Z_6Fg" value="b_upddate"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVUOhpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVUehpEe-hG9BZ5Z_6Fg" value="6"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVUuhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVU-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVVOhpEe-hG9BZ5Z_6Fg" value="timestamp"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVVehpEe-hG9BZ5Z_6Fg" value="29"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVVuhpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVV-hpEe-hG9BZ5Z_6Fg" name="b_creator" position="6">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVWOhpEe-hG9BZ5Z_6Fg" value="b_creator"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVWehpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVWuhpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVW-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVXOhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVXehpEe-hG9BZ5Z_6Fg" value="varchar"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVXuhpEe-hG9BZ5Z_6Fg" value="128"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVX-hpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVYOhpEe-hG9BZ5Z_6Fg" name="b_updator" position="7">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVYehpEe-hG9BZ5Z_6Fg" value="b_updator"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVYuhpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVY-hpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVZOhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVZehpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVZuhpEe-hG9BZ5Z_6Fg" value="varchar"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVZ-hpEe-hG9BZ5Z_6Fg" value="128"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVaOhpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVaehpEe-hG9BZ5Z_6Fg" name="ll_ref_tiers" position="8">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVauhpEe-hG9BZ5Z_6Fg" value="ll_ref_tiers"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVa-hpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVbOhpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVbehpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVbuhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVb-hpEe-hG9BZ5Z_6Fg" value="varchar"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVcOhpEe-hG9BZ5Z_6Fg" value="128"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVcehpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVcuhpEe-hG9BZ5Z_6Fg" name="f_tiers" position="9">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVc-hpEe-hG9BZ5Z_6Fg" value="f_tiers"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVdOhpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVdehpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVduhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVd-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVeOhpEe-hG9BZ5Z_6Fg" value="numeric"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVeehpEe-hG9BZ5Z_6Fg" value="38"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVeuhpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_qsWVe-hpEe-hG9BZ5Z_6Fg" name="f_fournisseur_externe" position="10">
+        <attribute defType="com.stambia.rdbms.column.name" id="_qsWVfOhpEe-hG9BZ5Z_6Fg" value="f_fournisseur_externe"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_qsWVfehpEe-hG9BZ5Z_6Fg" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_qsWVfuhpEe-hG9BZ5Z_6Fg" value="0"/>
+        <attribute defType="com.stambia.rdbms.column.autoGenerated" id="_qsWVf-hpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.autoIncrement" id="_qsWVgOhpEe-hG9BZ5Z_6Fg" value="false"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_qsWVgehpEe-hG9BZ5Z_6Fg" value="numeric"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_qsWVguhpEe-hG9BZ5Z_6Fg" value="38"/>
+        <attribute defType="com.stambia.rdbms.column.arrayType" id="_qsWVg-hpEe-hG9BZ5Z_6Fg" value=""/>
+      </node>
+      <node defType="com.stambia.rdbms.pk" id="_qsWVhOhpEe-hG9BZ5Z_6Fg" name="pkgd_t_ti_identifiant_externe">
+        <node defType="com.stambia.rdbms.colref" id="_qsWVhehpEe-hG9BZ5Z_6Fg" position="1">
+          <attribute defType="com.stambia.rdbms.colref.ref" id="_qsWVhuhpEe-hG9BZ5Z_6Fg" ref="resource.md#_qsWVKuhpEe-hG9BZ5Z_6Fg?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_identifiant_externe?"/>
         </node>
       </node>
     </node>

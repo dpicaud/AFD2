@@ -3,23 +3,474 @@
   <datastore id="_U68zENPvEe-ayYrzKU_LEQ" alias="ConsommationSIOP" dataset="_JuEcMNP1Ee-ayYrzKU_LEQ" ref="resource.md#_lWU10dPuEe-ayYrzKU_LEQ?fileId=_4ccnkNPtEe-ayYrzKU_LEQ$type=md$name=ConsommationSIOP?">
     <field id="_U7JAUNPvEe-ayYrzKU_LEQ" fullAlias="Value" name="Value" ref="resource.md#_NixrodPvEe-ayYrzKU_LEQ?fileId=_4ccnkNPtEe-ayYrzKU_LEQ$type=md?"/>
   </datastore>
-  <template id="_w8j08NP1Ee-ayYrzKU_LEQ" name="L1_stage" process="resource.proc#_yb2lIYwdEemzCNWUZUIuPg?fileId=_yb2lIYwdEemzCNWUZUIuPg$type=proc$name=LOAD%20Kafka%20to%20Rdbms?" sourceId="_U68zENPvEe-ayYrzKU_LEQ" targetId="_vm97ANP1Ee-ayYrzKU_LEQ">
-    <parameter id="_bmxRINS7Ee-ayYrzKU_LEQ" name="commitTransaction" value="false"/>
-  </template>
-  <template id="_w8nfUNP1Ee-ayYrzKU_LEQ" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="_vm97ANP1Ee-ayYrzKU_LEQ"/>
-  <query id="_vm97ANP1Ee-ayYrzKU_LEQ" alias="stage" dataset="_vnHsANP1Ee-ayYrzKU_LEQ" stagingArea="resource.md#_BG69kLcUEe-0Xc913hdzrA?fileId=_BA9fgLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
-    <field id="_w8XnsNP1Ee-ayYrzKU_LEQ" name="Value">
-      <expression id="_w8gKkNP1Ee-ayYrzKU_LEQ" location="WRK" setDescriptorRef="_w8e8cNP1Ee-ayYrzKU_LEQ">
-        <expression>ConsommationSIOP.Value</expression>
+  <datastore id="_aGozAOeyEe-hG9BZ5Z_6Fg" alias="sa_t_ti_tiers_2" dataset="_aHBNgOeyEe-hG9BZ5Z_6Fg" ref="resource.md#_kbt0oLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=sa_t_ti_tiers?" subExpression="[A]">
+    <field id="_aG6f1OeyEe-hG9BZ5Z_6Fg" name="code_rna" ref="resource.md#_krJXwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_rna?">
+      <expression id="_iXhEEueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AReeyEe-hG9BZ5Z_6Fg" name="f_categorie_cofinancier" ref="resource.md#_kiaSgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_categorie_cofinancier?">
+      <expression id="_iXhEE-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLFueyEe-hG9BZ5Z_6Fg" name="num_immatriculation_pays_" ref="resource.md#_kf374bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=num_immatriculation_pays_?">
+      <expression id="_iXhEFOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyJ-eyEe-hG9BZ5Z_6Fg" name="ville_naissance" ref="resource.md#_kg1lMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ville_naissance?">
+      <expression id="_iXhEFeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OZOeyEe-hG9BZ5Z_6Fg" name="f_categorie_tiers" ref="resource.md#_kkadobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_categorie_tiers?">
+      <expression id="_iXhEFueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21deeyEe-hG9BZ5Z_6Fg" name="fd_motif_rejet_doublon" ref="resource.md#_kle0obbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_motif_rejet_doublon?">
+      <expression id="_iXhEF-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21c-eyEe-hG9BZ5Z_6Fg" name="fd_canal_acheminement" ref="resource.md#_klSnYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_canal_acheminement?">
+      <expression id="_iXhEGOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RtueyEe-hG9BZ5Z_6Fg" name="f_cat_tiers" ref="resource.md#_kpZEQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_cat_tiers?">
+      <expression id="_iXhEGeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyJOeyEe-hG9BZ5Z_6Fg" name="prenom1" ref="resource.md#_kgjRUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=prenom1?">
+      <expression id="_iXhEGueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4DkueyEe-hG9BZ5Z_6Fg" name="fd_pays_de_naissance" ref="resource.md#_knPIIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_de_naissance?">
+      <expression id="_iXhEG-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qpueyEe-hG9BZ5Z_6Fg" name="siren" ref="resource.md#_koMxcbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=siren?">
+      <expression id="_iXhEHOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AQ-eyEe-hG9BZ5Z_6Fg" name="f_groupe_cofinancier" ref="resource.md#_kiOsUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_groupe_cofinancier?">
+      <expression id="_iXhEHeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OYOeyEe-hG9BZ5Z_6Fg" name="f_classement_lme" ref="resource.md#_kj9KobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_classement_lme?">
+      <expression id="_iXhEHueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx89OeyEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_creator" ref="resource.md#_kdq8cbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_creator?" update="true">
+      <expression id="_iXhEH-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg">
+        <expression>Deserializer.field</expression>
       </expression>
     </field>
-    <setDescriptor id="_w8e8cNP1Ee-ayYrzKU_LEQ" label="A"/>
-  </query>
+    <field id="_aGykAueyEe-hG9BZ5Z_6Fg" name="raison_sociale" ref="resource.md#_kePkMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=raison_sociale?">
+      <expression id="_iXhEIOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OZueyEe-hG9BZ5Z_6Fg" name="f_type_tiers" ref="resource.md#_kknR8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_type_tiers?">
+      <expression id="_iXhEIeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21eOeyEe-hG9BZ5Z_6Fg" name="f_motif_exception" ref="resource.md#_klzkwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_motif_exception?">
+      <expression id="_iXhEIueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21ceeyEe-hG9BZ5Z_6Fg" name="fd_agent_economique" ref="resource.md#_klFzELbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_agent_economique?">
+      <expression id="_iXhEI-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx88-eyEe-hG9BZ5Z_6Fg" name="b_upddate" ref="resource.md#_kdkOwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_upddate?">
+      <expression id="_iXhEJOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykB-eyEe-hG9BZ5Z_6Fg" name="objet_social" ref="resource.md#_kev6gbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=objet_social?">
+      <expression id="_iXhEJeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLEOeyEe-hG9BZ5Z_6Fg" name="duns" ref="resource.md#_kfUiQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=duns?">
+      <expression id="_iXhEJueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54weeyEe-hG9BZ5Z_6Fg" name="f_sous_section_naf" ref="resource.md#_kp1wMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_sous_section_naf?">
+      <expression id="_iXhEJ-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykBOeyEe-hG9BZ5Z_6Fg" name="raison_sociale_abregee" ref="resource.md#_kec_kbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=raison_sociale_abregee?">
+      <expression id="_iXhEKOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx88eeyEe-hG9BZ5Z_6Fg" name="b_copiedfrom" ref="resource.md#_kdYBgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_copiedfrom?">
+      <expression id="_iXhEKeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RseeyEe-hG9BZ5Z_6Fg" name="fd_type_nature_relation" ref="resource.md#_koynUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_nature_relation?">
+      <expression id="_iXhEKueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qpeeyEe-hG9BZ5Z_6Fg" name="tec_code_postal_siege_soc" ref="resource.md#_koGDwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_code_postal_siege_soc?">
+      <expression id="_iXhEK-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3ch-eyEe-hG9BZ5Z_6Fg" name="fd_pays_residence" ref="resource.md#_kmwnAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_residence?">
+      <expression id="_iXhELOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLEeeyEe-hG9BZ5Z_6Fg" name="lei" ref="resource.md#_kfao4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=lei?">
+      <expression id="_iXhELeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nU-eyEe-hG9BZ5Z_6Fg" name="fd_sous_sous_section_naf" ref="resource.md#_kjG2EbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_sous_sous_section_naf?">
+      <expression id="_iXhELueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nUeeyEe-hG9BZ5Z_6Fg" name="fd_sous_section_naf" ref="resource.md#_kiyF8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_sous_section_naf?">
+      <expression id="_iXhEL-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AQeeyEe-hG9BZ5Z_6Fg" name="f_famille_cofinancier" ref="resource.md#_kiDGIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_famille_cofinancier?">
+      <expression id="_iXhEMOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RtOeyEe-hG9BZ5Z_6Fg" name="tec_reset_statut" ref="resource.md#_kpMP8LbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_reset_statut?">
+      <expression id="_iXhEMeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qqeeyEe-hG9BZ5Z_6Fg" name="f_type_role_nature_relation" ref="resource.md#_kofFUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_type_role_nature_relation?">
+      <expression id="_iXhEMueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54wOeyEe-hG9BZ5Z_6Fg" name="f_section_naf" ref="resource.md#_kptNUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_section_naf?">
+      <expression id="_iXhEM-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AROeyEe-hG9BZ5Z_6Fg" name="fd_groupe_cofinancier" ref="resource.md#_kiUL4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_groupe_cofinancier?">
+      <expression id="_iXhENOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OYeeyEe-hG9BZ5Z_6Fg" name="fd_classement_lme" ref="resource.md#_kkFtgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_classement_lme?">
+      <expression id="_iXhENeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV6OeyEe-hG9BZ5Z_6Fg" name="b_deletedate" ref="resource.md#_kc9x0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletedate?">
+      <expression id="_iXhENueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qoueyEe-hG9BZ5Z_6Fg" name="tec_ville_siege_social" ref="resource.md#_kn0W8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_ville_siege_social?">
+      <expression id="_iXhEN-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54xueyEe-hG9BZ5Z_6Fg" name="f_tiers" ref="resource.md#_kqX7sbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_tiers?">
+      <expression id="_iXhEOOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54xeeyEe-hG9BZ5Z_6Fg" name="tiers_redondant" ref="resource.md#_kqR1ELbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tiers_redondant?">
+      <expression id="_iXhEOeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZNueyEe-hG9BZ5Z_6Fg" name="date_desactivation" ref="resource.md#_kho2cbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_desactivation?">
+      <expression id="_iXhEOueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4DleeyEe-hG9BZ5Z_6Fg" name="flg_doublondetecte" ref="resource.md#_kng08bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=flg_doublondetecte?">
+      <expression id="_iXhEO-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG6f0ueyEe-hG9BZ5Z_6Fg" name="f_pays_nationalite" ref="resource.md#_kq78YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_nationalite?">
+      <expression id="_iXhEPOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx89eeyEe-hG9BZ5Z_6Fg" name="b_updator" ref="resource.md#_kdwcAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_updator?">
+      <expression id="_iXhEPeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZMueyEe-hG9BZ5Z_6Fg" name="ok_screening" ref="resource.md#_khQb8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ok_screening?">
+      <expression id="_iXhEPueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21dueyEe-hG9BZ5Z_6Fg" name="f_motifdesactivation" ref="resource.md#_klliUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_motifdesactivation?">
+      <expression id="_iXhEP-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OaOeyEe-hG9BZ5Z_6Fg" name="fd_categorie_juridique" ref="resource.md#_kk0GQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_categorie_juridique?">
+      <expression id="_iXhEQOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4Dk-eyEe-hG9BZ5Z_6Fg" name="tec_nom_usuel_phone" ref="resource.md#_knUnsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_nom_usuel_phone?">
+      <expression id="_iXhEQeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qp-eyEe-hG9BZ5Z_6Fg" name="nic" ref="resource.md#_koS4EbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nic?">
+      <expression id="_iXhEQueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykBueyEe-hG9BZ5Z_6Fg" name="nom_commercial" ref="resource.md#_kepz4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nom_commercial?">
+      <expression id="_iXhEQ-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OZeeyEe-hG9BZ5Z_6Fg" name="fd_categorie_tiers" ref="resource.md#_kkgkQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_categorie_tiers?">
+      <expression id="_iXhEROeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZNOeyEe-hG9BZ5Z_6Fg" name="date_retour_screening" ref="resource.md#_khd3UbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_retour_screening?">
+      <expression id="_iXhEReeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3cheeyEe-hG9BZ5Z_6Fg" name="fd_pays_fiscal" ref="resource.md#_kmlA0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_fiscal?">
+      <expression id="_iXhERueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21cueyEe-hG9BZ5Z_6Fg" name="f_canal_acheminement" ref="resource.md#_klMgwLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_canal_acheminement?">
+      <expression id="_iXhER-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4DlOeyEe-hG9BZ5Z_6Fg" name="tec_prenom1_phone" ref="resource.md#_knauUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_prenom1_phone?">
+      <expression id="_iXhESOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV4OeyEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="id_tiers" ref="resource.md#_kcJ5gbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_tiers?" update="true" updateKey="true">
+      <expression id="_iXhEEOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg">
+        <expression>Deserializer.01_SIOP_JSON/idTiers</expression>
+      </expression>
+    </field>
+    <field id="_aG0ZM-eyEe-hG9BZ5Z_6Fg" name="date_envoi_screening" ref="resource.md#_khXwsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_envoi_screening?">
+      <expression id="_iXhESeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OY-eyEe-hG9BZ5Z_6Fg" name="fd_stpa" ref="resource.md#_kkTI4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_stpa?">
+      <expression id="_iXhESueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3chueyEe-hG9BZ5Z_6Fg" name="f_pays_residence" ref="resource.md#_kmqgYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_residence?">
+      <expression id="_iXhES-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3cg-eyEe-hG9BZ5Z_6Fg" name="fd_pays" ref="resource.md#_kmYMgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays?">
+      <expression id="_iXhETOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1ARueyEe-hG9BZ5Z_6Fg" name="fd_categorie_cofinancier" ref="resource.md#_kifyEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_categorie_cofinancier?">
+      <expression id="_iXhETeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyKOeyEe-hG9BZ5Z_6Fg" name="id_fiscal" ref="resource.md#_kg7EwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=id_fiscal?">
+      <expression id="_iXhETueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qqueyEe-hG9BZ5Z_6Fg" name="fd_type_role_nature_relation" ref="resource.md#_kolzAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_role_nature_relation?">
+      <expression id="_iXhET-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3cgOeyEe-hG9BZ5Z_6Fg" name="f_motif_rejet_screening" ref="resource.md#_kmDcYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_motif_rejet_screening?">
+      <expression id="_iXhEUOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qpOeyEe-hG9BZ5Z_6Fg" name="tec_nom_voie_siege_social" ref="resource.md#_kn_9IbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_nom_voie_siege_social?">
+      <expression id="_iXhEUeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5Rs-eyEe-hG9BZ5Z_6Fg" name="fd_entite" ref="resource.md#_kpFiQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_entite?">
+      <expression id="_iXhEUueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx88OeyEe-hG9BZ5Z_6Fg" name="b_deletepath" ref="resource.md#_kdR64bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletepath?">
+      <expression id="_iXhEU-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyJueyEe-hG9BZ5Z_6Fg" name="date_naissance" ref="resource.md#_kgwFobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_naissance?">
+      <expression id="_iXhEVOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZOOeyEe-hG9BZ5Z_6Fg" name="f_statut_tiers" ref="resource.md#_kh1qwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_statut_tiers?">
+      <expression id="_iXhEVeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV4-eyEe-hG9BZ5Z_6Fg" name="b_originalbatchid" ref="resource.md#_kcfQsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_originalbatchid?">
+      <expression id="_iXhEVueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV6ueyEe-hG9BZ5Z_6Fg" name="b_deleteoperation" ref="resource.md#_kdJYAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteoperation?">
+      <expression id="_iXhEV-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nWOeyEe-hG9BZ5Z_6Fg" name="fd_code_pcs" ref="resource.md#_kj2c8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_code_pcs?">
+      <expression id="_iXhEWOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykBeeyEe-hG9BZ5Z_6Fg" name="sigle_societe" ref="resource.md#_kejGMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=sigle_societe?">
+      <expression id="_iXhEWeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AQOeyEe-hG9BZ5Z_6Fg" name="fd_statut_tiers" ref="resource.md#_kh7xYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_statut_tiers?">
+      <expression id="_iXhEWueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AQueyEe-hG9BZ5Z_6Fg" name="fd_famille_cofinancier" ref="resource.md#_kiJMwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_famille_cofinancier?">
+      <expression id="_iXhEW-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qoeeyEe-hG9BZ5Z_6Fg" name="tec_pays_siege_social" ref="resource.md#_kntpQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_pays_siege_social?">
+      <expression id="_iXhEXOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykCOeyEe-hG9BZ5Z_6Fg" name="representation_local" ref="resource.md#_ke4dYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=representation_local?">
+      <expression id="_iXhEXeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nUOeyEe-hG9BZ5Z_6Fg" name="fd_section_naf" ref="resource.md#_kir_UbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_section_naf?">
+      <expression id="_iXhEXueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG6f0OeyEe-hG9BZ5Z_6Fg" name="procedure_exception" ref="resource.md#_kqq2obbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=procedure_exception?">
+      <expression id="_iXhEX-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3cgueyEe-hG9BZ5Z_6Fg" name="f_pays" ref="resource.md#_kmQ3wbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays?">
+      <expression id="_iXhEYOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5Rt-eyEe-hG9BZ5Z_6Fg" name="fd_cat_tiers" ref="resource.md#_kpgZAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_cat_tiers?">
+      <expression id="_iXhEYeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykCeeyEe-hG9BZ5Z_6Fg" name="agence_entite" ref="resource.md#_ke-kAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=agence_entite?">
+      <expression id="_iXhEYueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZMeeyEe-hG9BZ5Z_6Fg" name="donnee_ok" ref="resource.md#_khK8YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=donnee_ok?">
+      <expression id="_iXhEY-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykAeeyEe-hG9BZ5Z_6Fg" name="date_revision_previsionne" ref="resource.md#_keFzMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_revision_previsionne?">
+      <expression id="_iXhEZOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGwu0eeyEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_loadid" ref="resource.md#_kcEZ8LbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_loadid?" update="true" updateKey="true">
+      <expression id="_iXhEZeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg">
+        <expression>-1</expression>
+      </expression>
+    </field>
+    <field id="_aG1nVOeyEe-hG9BZ5Z_6Fg" name="fd_code_naf" ref="resource.md#_kjPY8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_code_naf?">
+      <expression id="_iXhEZueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OYueyEe-hG9BZ5Z_6Fg" name="f_stpa" ref="resource.md#_kkMbMbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_stpa?">
+      <expression id="_iXhEZ-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qqOeyEe-hG9BZ5Z_6Fg" name="siret" ref="resource.md#_koZlwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=siret?">
+      <expression id="_iXhEaOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyI-eyEe-hG9BZ5Z_6Fg" name="nom_naissance" ref="resource.md#_kgdKsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nom_naissance?">
+      <expression id="_iXhEaeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nVeeyEe-hG9BZ5Z_6Fg" name="f_code_nace" ref="resource.md#_kjaYEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_code_nace?">
+      <expression id="_iXhEaueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RuOeyEe-hG9BZ5Z_6Fg" name="f_regroupement_naf" ref="resource.md#_kpnGsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_regroupement_naf?">
+      <expression id="_iXhEa-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qoOeyEe-hG9BZ5Z_6Fg" name="tec_adresse_siege_social" ref="resource.md#_knniobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_adresse_siege_social?">
+      <expression id="_iXhEbOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV5eeyEe-hG9BZ5Z_6Fg" name="b_dupsoperationid" ref="resource.md#_kcsFAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_dupsoperationid?">
+      <expression id="_iXhEbeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykC-eyEe-hG9BZ5Z_6Fg" name="entreprise_cotee" ref="resource.md#_kfN0kbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=entreprise_cotee?">
+      <expression id="_iXhEbueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1AR-eyEe-hG9BZ5Z_6Fg" name="fd_regroupement_naf" ref="resource.md#_kil4sbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_regroupement_naf?">
+      <expression id="_iXhEb-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG6f0eeyEe-hG9BZ5Z_6Fg" name="date_creation_societe" ref="resource.md#_kqxkUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_creation_societe?">
+      <expression id="_iXhEcOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx89ueyEe-hG9BZ5Z_6Fg" name="zone_geographique" ref="resource.md#_kd4X0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=zone_geographique?">
+      <expression id="_iXhEceeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykAOeyEe-hG9BZ5Z_6Fg" name="date_revision_conformite" ref="resource.md#_kd_skbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_revision_conformite?">
+      <expression id="_iXhEcueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21dOeyEe-hG9BZ5Z_6Fg" name="f_motif_rejet_doublon" ref="resource.md#_klYuAbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_motif_rejet_doublon?">
+      <expression id="_iXhEc-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykA-eyEe-hG9BZ5Z_6Fg" name="complement_raison_sociale" ref="resource.md#_keWR4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=complement_raison_sociale?">
+      <expression id="_iXhEdOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG6f0-eyEe-hG9BZ5Z_6Fg" name="fd_pays_nationalite" ref="resource.md#_krDRIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_nationalite?">
+      <expression id="_iXhEdeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV4ueyEe-hG9BZ5Z_6Fg" name="b_error_status" ref="resource.md#_kcZKEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_error_status?">
+      <expression id="_iXhEdueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyIueyEe-hG9BZ5Z_6Fg" name="nom_usuel" ref="resource.md#_kgXrIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=nom_usuel?">
+      <expression id="_iXhEd-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGx88ueyEe-hG9BZ5Z_6Fg" name="b_credate" ref="resource.md#_kdeIIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_credate?">
+      <expression id="_iXhEeOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54wueyEe-hG9BZ5Z_6Fg" name="f_code_naf" ref="resource.md#_kp9E8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_code_naf?">
+      <expression id="_iXhEeeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3ciOeyEe-hG9BZ5Z_6Fg" name="f_pays_immatriculation" ref="resource.md#_km2tobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_immatriculation?">
+      <expression id="_iXhEeueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLFOeyEe-hG9BZ5Z_6Fg" name="code_tahiti" ref="resource.md#_kfruobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_tahiti?">
+      <expression id="_iXhEe-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLGOeyEe-hG9BZ5Z_6Fg" name="ville_immatriculation" ref="resource.md#_kgEJIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=ville_immatriculation?">
+      <expression id="_iXhEfOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyIeeyEe-hG9BZ5Z_6Fg" name="qualite" ref="resource.md#_kgRkgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=qualite?">
+      <expression id="_iXhEfeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nVueyEe-hG9BZ5Z_6Fg" name="fd_code_nace" ref="resource.md#_kjiT4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_code_nace?">
+      <expression id="_iXhEfueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3cgeeyEe-hG9BZ5Z_6Fg" name="fd_motif_rejet_screening" ref="resource.md#_kmKKELbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_motif_rejet_screening?">
+      <expression id="_iXhEf-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyJeeyEe-hG9BZ5Z_6Fg" name="prenom2" ref="resource.md#_kgow4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=prenom2?">
+      <expression id="_iXhEgOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RsOeyEe-hG9BZ5Z_6Fg" name="f_type_nature_relation" ref="resource.md#_kosgsbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_type_nature_relation?">
+      <expression id="_iXhEgeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54yOeyEe-hG9BZ5Z_6Fg" name="tmp_fifti_screening_statu" ref="resource.md#_kqkI8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tmp_fifti_screening_statu?">
+      <expression id="_iXhEgueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV5ueyEe-hG9BZ5Z_6Fg" name="b_dupsmergetarget" ref="resource.md#_kcxkkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_dupsmergetarget?">
+      <expression id="_iXhEg-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21cOeyEe-hG9BZ5Z_6Fg" name="f_agent_economique" ref="resource.md#_kk6M4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_agent_economique?">
+      <expression id="_iXhEhOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG3chOeyEe-hG9BZ5Z_6Fg" name="f_pays_fiscal" ref="resource.md#_kme6MbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_fiscal?">
+      <expression id="_iXhEheeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZN-eyEe-hG9BZ5Z_6Fg" name="tec_raison_sociale_phone" ref="resource.md#_khvkIbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_raison_sociale_phone?">
+      <expression id="_iXhEhueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4qo-eyEe-hG9BZ5Z_6Fg" name="tec_num_voie_siege_social" ref="resource.md#_kn6dkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tec_num_voie_siege_social?">
+      <expression id="_iXhEh-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV5-eyEe-hG9BZ5Z_6Fg" name="b_deletetype" ref="resource.md#_kc4SQbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deletetype?">
+      <expression id="_iXhEiOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4DkeeyEe-hG9BZ5Z_6Fg" name="f_pays_de_naissance" ref="resource.md#_knJBgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_pays_de_naissance?">
+      <expression id="_iXhEieeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG2OZ-eyEe-hG9BZ5Z_6Fg" name="fd_type_tiers" ref="resource.md#_kktYkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_type_tiers?">
+      <expression id="_iXhEiueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZNeeyEe-hG9BZ5Z_6Fg" name="date_creation_tiers" ref="resource.md#_khjW4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_creation_tiers?">
+      <expression id="_iXhEi-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV5OeyEe-hG9BZ5Z_6Fg" name="b_operationid" ref="resource.md#_kclXUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_operationid?">
+      <expression id="_iXhEjOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzyIOeyEe-hG9BZ5Z_6Fg" name="date_immatriculation" ref="resource.md#_kgME8bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=date_immatriculation?">
+      <expression id="_iXhEjeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21d-eyEe-hG9BZ5Z_6Fg" name="fd_motifdesactivation" ref="resource.md#_kls3EbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_motifdesactivation?">
+      <expression id="_iXhEjueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RteeyEe-hG9BZ5Z_6Fg" name="f_categorie_juridique" ref="resource.md#_kpSWkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_categorie_juridique?">
+      <expression id="_iXhEj-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLE-eyEe-hG9BZ5Z_6Fg" name="code_ridet" ref="resource.md#_kfmPEbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=code_ridet?">
+      <expression id="_iXhEkOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG0ZMOeyEe-hG9BZ5Z_6Fg" name="document_ok" ref="resource.md#_khBLYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=document_ok?">
+      <expression id="_iXhEkeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG21eeeyEe-hG9BZ5Z_6Fg" name="fd_motif_exception" ref="resource.md#_kl5rYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_motif_exception?">
+      <expression id="_iXhEkueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLEueyEe-hG9BZ5Z_6Fg" name="registre_commerciale" ref="resource.md#_kfgvgbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=registre_commerciale?">
+      <expression id="_iXhEk-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nV-eyEe-hG9BZ5Z_6Fg" name="f_code_pcs" ref="resource.md#_kjsE4bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_code_pcs?">
+      <expression id="_iXhElOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54x-eyEe-hG9BZ5Z_6Fg" name="fd_tiers" ref="resource.md#_kqeCUbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_tiers?">
+      <expression id="_iXhEleeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGykCueyEe-hG9BZ5Z_6Fg" name="type_ong" ref="resource.md#_kfEqobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=type_ong?">
+      <expression id="_iXhElueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV4eeyEe-hG9BZ5Z_6Fg" name="b_classname" ref="resource.md#_kcScYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_classname?">
+      <expression id="_iXhEl-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGxV6eeyEe-hG9BZ5Z_6Fg" name="b_deleteauthor" ref="resource.md#_kdD4cbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=b_deleteauthor?">
+      <expression id="_iXhEmOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLF-eyEe-hG9BZ5Z_6Fg" name="num_tva_inter_communautai" ref="resource.md#_kf-pkbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=num_tva_inter_communautai?">
+      <expression id="_iXhEmeeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54xOeyEe-hG9BZ5Z_6Fg" name="tmp_token_fifti" ref="resource.md#_kqLHYbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=tmp_token_fifti?">
+      <expression id="_iXhEmueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG54w-eyEe-hG9BZ5Z_6Fg" name="flag_licence_bancaire" ref="resource.md#_kqDyobbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=flag_licence_bancaire?">
+      <expression id="_iXhEm-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG4DkOeyEe-hG9BZ5Z_6Fg" name="fd_pays_immatriculation" ref="resource.md#_knBswbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=fd_pays_immatriculation?">
+      <expression id="_iXhEnOeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG5RsueyEe-hG9BZ5Z_6Fg" name="f_entite" ref="resource.md#_ko-0kbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_entite?">
+      <expression id="_iXhEneeyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aGzLFeeyEe-hG9BZ5Z_6Fg" name="appartenance_groupe" ref="resource.md#_kfx1QbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=appartenance_groupe?">
+      <expression id="_iXhEnueyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <field id="_aG1nUueyEe-hG9BZ5Z_6Fg" name="f_sous_sous_section_naf" ref="resource.md#_ki6o0bbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=f_sous_sous_section_naf?">
+      <expression id="_iXhEn-eyEe-hG9BZ5Z_6Fg" setDescriptorRef="_iXhEEeeyEe-hG9BZ5Z_6Fg"/>
+    </field>
+    <constraint id="_aG6f1eeyEe-hG9BZ5Z_6Fg" name="pksa_t_ti_tiers" ref="resource.md#_krXaMLbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=pksa_t_ti_tiers?" reject="true"/>
+    <setDescriptor id="_iXhEEeeyEe-hG9BZ5Z_6Fg" label="A"/>
+  </datastore>
+  <template id="_jHsbMNdIEe-ayYrzKU_LEQ" name="I_Deserializer" process="resource.proc#_SlUNwKF_Ee2jWs7Qup_M3Q?fileId=_SlUNwKF_Ee2jWs7Qup_M3Q$type=proc$name=DESERIALIZER%20PostgreSql%20String%20as%20Json?" targetId="_jHeYwNdIEe-ayYrzKU_LEQ"/>
+  <template id="_qTf6kNdIEe-ayYrzKU_LEQ" name="L1_Deserializer" process="resource.proc#_yb2lIYwdEemzCNWUZUIuPg?fileId=_yb2lIYwdEemzCNWUZUIuPg$type=proc$name=LOAD%20Kafka%20to%20Rdbms?" sourceId="_U68zENPvEe-ayYrzKU_LEQ" targetId="_jHeYwNdIEe-ayYrzKU_LEQ"/>
+  <template id="_iX6ssOeyEe-hG9BZ5Z_6Fg" name="I_sa_t_ti_tiers_2" process="resource.proc#_dQ2dRp4SEd6bQIkgWyxFQQ?fileId=_dQ2dRp4SEd6bQIkgWyxFQQ$type=proc$name=INTEGRATION%20PostgreSql?" targetId="_aGozAOeyEe-hG9BZ5Z_6Fg"/>
+  <template id="_o8ksgOeyEe-hG9BZ5Z_6Fg" name="L1_sa_t_ti_tiers_2" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_jHeYwNdIEe-ayYrzKU_LEQ" targetId="_aGozAOeyEe-hG9BZ5Z_6Fg"/>
+  <outliner id="_jHeYwNdIEe-ayYrzKU_LEQ" alias="Deserializer" dataset="_jHj4UNdIEe-ayYrzKU_LEQ" outputFieldsReference="resource.md#_nvojkNcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=01_SIOP_JSON?" stagingArea="resource.md#_BG69kLcUEe-0Xc913hdzrA?fileId=_BA9fgLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
+    <field id="_-NcrENdJEe-ayYrzKU_LEQ" name="field">
+      <expression id="_-NcrEddJEe-ayYrzKU_LEQ" location="WRK" setDescriptorRef="_jHeYwtdIEe-ayYrzKU_LEQ">
+        <expression>substring(ConsommationSIOP.Value,0,10)</expression>
+      </expression>
+    </field>
+    <inputField id="_jHeYwddIEe-ayYrzKU_LEQ" name="input">
+      <expression id="_jHeYw9dIEe-ayYrzKU_LEQ" setDescriptorRef="_jHeYwtdIEe-ayYrzKU_LEQ">
+        <expression>ConsommationSIOP.Value</expression>
+      </expression>
+    </inputField>
+    <outputField id="_o0eX0ddIEe-ayYrzKU_LEQ" name="idTiers" parent="_o0dwwNdIEe-ayYrzKU_LEQ" ref="resource.md#_AYS7ZdcxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=idTiers?"/>
+    <outputField id="_o0dwwddIEe-ayYrzKU_LEQ" name="libellePartenaire" parent="_o0dwwNdIEe-ayYrzKU_LEQ" ref="resource.md#_AYS7adcxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=libellePartenaire?"/>
+    <outputField id="_o0dwwNdIEe-ayYrzKU_LEQ" expand="true" name="01_SIOP_JSON" ref="resource.md#_nvojkNcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=01_SIOP_JSON?" updateKey="true"/>
+    <outputField id="_o0eX0NdIEe-ayYrzKU_LEQ" name="idTiersPartenaire" parent="_o0dwwNdIEe-ayYrzKU_LEQ" ref="resource.md#_AYS7Z9cxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=idTiersPartenaire?"/>
+    <setDescriptor id="_jHeYwtdIEe-ayYrzKU_LEQ" label="A"/>
+  </outliner>
   <dataSet id="_JuEcMNP1Ee-ayYrzKU_LEQ">
     <container>_U68zENPvEe-ayYrzKU_LEQ</container>
   </dataSet>
-  <dataSet id="_vnHsANP1Ee-ayYrzKU_LEQ">
-    <container>_vm97ANP1Ee-ayYrzKU_LEQ</container>
+  <dataSet id="_jHj4UNdIEe-ayYrzKU_LEQ">
+    <container>_jHeYwNdIEe-ayYrzKU_LEQ</container>
+  </dataSet>
+  <dataSet id="_aHBNgOeyEe-hG9BZ5Z_6Fg">
+    <container>_aGozAOeyEe-hG9BZ5Z_6Fg</container>
   </dataSet>
   <hint>
     <usedField>#_U7JAUNPvEe-ayYrzKU_LEQ</usedField>
@@ -47,37 +498,62 @@
       <styles xmi:type="notation:DrawerStyle" xmi:id="_U7YQ4tPvEe-ayYrzKU_LEQ"/>
     </children>
     <element xmi:type="map:Datastore" href="resource.map#_U68zENPvEe-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U7Q8IdPvEe-ayYrzKU_LEQ" x="242" y="210"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U7Q8IdPvEe-ayYrzKU_LEQ" x="-20" y="208"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_vnT5RtP1Ee-ayYrzKU_LEQ" type="2001" fontName="Segoe UI">
-    <children xmi:type="notation:DecorationNode" xmi:id="_vnUgUNP1Ee-ayYrzKU_LEQ" type="5001"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_vnUgUdP1Ee-ayYrzKU_LEQ" type="5007"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_vnUgUtP1Ee-ayYrzKU_LEQ" type="7001"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_vnUgU9P1Ee-ayYrzKU_LEQ" type="7011"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_vnUgVNP1Ee-ayYrzKU_LEQ" type="7002">
-      <styles xmi:type="notation:SortingStyle" xmi:id="_vnUgVdP1Ee-ayYrzKU_LEQ"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_vnUgVtP1Ee-ayYrzKU_LEQ"/>
+  <children xmi:type="notation:Shape" xmi:id="_jIOmsNdIEe-ayYrzKU_LEQ" type="2009" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jIPNwddIEe-ayYrzKU_LEQ" type="5090"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jIPNwtdIEe-ayYrzKU_LEQ" type="5007"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jIPNw9dIEe-ayYrzKU_LEQ" type="7091"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jIPNxNdIEe-ayYrzKU_LEQ" type="7093"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jIPNxddIEe-ayYrzKU_LEQ" type="7092"/>
+    <element xmi:type="map:Outliner" href="resource.map#_jHeYwNdIEe-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIPNwNdIEe-ayYrzKU_LEQ" x="288" y="128"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aHYZ4OeyEe-hG9BZ5Z_6Fg" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aHYZ4ueyEe-hG9BZ5Z_6Fg" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aHYZ4-eyEe-hG9BZ5Z_6Fg" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aHYZ5OeyEe-hG9BZ5Z_6Fg" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aHYZ5eeyEe-hG9BZ5Z_6Fg" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_aHYZ5ueyEe-hG9BZ5Z_6Fg" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aHYZ5-eyEe-hG9BZ5Z_6Fg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aHYZ6OeyEe-hG9BZ5Z_6Fg"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_vnUgV9P1Ee-ayYrzKU_LEQ" type="5008">
-      <styles xmi:type="notation:DrawerStyle" xmi:id="_vnUgWNP1Ee-ayYrzKU_LEQ"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aHYZ6eeyEe-hG9BZ5Z_6Fg" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_aHYZ6ueyEe-hG9BZ5Z_6Fg"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_vnUgWdP1Ee-ayYrzKU_LEQ" type="7007"/>
-    <element xmi:type="map:Query" href="resource.map#_vm97ANP1Ee-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnT5R9P1Ee-ayYrzKU_LEQ" x="629" y="195"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aHYZ6-eyEe-hG9BZ5Z_6Fg" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aHYZ7OeyEe-hG9BZ5Z_6Fg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aHYZ7eeyEe-hG9BZ5Z_6Fg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_aHYZ7ueyEe-hG9BZ5Z_6Fg" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_aGozAOeyEe-hG9BZ5Z_6Fg?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aHYZ4eeyEe-hG9BZ5Z_6Fg" x="817" y="61"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_GH3ZQdPvEe-ayYrzKU_LEQ"/>
   <element xmi:type="map:Map" href="resource.map#_GEZOgNPvEe-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map$name=00_retourSIOP?"/>
-  <edges xmi:type="notation:Edge" xmi:id="_w81hwNP1Ee-ayYrzKU_LEQ" type="targetLink" source="_vnT5RtP1Ee-ayYrzKU_LEQ" target="_U7Q8INPvEe-ayYrzKU_LEQ">
+  <edges xmi:type="notation:Edge" xmi:id="_lNAh4NdIEe-ayYrzKU_LEQ" type="targetLink" source="_jIOmsNdIEe-ayYrzKU_LEQ" target="_U7Q8INPvEe-ayYrzKU_LEQ">
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w81hwdP1Ee-ayYrzKU_LEQ" points="[-31, -36, 101, 120]$[-106, -124, 26, 32]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lNAh4ddIEe-ayYrzKU_LEQ" points="[-68, -32, 301, 140]$[-305, -142, 64, 30]"/>
   </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_w82I0NP1Ee-ayYrzKU_LEQ" type="targetDataSetLink" source="_vnT5RtP1Ee-ayYrzKU_LEQ" target="_vnT5RtP1Ee-ayYrzKU_LEQ">
+  <edges xmi:type="notation:Edge" xmi:id="_lNBI8NdIEe-ayYrzKU_LEQ" type="targetDataSetLink" source="_jIOmsNdIEe-ayYrzKU_LEQ" target="_jIOmsNdIEe-ayYrzKU_LEQ">
     <element xmi:type="map:DataSet" href="resource.map#_JuEcMNP1Ee-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w82I0dP1Ee-ayYrzKU_LEQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lNBI8ddIEe-ayYrzKU_LEQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
   </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_w82I0tP1Ee-ayYrzKU_LEQ" type="targetSetLink" source="_vnT5RtP1Ee-ayYrzKU_LEQ" target="_vnT5RtP1Ee-ayYrzKU_LEQ">
-    <element xmi:type="map:SetDescriptor" href="resource.map#_w8e8cNP1Ee-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w82I09P1Ee-ayYrzKU_LEQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  <edges xmi:type="notation:Edge" xmi:id="_lNBI8tdIEe-ayYrzKU_LEQ" type="targetSetLink" source="_jIOmsNdIEe-ayYrzKU_LEQ" target="_jIOmsNdIEe-ayYrzKU_LEQ">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_jHeYwtdIEe-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lNBI89dIEe-ayYrzKU_LEQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mVtX8OeyEe-hG9BZ5Z_6Fg" type="targetLink" source="_aHYZ4OeyEe-hG9BZ5Z_6Fg" target="_jIOmsNdIEe-ayYrzKU_LEQ">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mVtX8eeyEe-hG9BZ5Z_6Fg" points="[75, -1451, -18, 342]$[86, -1667, -7, 126]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mVt_AOeyEe-hG9BZ5Z_6Fg" type="targetDataSetLink" source="_aHYZ4OeyEe-hG9BZ5Z_6Fg" target="_aHYZ4OeyEe-hG9BZ5Z_6Fg">
+    <element xmi:type="map:DataSet" href="resource.map#_jHj4UNdIEe-ayYrzKU_LEQ?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mVt_AeeyEe-hG9BZ5Z_6Fg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mVt_AueyEe-hG9BZ5Z_6Fg" type="targetSetLink" source="_aHYZ4OeyEe-hG9BZ5Z_6Fg" target="_aHYZ4OeyEe-hG9BZ5Z_6Fg">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_iXhEEeeyEe-hG9BZ5Z_6Fg?fileId=_GEZOgNPvEe-ayYrzKU_LEQ$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mVt_A-eyEe-hG9BZ5Z_6Fg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
   </edges>
 </notation:Diagram>
 ]]></diagram>

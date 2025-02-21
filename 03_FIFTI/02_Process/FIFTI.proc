@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <proc:process xmlns:proc="http://www.example.org/proc" id="25d3555c-9dac-4ef9-9f83-df1344f3ee98" metaInf="&lt;httpRestWebServiceProperties extractRequestInfo=&quot;true&quot;>&#xD;&#xA;&#xA;&lt;responseCodeMapper parameterName=&quot;ResponseCode&quot; />&#xA;&#xD;&#xA;&lt;responseBodyMapper parameterName=&quot;ResponseBody&quot; charset=&quot;UTF-8&quot;/>&#xA;&lt;/httpRestWebServiceProperties>">
-  <parameter id="59636eb7-d76a-49a4-ae03-31719e89e726" fault="false" input="true" label="Tiers_ID" name="Tiers_ID" type="Integer" value=""/>
-  <parameter id="7d52a049-6c8a-47e9-8eaf-93d71ae9cd8c" fault="false" input="true" label="Resultat_FIFTI" name="Resultat_FIFTI" type="Boolean" value=""/>
+  <parameter id="59636eb7-d76a-49a4-ae03-31719e89e726" fault="false" input="true" label="Tiers_ID" name="Tiers_ID" type="Integer" value="711"/>
+  <parameter id="7d52a049-6c8a-47e9-8eaf-93d71ae9cd8c" fault="false" input="true" label="Resultat_FIFTI" name="Resultat_FIFTI" type="Boolean" value="false"/>
   <actionCode id="87b0c224-8576-461a-b393-14e714b63c75" isBeginAction="false" name="start" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.EmptyActionCodeI">
     <link id="186c660e-ea52-461c-8108-98f2e2084098" executionType="OK" generationType="OK_KO" mandatory="1" targetId="268036b1-10ad-4336-930a-27a17e7b2c78"/>
   </actionCode>

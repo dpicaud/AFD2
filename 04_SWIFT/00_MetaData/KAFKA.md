@@ -19,7 +19,8 @@
     </node>
   </node>
   <node defType="com.stambia.kafka.consumer" id="_wyVpcdTbEe-ayYrzKU_LEQ" name="ConsommationSWIFT">
-    <attribute defType="com.stambia.kafka.consumer.topicsSubscribed" id="_2tZSoNTbEe-ayYrzKU_LEQ">
+    <attribute defType="com.stambia.kafka.consumer.consumerGroupName" id="_iWjDYNTdEe-ayYrzKU_LEQ" value="GROUP.dev-back.ref-banques.pivot-diffusionbancaire.prv.c2.1"/>
+    <attribute defType="com.stambia.kafka.consumer.topicsSubscribed" id="_tHNJkNTdEe-ayYrzKU_LEQ">
       <refs>resource.md#_VxNlcNTbEe-ayYrzKU_LEQ?fileId=_AOK6wNTbEe-ayYrzKU_LEQ$type=md$name=dev-back.ref-banques.pivot-diffusionbancaire.prv.c2.1?</refs>
     </attribute>
     <node defType="com.stambia.kafka.valueField" id="_Gw1hEdTcEe-ayYrzKU_LEQ">

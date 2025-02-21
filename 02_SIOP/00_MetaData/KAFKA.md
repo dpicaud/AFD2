@@ -19,7 +19,7 @@
     <attribute defType="com.stambia.kafka.consumer.topicsSubscribed" id="_7LP6sNPuEe-ayYrzKU_LEQ">
       <refs>resource.md#_vJlfoNPuEe-ayYrzKU_LEQ?fileId=_4ccnkNPtEe-ayYrzKU_LEQ$type=md$name=dev-back.ref-tiers.retour-majtiers.prv.c2.1?</refs>
     </attribute>
-    <attribute defType="com.stambia.kafka.consumer.consumerGroupName" id="_QSgAMNS-Ee-ayYrzKU_LEQ" value="kafka.devreftiers.afd.fr"/>
+    <attribute defType="com.stambia.kafka.consumer.consumerGroupName" id="_McEPcNTlEe-ayYrzKU_LEQ" value="GROUP.dev-back.ref-tiers.retour-majtiers.prv.c2.1"/>
     <node defType="com.stambia.kafka.valueField" id="_NixrodPvEe-ayYrzKU_LEQ">
       <attribute defType="com.stambia.kafka.valueField.type" id="_PMyWYNPvEe-ayYrzKU_LEQ" value="string"/>
     </node>

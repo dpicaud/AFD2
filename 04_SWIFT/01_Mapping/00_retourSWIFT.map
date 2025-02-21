@@ -4,7 +4,7 @@
     <field id="_MzV2EtTcEe-ayYrzKU_LEQ" fullAlias="Value" name="Value" ref="resource.md#_Gw1hEdTcEe-ayYrzKU_LEQ?fileId=_AOK6wNTbEe-ayYrzKU_LEQ$type=md?"/>
   </datastore>
   <template id="_QWho9tTcEe-ayYrzKU_LEQ" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="72d75b31-af51-4972-ad80-3342cdbaca42"/>
-  <template id="_RssKoNTcEe-ayYrzKU_LEQ" name="L1_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_MzV2ENTcEe-ayYrzKU_LEQ" targetId="72d75b31-af51-4972-ad80-3342cdbaca42"/>
+  <template id="_RssKoNTcEe-ayYrzKU_LEQ" name="L1_stage" process="resource.proc#_yb2lIYwdEemzCNWUZUIuPg?fileId=_yb2lIYwdEemzCNWUZUIuPg$type=proc$name=LOAD%20Kafka%20to%20Rdbms?" sourceId="_MzV2ENTcEe-ayYrzKU_LEQ" targetId="72d75b31-af51-4972-ad80-3342cdbaca42"/>
   <query id="72d75b31-af51-4972-ad80-3342cdbaca42" alias="stage" dataset="_QWqL0NTcEe-ayYrzKU_LEQ" stagingArea="resource.md#_BG69kLcUEe-0Xc913hdzrA?fileId=_BA9fgLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
     <field id="7a242c42-64cd-498b-ae99-4a84f250f7ea" name="Value">
       <expression id="62825b78-bd75-4163-9256-21fcb22abab2" location="WRK" setDescriptorRef="a9e0728d-0fe2-461f-a710-987fb1f2b128">
@@ -42,7 +42,7 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_MzauntTcEe-ayYrzKU_LEQ" type="7007"/>
     <element xmi:type="map:Datastore" href="resource.map#_MzV2ENTcEe-ayYrzKU_LEQ?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MzaukdTcEe-ayYrzKU_LEQ" x="253" y="327"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MzaukdTcEe-ayYrzKU_LEQ" x="265" y="253"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_QWjeINTcEe-ayYrzKU_LEQ" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_QWjeItTcEe-ayYrzKU_LEQ" type="5001"/>
@@ -58,7 +58,7 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_QWjeK9TcEe-ayYrzKU_LEQ" type="7007"/>
     <element xmi:type="map:Query" href="resource.map#72d75b31-af51-4972-ad80-3342cdbaca42?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QWjeIdTcEe-ayYrzKU_LEQ" x="621" y="319"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QWjeIdTcEe-ayYrzKU_LEQ" x="617" y="245"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_9MtfcdTbEe-ayYrzKU_LEQ"/>
   <element xmi:type="map:Map" href="resource.map#_9MYvUNTbEe-ayYrzKU_LEQ?fileId=_9MYvUNTbEe-ayYrzKU_LEQ$type=map$name=00_retourSWIFT?"/>

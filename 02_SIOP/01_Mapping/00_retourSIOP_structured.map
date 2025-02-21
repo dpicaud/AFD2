@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_J62UUOfHEe-hG9BZ5Z_6Fg" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_wy-T4OhpEe-hG9BZ5Z_6Fg" alias="sa_t_ti_identifiant_externe" dataset="_wzDzcOhpEe-hG9BZ5Z_6Fg" ref="resource.md#_lgFoyJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=sa_t_ti_identifiant_externe?" subExpression="[A]">
+    <field id="_wzB-ROhpEe-hG9BZ5Z_6Fg" name="b_deleteauthor" ref="resource.md#_lgGOFZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_deleteauthor?">
+      <expression id="_5I9ucOhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClV-hpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="f_tiers" ref="resource.md#_lgGOZpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_tiers?" update="true">
+      <expression id="_5I9ucehpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>stage.idTiers</expression>
+      </expression>
+    </field>
+    <field id="_wzBXMOhpEe-hG9BZ5Z_6Fg" enable="true" name="b_loadid" ref="resource.md#_lgFo15q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_loadid?" updateKey="true">
+      <expression id="_5I9ucuhpEe-hG9BZ5Z_6Fg" location="WRK" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzBXNOhpEe-hG9BZ5Z_6Fg" name="b_originalbatchid" ref="resource.md#_lgGN35q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_originalbatchid?">
+      <expression id="_5I-VgOhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzBXNehpEe-hG9BZ5Z_6Fg" name="b_operationid" ref="resource.md#_lgGN6Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_operationid?">
+      <expression id="_5I-VgehpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClUOhpEe-hG9BZ5Z_6Fg" name="b_deletepath" ref="resource.md#_lgGOJ5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_deletepath?">
+      <expression id="_5I-VguhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzB-QehpEe-hG9BZ5Z_6Fg" name="b_dupsmergetarget" ref="resource.md#_lgGN-pq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_dupsmergetarget?">
+      <expression id="_5I-Vg-hpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClWuhpEe-hG9BZ5Z_6Fg" name="fd_fournisseur_externe" ref="resource.md#_lgGOgZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=fd_fournisseur_externe?">
+      <expression id="_5I-VhOhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzB-QOhpEe-hG9BZ5Z_6Fg" name="b_dupsoperationid" ref="resource.md#_lgGN8Zq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_dupsoperationid?">
+      <expression id="_5I-VhehpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClVOhpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_creator" ref="resource.md#_lgGOS5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_creator?" update="true">
+      <expression id="_5I-VhuhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>'Xdi_user'</expression>
+      </expression>
+    </field>
+    <field id="_wzClUehpEe-hG9BZ5Z_6Fg" name="b_copiedfrom" ref="resource.md#_lgGOMJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_copiedfrom?">
+      <expression id="_5I-Vh-hpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClU-hpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_upddate" ref="resource.md#_lgGOQpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_upddate?" update="true">
+      <expression id="_5I-ViOhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>current_date</expression>
+      </expression>
+    </field>
+    <field id="_wzBXMuhpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_classname" ref="resource.md#_lgFo6Zq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_classname?" update="true">
+      <expression id="_5I-ViehpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>'IdentifiantExterne'</expression>
+      </expression>
+    </field>
+    <field id="_wzClVehpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_updator" ref="resource.md#_lgGOVJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_updator?" update="true">
+      <expression id="_5I-ViuhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>'Xdi_user'</expression>
+      </expression>
+    </field>
+    <field id="_wzBXMehpEe-hG9BZ5Z_6Fg" enable="true" name="id_identifiant_externe" ref="resource.md#_lgFo4Jq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=id_identifiant_externe?" updateKey="true">
+      <expression id="_5I-Vi-hpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzB-Q-hpEe-hG9BZ5Z_6Fg" name="b_deletedate" ref="resource.md#_lgGODJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_deletedate?">
+      <expression id="_5I-VjOhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzB-RehpEe-hG9BZ5Z_6Fg" name="b_deleteoperation" ref="resource.md#_lgGOHpq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_deleteoperation?">
+      <expression id="_5I-VjehpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClVuhpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="ll_ref_tiers" ref="resource.md#_lgGOXZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=ll_ref_tiers?" update="true">
+      <expression id="_5I-VjuhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>stage.idTiersPartenaire</expression>
+      </expression>
+    </field>
+    <field id="_wzB-QuhpEe-hG9BZ5Z_6Fg" name="b_deletetype" ref="resource.md#_lgGOA5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_deletetype?">
+      <expression id="_5I-Vj-hpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClUuhpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="b_credate" ref="resource.md#_lgGOOZq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_credate?" update="true">
+      <expression id="_5I-VkOhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>current_date</expression>
+      </expression>
+    </field>
+    <field id="_wzClWehpEe-hG9BZ5Z_6Fg" enable="true" insert="true" name="f_fournisseur_externe" ref="resource.md#_lgGOeJq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=f_fournisseur_externe?" update="true">
+      <expression id="_5I-VkehpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression>2</expression>
+      </expression>
+    </field>
+    <field id="_wzBXM-hpEe-hG9BZ5Z_6Fg" name="b_error_status" ref="resource.md#_lgGN1pq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=b_error_status?">
+      <expression id="_5I-VkuhpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_wzClWOhpEe-hG9BZ5Z_6Fg" name="fd_tiers" ref="resource.md#_lgGOb5q_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=fd_tiers?">
+      <expression id="_5I-Vk-hpEe-hG9BZ5Z_6Fg" setDescriptorRef="_5I8gUOhpEe-hG9BZ5Z_6Fg">
+        <expression></expression>
+      </expression>
+    </field>
+    <constraint id="_wzClW-hpEe-hG9BZ5Z_6Fg" name="pksa_t_ti_identifiant_externe" ref="resource.md#_lgGOipq_Ee-7z7pmqdWxtw?fileId=_RxpisJq-Ee-7z7pmqdWxtw$type=md$name=pksa_t_ti_identifiant_externe?" reject="true"/>
+    <setDescriptor id="_5I8gUOhpEe-hG9BZ5Z_6Fg" label="A"/>
+  </datastore>
+  <datastore id="_fFZO8OrGEe-4q5GBG05Ffg" alias="ConsommationSIOP" dataset="_fFadEOrGEe-4q5GBG05Ffg" ref="resource.md#_xU2iodc2Ee-ayYrzKU_LEQ?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md$name=ConsommationSIOP?">
+    <field id="_fFZ2AerGEe-4q5GBG05Ffg" expand="true" name="01_SIOP_JSON" parent="_fFZ2BerGEe-4q5GBG05Ffg" ref="resource.md#_nvojkNcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=01_SIOP_JSON?" updateKey="true"/>
+    <field id="_fFZ2A-rGEe-4q5GBG05Ffg" fullAlias="ConsommationSIOP/Value/01_SIOP_JSON/idTiersPartenaire" name="idTiersPartenaire" parent="_fFZ2AerGEe-4q5GBG05Ffg" ref="resource.md#_AYS7Z9cxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=idTiersPartenaire?"/>
+    <field id="_fFZO8urGEe-4q5GBG05Ffg" expand="true" name="ConsommationSIOP" ref="resource.md#_xU2iodc2Ee-ayYrzKU_LEQ?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md$name=ConsommationSIOP?"/>
+    <field id="_fFZ2BOrGEe-4q5GBG05Ffg" fullAlias="ConsommationSIOP/Value/01_SIOP_JSON/idTiers" name="idTiers" parent="_fFZ2AerGEe-4q5GBG05Ffg" ref="resource.md#_AYS7ZdcxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=idTiers?"/>
+    <field id="_fFZ2AurGEe-4q5GBG05Ffg" fullAlias="ConsommationSIOP/Value/01_SIOP_JSON/libellePartenaire" name="libellePartenaire" parent="_fFZ2AerGEe-4q5GBG05Ffg" ref="resource.md#_AYS7adcxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=libellePartenaire?"/>
+    <field id="_fFZ2AOrGEe-4q5GBG05Ffg" expand="true" name="Key" parent="_fFZO8urGEe-4q5GBG05Ffg" ref="resource.md#_n1CpMOhhEe-hG9BZ5Z_6Fg?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md?"/>
+    <field id="_fFZ2BerGEe-4q5GBG05Ffg" expand="true" name="Value" parent="_fFZO8urGEe-4q5GBG05Ffg" ref="resource.md#_8Qmegdc2Ee-ayYrzKU_LEQ?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md?"/>
+  </datastore>
+  <datastore id="_qPDjoOrJEe-4q5GBG05Ffg" alias="ConsommationSIOP_2" dataset="_qPF_4OrJEe-4q5GBG05Ffg" ref="resource.md#_xU2iodc2Ee-ayYrzKU_LEQ?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md$name=ConsommationSIOP?">
+    <field id="_qPFY0OrJEe-4q5GBG05Ffg" expand="true" name="01_SIOP_JSON" parent="_qPFY1OrJEe-4q5GBG05Ffg" ref="resource.md#_nvojkNcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=01_SIOP_JSON?" updateKey="true"/>
+    <field id="_qPExwerJEe-4q5GBG05Ffg" expand="true" name="ConsommationSIOP" ref="resource.md#_xU2iodc2Ee-ayYrzKU_LEQ?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md$name=ConsommationSIOP?"/>
+    <field id="_qPExwurJEe-4q5GBG05Ffg" expand="true" name="Key" parent="_qPExwerJEe-4q5GBG05Ffg" ref="resource.md#_n1CpMOhhEe-hG9BZ5Z_6Fg?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md?"/>
+    <field id="_qPFY0urJEe-4q5GBG05Ffg" name="idTiersPartenaire" parent="_qPFY0OrJEe-4q5GBG05Ffg" ref="resource.md#_AYS7Z9cxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=idTiersPartenaire?"/>
+    <field id="_qPFY0-rJEe-4q5GBG05Ffg" name="idTiers" parent="_qPFY0OrJEe-4q5GBG05Ffg" ref="resource.md#_AYS7ZdcxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=idTiers?"/>
+    <field id="_qPFY0erJEe-4q5GBG05Ffg" name="libellePartenaire" parent="_qPFY0OrJEe-4q5GBG05Ffg" ref="resource.md#_AYS7adcxEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=libellePartenaire?"/>
+    <field id="_qPFY1OrJEe-4q5GBG05Ffg" expand="true" name="Value" parent="_qPExwerJEe-4q5GBG05Ffg" ref="resource.md#_8Qmegdc2Ee-ayYrzKU_LEQ?fileId=_fgGuoNc2Ee-ayYrzKU_LEQ$type=md?"/>
+  </datastore>
+  <template id="_5I_joOhpEe-hG9BZ5Z_6Fg" name="I_sa_t_ti_identifiant_externe" process="resource.proc#_XKEu4F6CEe2mo9lRZZpcnA?fileId=_XKEu4F6CEe2mo9lRZZpcnA$type=proc$name=INTEGRATION%20Semarchy%20xDM?" targetId="_wy-T4OhpEe-hG9BZ5Z_6Fg"/>
+  <template id="_QDT0AOq_Ee-4q5GBG05Ffg" name="I_stage" process="resource.proc#_v8JEkTNEEeSH5LKy1U4ptg?fileId=_v8JEkTNEEeSH5LKy1U4ptg$type=proc$name=STAGING%20Rdbms%20As%20SubQuery?" targetId="_QCiX8Oq_Ee-4q5GBG05Ffg"/>
+  <template id="_jSmTYOq_Ee-4q5GBG05Ffg" name="L1_sa_t_ti_identifiant_externe" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_QCiX8Oq_Ee-4q5GBG05Ffg" targetId="_wy-T4OhpEe-hG9BZ5Z_6Fg"/>
+  <template id="_jOdWEOrGEe-4q5GBG05Ffg" name="L1_stage" process="resource.proc#_aafbe681-11ab-4ebc-ab56-de794128c580?fileId=_aafbe681-11ab-4ebc-ab56-de794128c580$type=proc$name=LOAD%20Rdbms%20to%20Rdbms?" sourceId="_fFZO8OrGEe-4q5GBG05Ffg" targetId="_QCiX8Oq_Ee-4q5GBG05Ffg"/>
+  <query id="_QCiX8Oq_Ee-4q5GBG05Ffg" alias="stage" dataset="_QCk0MOq_Ee-4q5GBG05Ffg" stagingArea="resource.md#_BG69kLcUEe-0Xc913hdzrA?fileId=_BA9fgLcUEe-0Xc913hdzrA$type=md$name=Xdi_RefTiers?" subExpression="[A]">
+    <field id="_QC91wOq_Ee-4q5GBG05Ffg" name="idTiers">
+      <expression id="_QDASAOq_Ee-4q5GBG05Ffg" location="WRK" setDescriptorRef="_QC_D4Oq_Ee-4q5GBG05Ffg">
+        <expression>ConsommationSIOP.ConsommationSIOP/Value/01_SIOP_JSON/idTiers</expression>
+      </expression>
+    </field>
+    <field id="_TVevYOq_Ee-4q5GBG05Ffg" name="idTiersPartenaire">
+      <expression id="_TVevYeq_Ee-4q5GBG05Ffg" location="WRK" setDescriptorRef="_QC_D4Oq_Ee-4q5GBG05Ffg">
+        <expression>ConsommationSIOP.ConsommationSIOP/Value/01_SIOP_JSON/idTiersPartenaire</expression>
+      </expression>
+    </field>
+    <field id="_TVqVkOq_Ee-4q5GBG05Ffg" name="libellePartenaire">
+      <expression id="_TVqVkeq_Ee-4q5GBG05Ffg" location="WRK" setDescriptorRef="_QC_D4Oq_Ee-4q5GBG05Ffg">
+        <expression>ConsommationSIOP.ConsommationSIOP/Value/01_SIOP_JSON/libellePartenaire</expression>
+      </expression>
+    </field>
+    <setDescriptor id="_QC_D4Oq_Ee-4q5GBG05Ffg" label="A"/>
+  </query>
+  <dataSet id="_wzDzcOhpEe-hG9BZ5Z_6Fg">
+    <container>_wy-T4OhpEe-hG9BZ5Z_6Fg</container>
+  </dataSet>
+  <dataSet id="_QCk0MOq_Ee-4q5GBG05Ffg">
+    <container>_QCiX8Oq_Ee-4q5GBG05Ffg</container>
+  </dataSet>
+  <dataSet id="_fFadEOrGEe-4q5GBG05Ffg">
+    <container>_fFZO8OrGEe-4q5GBG05Ffg</container>
+  </dataSet>
+  <dataSet id="_qPF_4OrJEe-4q5GBG05Ffg">
+    <container>_qPDjoOrJEe-4q5GBG05Ffg</container>
+  </dataSet>
+  <hint>
+    <usedField>#_fFZ2A-rGEe-4q5GBG05Ffg</usedField>
+    <usedField>#_fFZ2BOrGEe-4q5GBG05Ffg</usedField>
+    <usedField>#_fFZ2AurGEe-4q5GBG05Ffg</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="d0aedf32-e4b2-4e11-a57c-8cd003cb43dd" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_QC3vIOq_Ee-4q5GBG05Ffg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QC4WMOq_Ee-4q5GBG05Ffg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QC4WMeq_Ee-4q5GBG05Ffg" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QC4WMuq_Ee-4q5GBG05Ffg" type="7001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QC4WM-q_Ee-4q5GBG05Ffg" type="7011"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QC4WNOq_Ee-4q5GBG05Ffg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QC4WNeq_Ee-4q5GBG05Ffg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QC4WNuq_Ee-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QC4WN-q_Ee-4q5GBG05Ffg" type="5008">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_QC4WOOq_Ee-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QC4WOeq_Ee-4q5GBG05Ffg" type="7007"/>
+    <element xmi:type="map:Query" href="resource.map#_QCiX8Oq_Ee-4q5GBG05Ffg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QC3vIeq_Ee-4q5GBG05Ffg" x="328" y="93" width="652"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wzJTAOhpEe-hG9BZ5Z_6Fg" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzJTAuhpEe-hG9BZ5Z_6Fg" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzJTA-hpEe-hG9BZ5Z_6Fg" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzJTBOhpEe-hG9BZ5Z_6Fg" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzJTBehpEe-hG9BZ5Z_6Fg" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wzJTBuhpEe-hG9BZ5Z_6Fg" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wzJTB-hpEe-hG9BZ5Z_6Fg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wzJTCOhpEe-hG9BZ5Z_6Fg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzJTCehpEe-hG9BZ5Z_6Fg" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_wzJTCuhpEe-hG9BZ5Z_6Fg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzJTC-hpEe-hG9BZ5Z_6Fg" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wzJTDOhpEe-hG9BZ5Z_6Fg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wzJTDehpEe-hG9BZ5Z_6Fg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wzJTDuhpEe-hG9BZ5Z_6Fg" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_wy-T4OhpEe-hG9BZ5Z_6Fg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wzJTAehpEe-hG9BZ5Z_6Fg" x="1093" y="-16"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fFi_8OrGEe-4q5GBG05Ffg" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fFi_8urGEe-4q5GBG05Ffg" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fFi_8-rGEe-4q5GBG05Ffg" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fFi_9OrGEe-4q5GBG05Ffg" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fFi_9erGEe-4q5GBG05Ffg" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fFi_9urGEe-4q5GBG05Ffg" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fFi_9-rGEe-4q5GBG05Ffg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fFi_-OrGEe-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fFi_-erGEe-4q5GBG05Ffg" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_fFi_-urGEe-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fFi_--rGEe-4q5GBG05Ffg" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fFi__OrGEe-4q5GBG05Ffg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fFi__erGEe-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fFi__urGEe-4q5GBG05Ffg" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_fFZO8OrGEe-4q5GBG05Ffg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fFi_8erGEe-4q5GBG05Ffg" x="31" y="50"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qPaI8OrJEe-4q5GBG05Ffg" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qPaI8urJEe-4q5GBG05Ffg" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qPaI8-rJEe-4q5GBG05Ffg" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qPaI9OrJEe-4q5GBG05Ffg" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qPaI9erJEe-4q5GBG05Ffg" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qPaI9urJEe-4q5GBG05Ffg" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qPaI9-rJEe-4q5GBG05Ffg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qPaI-OrJEe-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qPaI-erJEe-4q5GBG05Ffg" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_qPaI-urJEe-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qPaI--rJEe-4q5GBG05Ffg" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qPaI_OrJEe-4q5GBG05Ffg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qPaI_erJEe-4q5GBG05Ffg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qPaI_urJEe-4q5GBG05Ffg" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_qPDjoOrJEe-4q5GBG05Ffg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qPaI8erJEe-4q5GBG05Ffg" x="158" y="293"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="7bb3add9-8855-434b-8870-f06609403106"/>
+  <element xmi:type="map:Map" href="resource.map#_J62UUOfHEe-hG9BZ5Z_6Fg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map$name=00_retourSIOP_structured?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_jSiB8Oq_Ee-4q5GBG05Ffg" type="targetLink" source="_wzJTAOhpEe-hG9BZ5Z_6Fg" target="_QC3vIOq_Ee-4q5GBG05Ffg">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jSiB8eq_Ee-4q5GBG05Ffg" points="[-164, -23, 439, 58]$[-277, -38, 326, 43]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jSipAOq_Ee-4q5GBG05Ffg" type="targetDataSetLink" source="_wzJTAOhpEe-hG9BZ5Z_6Fg" target="_wzJTAOhpEe-hG9BZ5Z_6Fg">
+    <element xmi:type="map:DataSet" href="resource.map#_QCk0MOq_Ee-4q5GBG05Ffg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jSipAeq_Ee-4q5GBG05Ffg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jSipAuq_Ee-4q5GBG05Ffg" type="targetSetLink" source="_wzJTAOhpEe-hG9BZ5Z_6Fg" target="_wzJTAOhpEe-hG9BZ5Z_6Fg">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_5I8gUOhpEe-hG9BZ5Z_6Fg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jSipA-q_Ee-4q5GBG05Ffg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jOZrsOrGEe-4q5GBG05Ffg" type="targetLink" source="_QC3vIOq_Ee-4q5GBG05Ffg" target="_fFi_8OrGEe-4q5GBG05Ffg">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jOZrserGEe-4q5GBG05Ffg" points="[-111, 62, 363, -201]$[-356, 198, 118, -65]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jOaSwOrGEe-4q5GBG05Ffg" type="targetDataSetLink" source="_QC3vIOq_Ee-4q5GBG05Ffg" target="_QC3vIOq_Ee-4q5GBG05Ffg">
+    <element xmi:type="map:DataSet" href="resource.map#_fFadEOrGEe-4q5GBG05Ffg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jOaSwerGEe-4q5GBG05Ffg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jOaSwurGEe-4q5GBG05Ffg" type="targetSetLink" source="_QC3vIOq_Ee-4q5GBG05Ffg" target="_QC3vIOq_Ee-4q5GBG05Ffg">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_QC_D4Oq_Ee-4q5GBG05Ffg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jOaSw-rGEe-4q5GBG05Ffg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>
