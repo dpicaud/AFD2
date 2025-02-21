@@ -14,5 +14,7 @@ encoding//05_RDD/01_Mapping/03_Alim_Coordonnee.map=UTF-8
 encoding//05_RDD/01_Mapping/04_Alim_Nature.map=UTF-8
 encoding//05_RDD/01_Mapping/05_Alim_Role.map=UTF-8
 encoding//05_RDD/01_Mapping/06_Alim_Entite_Sur_Nature.map=UTF-8
+encoding//05_RDD/01_Mapping/07_Alim_ID_Externe.map=UTF-8
+encoding//05_RDD/01_Mapping/08_Alim_Interlocuteur.map=UTF-8
 encoding//05_RDD/01_Mapping/default.map=UTF-8
 encoding//05_RDD/02_Process/01_integ_RDD.proc=UTF-8
