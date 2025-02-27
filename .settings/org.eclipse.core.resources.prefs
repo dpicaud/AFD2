@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 encoding//01_Mapping/FIFTI.map=UTF-8
 encoding//01_Mapping/SIOP.map=UTF-8
 encoding//02_SIOP/01_Mapping/00_retourSIOP.map=UTF-8
+encoding//02_SIOP/02_Process/01_integ_SIOP.proc=UTF-8
 encoding//02_SIOP/SIOP.proc=UTF-8
 encoding//03_FIFTI/01_Mapping/00_succes.map=UTF-8
 encoding//03_FIFTI/01_Mapping/02_Appel_API_MDM.map=UTF-8

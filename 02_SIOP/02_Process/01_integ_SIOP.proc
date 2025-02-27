@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc:process xmlns:proc="http://www.example.org/proc" id="f15531d0-2f98-458c-9402-add75e66fbbd">
+  <actionProcessRef id="72cb077f-c8d7-4918-99b8-0f3795ec62cc" isBeginAction="false" name="00_retourSIOP_structured" nbCycles="-1" toleratedError="false" processMap="true" targetName="resource.map#_J62UUOfHEe-hG9BZ5Z_6Fg?fileId=_J62UUOfHEe-hG9BZ5Z_6Fg$name=00_retourSIOP_structured$type=map?"/>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:proc="http://www.example.org/proc" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation http://www.eclipse.org/gmf/runtime/1.0.3/notation#/?fileId=f15531d0-2f98-458c-9402-add75e66fbbd?" xmi:id="_YXkScPOBEe-4GvhcqIXBQw" type="Proc" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ZQsS0POBEe-4GvhcqIXBQw" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_ZQuvEPOBEe-4GvhcqIXBQw" type="5003"/>
+    <children xmi:type="notation:Node" xmi:id="_ZQuvEfOBEe-4GvhcqIXBQw" type="7003">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZQuvEvOBEe-4GvhcqIXBQw" collapsed="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZQuvE_OBEe-4GvhcqIXBQw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQuvFPOBEe-4GvhcqIXBQw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZQuvFfOBEe-4GvhcqIXBQw" type="7004">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZQuvFvOBEe-4GvhcqIXBQw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZQuvF_OBEe-4GvhcqIXBQw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQuvGPOBEe-4GvhcqIXBQw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQsS0fOBEe-4GvhcqIXBQw" fontName="Segoe UI"/>
+    <element xmi:type="proc:ActionProcessRef" href="resource.proc#72cb077f-c8d7-4918-99b8-0f3795ec62cc?fileId=f15531d0-2f98-458c-9402-add75e66fbbd$type=proc$name=00_retourSIOP_structured?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQsS0vOBEe-4GvhcqIXBQw" x="208" y="196"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_YXkScfOBEe-4GvhcqIXBQw"/>
+  <element xmi:type="proc:ActionProcess" href="resource.proc#f15531d0-2f98-458c-9402-add75e66fbbd?fileId=f15531d0-2f98-458c-9402-add75e66fbbd$type=proc$name=01_integ_SIOP?"/>
+</notation:Diagram>
+]]></diagram>
+</proc:process>

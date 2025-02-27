@@ -364,8 +364,10 @@
         <expression>stage.prenom1</expression>
       </expression>
     </field>
-    <field id="_CUksM7beEe-oWcSwM0X2ag" enable="true" name="donnee_ok" ref="resource.md#_khK8YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=donnee_ok?">
-      <expression id="_DvoUwbbeEe-oWcSwM0X2ag" setDescriptorRef="_DvkqYLbeEe-oWcSwM0X2ag"/>
+    <field id="_CUksM7beEe-oWcSwM0X2ag" enable="true" insert="true" name="donnee_ok" ref="resource.md#_khK8YbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=donnee_ok?" update="true">
+      <expression id="_DvoUwbbeEe-oWcSwM0X2ag" setDescriptorRef="_DvkqYLbeEe-oWcSwM0X2ag">
+        <expression>stage.donnee_ok</expression>
+      </expression>
     </field>
     <field id="_CUlTR7beEe-oWcSwM0X2ag" enable="true" insert="true" name="siret" ref="resource.md#_koZlwbbXEe-oWcSwM0X2ag?fileId=_CZS4ILbXEe-oWcSwM0X2ag$type=md$name=siret?" update="true">
       <expression id="_DvoUwrbeEe-oWcSwM0X2ag" setDescriptorRef="_DvkqYLbeEe-oWcSwM0X2ag">

@@ -7,11 +7,10 @@
     <attribute defType="com.stambia.kafka.topic.producerProperties" id="_2roi4OfFEe-hG9BZ5Z_6Fg" value=""/>
     <node defType="com.stambia.kafka.valueField" id="_8Qmegdc2Ee-ayYrzKU_LEQ">
       <attribute defType="com.stambia.kafka.valueField.type" id="_9RZ0MNc2Ee-ayYrzKU_LEQ" value="bytes"/>
-      <attribute defType="com.stambia.kafka.valueField.schema" id="_0N5SsOrGEe-4q5GBG05Ffg" ref="resource.md#_np5vANcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md?"/>
+      <attribute defType="com.stambia.kafka.valueField.schema" id="_-RAy0PBrEe-60dBp80p0Rg" ref="resource.md#_nvojkNcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=01_SIOP_JSON?"/>
     </node>
     <node defType="com.stambia.kafka.keyField" id="_n1CpMOhhEe-hG9BZ5Z_6Fg">
-      <attribute defType="com.stambia.kafka.keyField.type" id="_PSalwOrDEe-4q5GBG05Ffg" value="string"/>
-      <attribute defType="com.stambia.kafka.keyField.schema" id="_iKXtwOrEEe-4q5GBG05Ffg" ref="resource.md#_nvojkNcwEe-ayYrzKU_LEQ?fileId=_np5vANcwEe-ayYrzKU_LEQ$type=md$name=01_SIOP_JSON?"/>
+      <attribute defType="com.stambia.kafka.keyField.type" id="_PSalwOrDEe-4q5GBG05Ffg" value="bytes"/>
     </node>
   </node>
   <node defType="com.stambia.kafka.monoconsumer" id="_xU2iodc2Ee-ayYrzKU_LEQ" name="ConsommationSIOP">
